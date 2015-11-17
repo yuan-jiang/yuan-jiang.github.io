@@ -16,13 +16,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.ioeworks.com" # the base hostname & protocol for your site
 
 # Twitter user id - leave it empty for privacy
-twitter: 
+twitter:
 
 # Github user id - leave it empty for privacy
-github: 
+github:
 
 # LinkedIn user id - leave it empty for privacy
-linkedin: 
+linkedin:
 
 # Just give it any value or leave it empty
 rss: true
@@ -41,3 +41,7 @@ markdown: kramdown
 
 # How many items to display on each page
 paginate: 10
+
+# Timezone info for posting blogs
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
