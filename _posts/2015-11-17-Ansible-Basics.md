@@ -7,7 +7,7 @@ author: Andy Jiang
 
 Ansible Basics - running command from command line and playbook
 
-# Execute simple commands on remote node with Ansible from command line
+#Execute simple commands on remote node with Ansible from command line
 {% highlight bash %}
 $ ansible target -m ping -u ubuntu -k
 SSH password:
@@ -24,7 +24,7 @@ $ ansible webservers -m yum -a "name=acme state=present"
 => -a: the argument of the module
 {% endhighlight %}
 
-# Execute complex commands on remote node with Ansible from playbook
+#Execute complex commands on remote node with Ansible from playbook
 Ansible playbooks include multiple tasks as yaml-formatted file and run together
 
 - Ansible playbook example and saved as: playbook.yml
