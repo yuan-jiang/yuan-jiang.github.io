@@ -268,12 +268,16 @@
            padding: 0.3em 0.6em;
            background-color: #f1f1f1;
            margin-right: 0;
+           vertical-align: middle;
          }
 
          #searchButton {
            padding: 0.3em 0.6em;
-           background-color: #f1f1f1;
-           border: 1px solid #f1f1f1;
+          //  background-color: #f1f1f1;
+          //  border: 1px solid #f1f1f1;
+           background-color: Transparent;
+           border: Transparent;
+           vertical-align: middle;
            margin-left: 0;
            color: $grey-color-dark;
            -webkit-appearance: none;
