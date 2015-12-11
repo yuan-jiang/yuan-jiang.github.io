@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Vagrant Getting Started
+title: Vagrant getting started
 date: 2015-11-17 10:40:00 +0800
 author: Andy Jiang
+tags: virtualization
 ---
 
 Quick steps of getting started with vagrant including installation, vm starting up and a few commonly-used commands.

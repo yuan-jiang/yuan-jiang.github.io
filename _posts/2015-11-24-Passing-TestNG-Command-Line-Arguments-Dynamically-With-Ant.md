@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Passing TestNG Command Line Arguments Dynamically With Ant
+title: Passing TestNG command line arguments dynamically with Ant
 author: Andy Jiang
 date: 2015-11-24 16:46:00 +0800
+tags: testing java
 ---
 
 How to pass testng command line arguments dynamically when Ant is used for invoking testng task.

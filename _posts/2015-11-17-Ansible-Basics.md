@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Ansible Basics
+title: Ansible basics
 date: 2015-11-17 14:25:00 +0800
 author: Andy Jiang
+tags: python automation
 ---
 
-Ansible Basics - running command from command line and playbook
+Ansible - command from command line and playbook
 
 #Execute simple commands on remote node with Ansible from command line
 {% highlight bash %}
