@@ -3,7 +3,6 @@ layout: post
 title: Ruby basics
 date: 2015-11-18 14:35:00 +0800
 author: Andy Jiang
-tags: ruby
 ---
 
 Learn some basics of Ruby

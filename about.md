@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I started my career about 7 years ago in software industry as a software quality engineer and now my daily work involves software testing, tools/scripts development, configuration/test automation, service monitoring/assurance and things like that that are related to the so-called 'DevOps', and etc.
+#About me, the site
+I am basically a simple personal technical blogging site for note-taking. The guy who created me used to google for answers for any technical difficulties and then keep them as clips and notes in notebooks but over years has come to realize that time is seldom spent on actually going overing them. He made a decision to start producing and reproducing with the thought someone someday might happen to get here and find something more or less helpful.
 
-But my personal interest and desire of focus is software testing automation as in the past few years though I've built testing automation framework myself and also developed quite a lot of test cases I always have the feeling there is still room for improvement before the potential of 'automation' can be fully realized.
+#About me, the person
+I started my career 7+ years ago in IT industry as a software quality engineer and now my daily work involves software testing, tools and scripts development, configuration and test automation, service monitoring and assurance, and etc.
 
 List of some of the techs I know and touched a bit:
 {% highlight bash %}
@@ -21,4 +23,4 @@ List of some of the techs I know and touched a bit:
 - etc.
 {% endhighlight %}
 
-If you want to get in touch, you know how to reach!
+I think simple is better so I try to make it so.

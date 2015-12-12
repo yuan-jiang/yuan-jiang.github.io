@@ -3,7 +3,6 @@ layout: post
 title: Ansible basics
 date: 2015-11-17 14:25:00 +0800
 author: Andy Jiang
-tags: python automation
 ---
 
 Ansible - command from command line and playbook
