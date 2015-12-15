@@ -7,10 +7,15 @@ author: Andy Jiang
 
 Linux how-to collections
 
-Add nfs share config for mount
+Config for mount with nfs
 {% highlight bash %}
-/etc/exports
+1) set on source:
+vi /etc/exports
+add below entry:
 => /path/to/share *(ro, root_squash)
+service nfs start
+2) set on destination:
+mount source_ip:/path/to/share /destination/dir
 {% endhighlight %}
 
 Run google chrome as root
@@ -27,9 +32,10 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update sudo apt-get install google-chrome-stable
 {% endhighlight %}
 
-Zip all files under directory
+Zip all files under directory and unzip to directory
 {% highlight bash %}
 zip -r file.zip directory
+unzip -d destination file.zip
 {% endhighlight %}
 
 Test HTTP using telnet
@@ -184,4 +190,48 @@ Set prompt character
 vi ~/.bashrc
 => PS1="[\u@\h \W]\\$ "
 => PS1="[\u@\h \W]# "
+{% endhighlight %}
+
+List installed packages on rhel and centos
+{% highlight bash %}
+rpm -qa
+yum list installed
+{% endhighlight %}
+
+Config static ip address for ubuntu
+{% highlight bash %}
+1) Add hostname to /etc/hostname
+2) Set dns in /etc/resolv.config
+=> nameserver xx.xx.xx.xx
+3) Set static ip address in /etc/network/interfaces
+auto eth0
+iface eth0 inet static
+address xxx.xxx.xxx.xxx
+netmask 255.255.255.0
+gateway xxx.xxx.xxx.xxx
+{% endhighlight %}
+
+Check http resource but not download
+{% highlight bash %}
+wget --spider url
+curl -I url
+curl --head url
+{% endhighlight %}
+
+Check disk info
+{% highlight bash %}
+List free disk space
+df -h or df -k
+List space usage of file or directory
+du -sh
+{% endhighlight %}
+
+Route table
+{% highlight bash %}
+route -n
+=> View routing table
+route add -net xx.xx.xx.xx netmask 255.255.255.0 gw xx.xx.xx.xx
+=> Add route
+route del -net xx.xx.xx.xx netmask 255.255.255.0 gw xx.xx.xx.xx
+=> Delete route
 {% endhighlight %}
