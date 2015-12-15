@@ -1,0 +1,187 @@
+---
+layout: post
+title: Linux how-to collections
+date: 2014-11-22 09:00:00 +0800
+author: Andy Jiang
+---
+
+Linux how-to collections
+
+Add nfs share config for mount
+{% highlight bash %}
+/etc/exports
+=> /path/to/share *(ro, root_squash)
+{% endhighlight %}
+
+Run google chrome as root
+{% highlight bash %}
+vi /usr/bin google-chrome
+=> add "--user-data-dir" at the very end of the file
+=> e.g. exec -a "$0" "$HERE/chrome" "$@" --user-data-dir
+{% endhighlight %}
+
+Install google-chrome-stable on ubuntu
+{% highlight bash %}
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update sudo apt-get install google-chrome-stable
+{% endhighlight %}
+
+Zip all files under directory
+{% highlight bash %}
+zip -r file.zip directory
+{% endhighlight %}
+
+Test HTTP using telnet
+{% highlight bash %}
+telnet www.google.com 80
+=> This will connect to www.google.com on port 80
+GET /
+GET /index.html HTTP/1.1
+GET /index.html HTTP/1.1 host:www.google.com
+=> Hit the <enter> twice
+=> This will output the info of http response
+{% endhighlight %}
+
+Install lxml on ubuntu
+{% highlight bash %}
+sudo apt-get install libxml2-dev libxslt1-dev python-dev
+For older version:
+sudo apt-get install python-lxml
+{% endhighlight %}
+
+Config default java on rhel
+{% highlight bash %}
+/usr/sbin/alternatives --config java
+{% endhighlight %}
+
+Force a clock update using ntp
+{% highlight bash %}
+sudo ntpdate -s time.nist.gov
+{% endhighlight %}
+
+Find ip addresses
+{% highlight bash %}
+ifconfig | grep inet | grep -v inet6 | grep -v 127.0.0.1 | awk '{print $2}' | sed 's/addr://'
+{% endhighlight %}
+
+Add private key for ssh connection to automatically load and use
+{% highlight bash %}
+ssh-agent `ssh-add ~/.ssh/custom-key`
+{% endhighlight %}
+
+DNS query
+{% highlight bash %}
+nslookup <target>
+host <target>
+dig <target>
+{% endhighlight %}
+
+Count number of files
+{% highlight bash %}
+ls -l <dir> | wc -l
+{% endhighlight %}
+
+Replace string in files using sed
+{% highlight bash %}
+sed -i -e 's/old/new/g' /path/to/file
+{% endhighlight %}
+
+Get full path of a file
+{% highlight bash %}
+readlink -f file.txt
+{% endhighlight %}
+
+Extract substring
+{% highlight bash %}
+sub=${parent:start:length}
+=> a="helloworld"
+=> b=${a:1:3}
+=> echo $b
+=> ell
+{% endhighlight %}
+
+Open file on command line using default editor
+{% highlight bash %}
+if desktop is gnome:
+gnome-open file
+if desktop is kde:
+kde-open file
+or
+xdg-open file
+{% endhighlight %}
+
+Run command until success
+{% highlight bash %}
+until command-succeeds do
+    another-command
+done
+{% endhighlight %}
+
+Get yesterday date
+{% highlight bash %}
+date -d "yesterday 13:00 " '+%Y-%m-%d'
+{% endhighlight %}
+
+Shortcuts of input prompt
+{% highlight bash %}
+CTRL-U: Delete everything before cursor
+CTRL-K: Delete everything after cursor
+CTRL-Y: Paste the deleted input
+CTRL-E: Jump to the end of input
+{% endhighlight %}
+
+Start jenkins in standalone mode
+{% highlight bash %}
+java -DHUDSON_HOME=dir -jar jenkins.war --httpPort=80
+{% endhighlight %}
+
+One-line alert with python
+{% highlight bash %}
+python -c "import Tkinter, tkMessageBox; Tkinter.Tk().wm_withdraw(); tkMessageBox.showinfo('Tips', 'Hi there it\'s time to have a little rest')"
+{% endhighlight %}
+
+Show linux kernel info and distro
+{% highlight bash %}
+cat /proc/sys/kernel/osrelease
+lsb_release -a
+{% endhighlight %}
+
+Execute two commands
+{% highlight bash %}
+cmd1 && cmd2
+=> cmd2 will execute only if cmd1 succeeds (return exit code 0)
+cmd1 ;  cmd2
+=> cmd2 will execute regardless cmd1 success or failure
+{% endhighlight %}
+
+Run program in background
+{% highlight bash %}
+nohup java -jar app.jar &
+{% endhighlight %}
+
+Find application paths
+{% highlight bash %}
+find / -name <appname>
+{% endhighlight %}
+
+Change computer name
+{% highlight bash %}
+vi /etc/hostname
+vi /etc/hosts
+{% endhighlight %}
+
+Set new date
+{% highlight bash %}
+date --set="STRING"
+date -s "STRING"
+e.g.
+date --set="22 Nov 2014 09:00:00"
+{% endhighlight %}
+
+Set prompt character
+{% highlight bash %}
+vi ~/.bashrc
+=> PS1="[\u@\h \W]\\$ "
+=> PS1="[\u@\h \W]# "
+{% endhighlight %}
