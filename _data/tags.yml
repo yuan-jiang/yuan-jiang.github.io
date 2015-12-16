@@ -4,3 +4,11 @@
   name: linux
 - slug: java
   name: java
+- slug: automation
+  name: automation
+- slug: virtualization
+  name: virtualization
+- slug: python
+  name: python
+- slug: ruby
+  name: ruby

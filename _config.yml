@@ -47,7 +47,9 @@ paginate: 5
 timezone: Asia/Shanghai
 
 # Do not use the date in post url
-permalink: /:title.html
+# permalink: /:title.html
+# Do not use the date and suffix in post url
+permalink: /:title
 
 # Plugin gems to enable below
 gems:

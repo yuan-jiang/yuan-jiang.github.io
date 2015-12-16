@@ -3,6 +3,7 @@ layout: post
 title: Quick steps of using python virtualenv
 date: 2015-11-16 17:15:00 +0800
 author: Andy Jiang
+tags: python
 ---
 
 {% highlight bash %}

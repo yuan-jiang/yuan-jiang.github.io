@@ -3,6 +3,7 @@ layout: post
 title: RabbitMQ Java client
 date: 2015-12-08 16:05 +0800
 author: Andy Jiang
+tags: java
 ---
 
 {% highlight java %}

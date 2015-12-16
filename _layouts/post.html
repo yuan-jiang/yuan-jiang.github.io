@@ -12,7 +12,8 @@ layout: default
 
   {% assign post = page %}
   {% if post.tags.size > 0 %}
-      {% capture tags_content %}Post tagged with{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+      <!-- {% capture tags_content %}Post tagged with{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %} -->
+      {% capture tags_content %}Post tagged with: {% endcapture %}
       {% for post_tag in post.tags %}
           {% for data_tag in site.data.tags %}
               {% if data_tag.slug == post_tag %}
@@ -30,7 +31,7 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    <p id="post-meta">{{ tags_content }}</p>
+    <h5><i>{{ tags_content }}</i></h5>
   </div>
 
   {% include disqus.html %}

@@ -1,22 +1,23 @@
 ---
 layout: page
-title: Archive
-permalink: /archive/
+title: Tags
+permalink: /tags/
+redirect_from: /tag/
 sitemap: false
 ---
 
-<!-- <div>
+<div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <span class="site-tag">
-        <a href="#{{ tag | first | slugify }}">
-                {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+        <a href="/tag/{{ tag | first | slugify }}">
+                {{ tag[0] | replace:'-', ' ' }}[{{ tag | last | size }}]
         </a>
     </span>
     {% endfor %}
-</div> -->
+</div>
 
-<div id="index">
+<!-- <div id="index">
     {% for tag in tags %}
     <a name="{{ tag[0] }}"></a><h3>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h3>
     {% assign sorted_posts = site.posts | sort: 'title' %}
@@ -26,4 +27,4 @@ sitemap: false
     {%endif%}
     {% endfor %}
     {% endfor %}
-</div>
+</div> -->
