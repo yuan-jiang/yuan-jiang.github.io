@@ -46,6 +46,8 @@ paginate: 5
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
 
+# Do not use the date in post url
+permalink: /:title.html
 
 # Plugin gems to enable below
 gems:

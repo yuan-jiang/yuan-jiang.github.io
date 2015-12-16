@@ -3,6 +3,7 @@ layout: post
 title: Linux how-to collections
 date: 2014-11-22 09:00:00 +0800
 author: Andy Jiang
+tags: linux
 ---
 
 Linux how-to collections

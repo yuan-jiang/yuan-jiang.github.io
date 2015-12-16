@@ -5,7 +5,7 @@ permalink: /archive/
 sitemap: false
 ---
 
-<div>
+<!-- <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <span class="site-tag">
@@ -14,7 +14,7 @@ sitemap: false
         </a>
     </span>
     {% endfor %}
-</div>
+</div> -->
 
 <div id="index">
     {% for tag in tags %}
