@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Execute shell command in Java
+title: Execute shell command in java
 date: 2015-12-09 13:15:00 +0800
 author: Andy Jiang
 tags: java linux
 ---
 
-Execute linux/unix command in Java
+Execute linux/unix command in java.
 
 {% highlight java %}
 String cmd = "uname -a";

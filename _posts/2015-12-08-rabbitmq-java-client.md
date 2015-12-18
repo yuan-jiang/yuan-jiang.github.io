@@ -1,10 +1,12 @@
 ---
 layout: post
-title: RabbitMQ Java client
+title: Rabbitmq java client
 date: 2015-12-08 16:05 +0800
 author: Andy Jiang
 tags: java
 ---
+
+Sample entrance code of rabbitmq java client.
 
 {% highlight java %}
 ConnectionFactory factory = new ConnectionFactory();
