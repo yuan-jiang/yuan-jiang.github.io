@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Passing TestNG command line arguments dynamically with Ant
+title: Passing testng command line arguments from Ant
 author: Andy Jiang
 date: 2015-11-24 16:46:00 +0800
 tags: java automation
