@@ -2,7 +2,7 @@
 layout: post
 title: Vagrant getting started
 date: 2015-11-17 10:40:00 +0800
-author: Andy Jiang
+author: Yuan Jiang
 tags: virtualization
 ---
 

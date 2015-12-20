@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passing parameters to testng xml from ant on jenkins
-author: Andy Jiang
+author: Yuan Jiang
 date: 2015-11-24 08:00:00 +0800
 tags: java automation
 ---

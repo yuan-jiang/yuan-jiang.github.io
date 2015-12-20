@@ -2,7 +2,7 @@
 layout: post
 title: Ant zip files and keep root directory
 date: 2015-12-11 11:50:00 +0800
-author: Andy Jiang
+author: Yuan Jiang
 tags: automation
 ---
 

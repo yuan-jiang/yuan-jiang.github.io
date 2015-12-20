@@ -2,7 +2,7 @@
 layout: post
 title: Java static class
 date: 2014-01-01 08:00:00 +0800
-author: Andy Jiang
+author: Yuan Jiang
 tags: java
 ---
 

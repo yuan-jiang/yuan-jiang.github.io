@@ -2,7 +2,7 @@
 layout: post
 title: Execute shell command in java
 date: 2015-12-09 13:15:00 +0800
-author: Andy Jiang
+author: Yuan Jiang
 tags: java linux
 ---
 
