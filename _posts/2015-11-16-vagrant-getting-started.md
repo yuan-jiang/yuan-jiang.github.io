@@ -50,4 +50,6 @@ $ vagrant up
   => Start the halted/suspended vagrant vm
 $ vagrant reload
   => Start the halted/suspended vagrant vm with the updated configuration
+$ vagrant status
+  => View current state of vm
 {% endhighlight %}

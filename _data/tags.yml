@@ -12,3 +12,5 @@
   name: python
 - slug: ruby
   name: ruby
+- slug: devops
+  name: devops
