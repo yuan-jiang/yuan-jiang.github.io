@@ -236,3 +236,8 @@ route add -net xx.xx.xx.xx netmask 255.255.255.0 gw xx.xx.xx.xx
 route del -net xx.xx.xx.xx netmask 255.255.255.0 gw xx.xx.xx.xx
 => Delete route
 {% endhighlight %}
+
+Write to syslog
+{% highlight bash %}
+logger hello
+{% endhighlight %}

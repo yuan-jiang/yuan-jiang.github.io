@@ -91,6 +91,16 @@ Go back the previous terminal window that has logstash started which should outp
 }
 {% endhighlight %}
 
+Start logstash as daemon you can try with below command:
+{% highlight bash %}
+$ nohup ./bin/logstash -f conf/syslogtest.conf &
+{% endhighlight %}
+However in production env it's recommended to install logstash with the official package on different flavor of linux such as RPM or Debian package, and then start logstash as service:
+{% highlight bash %}
+$ service logstash start
+{% endhighlight %}
+This is mentioned in a discussion thread of the logstash support community [here](https://discuss.elastic.co/t/how-to-start-ls1-5-as-a-background-task/33814)
+
 Quick reference links
 
 [logstash input plugins](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
