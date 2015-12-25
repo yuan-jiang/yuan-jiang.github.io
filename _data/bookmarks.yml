@@ -128,6 +128,8 @@
   link: http://kafka.apache.org/documentation.html
 - description: LogstashDoc
   link: https://www.elastic.co/guide/en/logstash/current/index.html
+- description: LogstashPatterns
+  link: https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns
 - description: ApacheCassandraDoc
   link: http://wiki.apache.org/cassandra/GettingStarted
 - description: GooglePlayAPKDownloader(apk-dl)
