@@ -132,6 +132,8 @@
   link: https://www.elastic.co/guide/en/logstash/current/index.html
 - description: NagiosDoc
   link: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/toc.html
+- description: NagiosOMD
+  link: http://omdistro.org/start
 - description: LogstashPatterns
   link: https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns
 - description: ApacheCassandraDoc
