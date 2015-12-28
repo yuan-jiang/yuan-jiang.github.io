@@ -198,6 +198,8 @@
   link: http://ombre42.github.io/robotframework-sudslibrary/doc/SudsLibrary.html
 - description: MarkdownCheatsheet
   link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- description: KramdownReference
+  link: http://kramdown.gettalong.org/quickref.html
 - description: Bosh
   link: http://bosh.io/
 - description: CloudFoundryDocs

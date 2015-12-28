@@ -6,6 +6,8 @@ author: Yuan Jiang
 tags: python
 ---
 
+Quick steps of setting up and using python virtualenv.
+
 {% highlight bash %}
 $ sudo pip install virtualenv
 $ mkdir ~/PythonEnvs/
