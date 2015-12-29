@@ -134,8 +134,14 @@
   link: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/toc.html
 - description: NagiosOMD
   link: http://omdistro.org/start
-- description: LogstashPatterns
+- description: LogstashPatterns1
   link: https://github.com/logstash-plugins/logstash-patterns-core/tree/master/patterns
+- description: LogstashPatterns2
+  link: http://grokdebug.herokuapp.com/patterns
+- description: LogstashGrokDebugger
+  link: http://grokdebug.herokuapp.com/
+- description: LogstashGrokConstructor
+  link: http://grokconstructor.appspot.com/
 - description: ApacheCassandraDoc
   link: http://wiki.apache.org/cassandra/GettingStarted
 - description: GooglePlayAPKDownloader(apk-dl)
