@@ -256,3 +256,9 @@
   link: http://ant.apache.org/ivy/history/latest-milestone/index.html
 - description: RabbitMQJavaAPI
   link: https://www.rabbitmq.com/releases/rabbitmq-java-client/v3.5.6/rabbitmq-java-client-javadoc-3.5.6/
+- description: Regex101
+  link: https://regex101.com/
+- description: Regexr
+  link: http://regexr.com/
+- description: RubyRegularExpressionEditor
+  link: http://rubular.com/
