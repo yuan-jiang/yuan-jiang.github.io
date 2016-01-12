@@ -14,14 +14,14 @@ Getting started notes on ELK (Elasticsearch, Logstash, Kibana).
   1. logstash-xxx.tar.gz or logstash-xxx.zip  
   - extract the package  
   - prepare a xxx.conf file  
-  - cd logstash-xxx && bin/logstash agent -f xxx.conf  
-  - run as daemon: nohup bin/logstash -f xxx.conf &  
-  - TEST: cd logstash-xxx && bin/logstash -e   'input{stdin{}}output{stdout{codec=>rubydebug}}'  
+  - cd logstash-xxx
+    - bin/logstash agent -f xxx.conf  
+    - nohup bin/logstash -f xxx.conf &  
+    - bin/logstash -e   'input{stdin{}}output{stdout{codec=>rubydebug}}'  
   2. deb/rpm package or apt-get/yum install => recommended
   - prepare xxx.conf under /etc/logstash/conf.d
-  - service logstash start/stop/restart/configtest/status
-    > or
-  - /etc/init.d/logstash start/stop/restart/status
+    - service logstash start/stop/restart/configtest/status
+    - /etc/init.d/logstash start/stop/restart/status
 
 ## Conf file
 {% highlight ruby %}

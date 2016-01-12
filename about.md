@@ -8,17 +8,21 @@ permalink: /about/
 Simple personal site for keeping technical notes and bookmarks. Used to googling technical tips and tricks and then saving them in evernote but over years come to realize that time is seldom spent on actually going over what's kept. So decided to start putting such stuff here with in mind that may get a better chance revisiting it and someone sometime might also happen to get here and find something more or less helpful.
 
 #About me, the person
-Of the ordinary who JUST DO IT (只是搞IT的) and career began 8+ years ago in IT industry as software engineer and now daily work involves things like software testing, tools and scripts development, test and configuration automation, service monitoring and assurance, and etc.
+Of the ordinary who JUST DO IT (只是个搞IT的) and career began 8+ years ago in IT industry as software engineer and now daily work involves things like software testing, tools and scripts development, test and configuration automation, service monitoring and assurance, and etc.
 
 List of some of the techs know a bit:
 
 - java/python/ruby/shell
-- selenium/robotframework/testng/nose/xunit
-- jenkins/go/git/gerrit/svn
+- selenium/webdriver/grid
+- testng/xunit/robotframework
+- jenkins/go/git/svn
+- ant/ivy/maven/gradle
 - ansible/puppet/fabric/bosh
-- openstack/linux/virtualization/docker/vagrant
-- logstash/elasticsearch/kibana/nagios/graphite/grafana
-- pagerduty/thousandeyes/stashboard
+- openstack/linux/vagrant/docker
+- logstash/elasticsearch/kibana
+- nagios/graphite/grafana/pagerduty
+- collectd/statsd/monit
+- kafka/rabbitmq/zeromq
 - restful/soap/http/html/css/js/web
 - etc.
 
