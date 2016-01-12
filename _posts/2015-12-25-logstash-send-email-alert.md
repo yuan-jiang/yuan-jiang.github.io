@@ -11,7 +11,7 @@ How to config logstash email output plugin to send email alert.
 Ensure postfix or sendmail is configured on the logstash server, refer to another post [here](/config-postfix-with-gmail-to-send-email-from-linux-command-line) which config postfix with gmail smtp to send email
 
 Create a new logstash conf file in /etc/logstash/conf.d and add below content
-{% highlight json %}
+{% highlight ruby %}
 input {
    syslog {
         type => syslog

@@ -38,7 +38,7 @@ $ cd conf && vi syslogtest.conf
 {% endhighlight %}
 
 Add below content to the above file
-{% highlight json %}
+{% highlight ruby %}
 input {
     syslog {
        type => syslog
@@ -73,7 +73,7 @@ hello
 {% endhighlight %}
 
 Go back the previous terminal window that has logstash started which should output
-{% highlight json %}
+{% highlight ruby %}
 {
            "message" => "hello\r\n",
           "@version" => "1",
@@ -103,10 +103,7 @@ This is mentioned in a discussion thread of the logstash support community [here
 
 Quick reference links
 
-[logstash input plugins](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
-
-[logstash output plugins](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)
-
-[logstash filter plugins](https://www.elastic.co/guide/en/logstash/current/filter-plugins.html)
-
-[logstash codec plugins](https://www.elastic.co/guide/en/logstash/current/codec-plugins.html)
+ - [logstash input plugins](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
+ - [logstash output plugins](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)
+ - [logstash filter plugins](https://www.elastic.co/guide/en/logstash/current/filter-plugins.html)
+ - [logstash codec plugins](https://www.elastic.co/guide/en/logstash/current/codec-plugins.html)

@@ -8,24 +8,21 @@ permalink: /about/
 Simple personal site for keeping technical notes and bookmarks. Used to googling technical tips and tricks and then saving them in evernote but over years come to realize that time is seldom spent on actually going over what's kept. So decided to start putting such stuff here with in mind that may get a better chance revisiting it and someone sometime might also happen to get here and find something more or less helpful.
 
 #About me, the person
-Of the ordinary who JUST DO IT and career began 8+ years ago in IT industry as software engineer and now daily work involves things like software testing, tools and scripts development, configuration and test automation, service monitoring and assurance, and etc.
+Of the ordinary who JUST DO IT (只是搞IT的) and career began 8+ years ago in IT industry as software engineer and now daily work involves things like software testing, tools and scripts development, test and configuration automation, service monitoring and assurance, and etc.
 
 List of some of the techs know a bit:
-{% highlight bash %}
-- Java/Python/Ruby/Shell
-- Selenium/RobotFramework/TestNG/Nose/XUnit
-- Jenkins/Go/Git/Gerrit
-- Ansible/Puppet/Fabric
-- OpenStack/Linux/Virtualization/Docker/Vagrant/Bosh
-- Logstash/Elasticsearch/Kibana/Nagios/Graphite/Grafana
-- PagerDuty/ThousandEyes/Stashboard
-- RESTful/SOAP/HTTP/HTML/CSS/JS/Web
+
+- java/python/ruby/shell
+- selenium/robotframework/testng/nose/xunit
+- jenkins/go/git/gerrit/svn
+- ansible/puppet/fabric/bosh
+- openstack/linux/virtualization/docker/vagrant
+- logstash/elasticsearch/kibana/nagios/graphite/grafana
+- pagerduty/thousandeyes/stashboard
+- restful/soap/http/html/css/js/web
 - etc.
-{% endhighlight %}
 
 #More about me
-{% highlight yaml %}
-- MOTTO: simple is better
-- HOBBY: football is the game watch very often
-         and badminton is the one sometimes do
-{% endhighlight %}
+- motto: simple is better
+- hobby: football is the game watch very often and badminton is the one sometimes do
+- other: [living](https://www.google.com/maps/place/Shanghai,+China) & [work](http://www.cisco.com/)
