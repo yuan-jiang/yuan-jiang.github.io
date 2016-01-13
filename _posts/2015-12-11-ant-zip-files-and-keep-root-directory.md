@@ -3,7 +3,7 @@ layout: post
 title: Ant zip files and keep root directory
 date: 2015-12-11 11:50:00 +0800
 author: Yuan Jiang
-tags: automation
+tags: automation ant
 ---
 
 An example of using apache Ant to create a zip file and keep the root directory.

@@ -3,7 +3,7 @@ layout: post
 title: Testng custom listener and reporter
 date: 2012-06-29 13:45:00 +0800
 author: Yuan Jiang
-tags: java automation
+tags: java automation testng
 ---
 
 Testng custom listener to log individual result of test method execution and custom reporter to log summary report of test suite execution.

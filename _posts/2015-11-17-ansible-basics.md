@@ -6,7 +6,7 @@ author: Yuan Jiang
 tags: python automation
 ---
 
-Ansible - command from command line and playbook
+Execute remote command from command line and playbook with ansible.
 
 #Execute simple commands on remote node with Ansible from command line
 {% highlight bash %}

@@ -49,7 +49,7 @@ $ -browser “browserName=firefox,version=3.6,firefox_binary=c:\Program Files\fi
 $ http://hub-server:4444/grid/console
 {% endhighlight %}
 
-# Finally use the grid setup for web automation testing in robotframework script
+# Use in robotframework script
 {% highlight robotframework %}
 *** Settings ***
 Documentation               This is just an example

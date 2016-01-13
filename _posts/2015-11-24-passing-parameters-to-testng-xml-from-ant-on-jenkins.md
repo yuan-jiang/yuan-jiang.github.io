@@ -3,7 +3,7 @@ layout: post
 title: Passing parameters to testng xml from ant on jenkins
 author: Yuan Jiang
 date: 2015-11-24 08:00:00 +0800
-tags: java automation
+tags: java automation testng ant
 ---
 
 With Jenkins “This build is parameterized” feature, we can dynamically pass testng parameters (i.e. test config or data input) through Ant.

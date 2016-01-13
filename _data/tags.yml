@@ -16,5 +16,11 @@
   name: devops
 - slug: selenium
   name: selenium
+- slug: webdriver
+  name: webdriver
 - slug: robotframework
   name: robotframework
+- slug: testng
+  name: testng
+- slug: ant
+  name: ant
