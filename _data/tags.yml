@@ -14,3 +14,7 @@
   name: ruby
 - slug: devops
   name: devops
+- slug: selenium
+  name: selenium
+- slug: robotframework
+  name: robotframework

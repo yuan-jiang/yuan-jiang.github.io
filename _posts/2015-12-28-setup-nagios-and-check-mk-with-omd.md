@@ -6,21 +6,7 @@ date: 2015-12-28 17:00:00 +0800
 tags: devops
 ---
 
-A few reference links on how to setup nagios with check_mk plugin with omd package.
-
-#check_mk official:   
- - [http://mathias-kettner.com/index.html](http://mathias-kettner.com/index.html)
-
-#check_mk download:  
- - [http://mathias-kettner.com/download/](http://mathias-kettner.com/download/)  
- - [http://mathias-kettner.com/check_mk_download_archive.php](http://mathias-kettner.com/check_mk_download_archive.php)  
-
-#check_mk doc:  
- - [http://mathias-kettner.com/checkmk_wato.html](http://mathias-kettner.com/checkmk_wato.html)  
- - [http://mathias-kettner.com/checkmk_install_with_omd.html](http://mathias-kettner.com/checkmk_install_with_omd.html)  
-
-#omd:  
- - [http://omdistro.org/start](http://omdistro.org/start)
+References on how to setup nagios with check_mk plugin with omd package.
 
 #Setup with ubuntu precise32
 {% highlight bash %}
@@ -39,5 +25,11 @@ $ http://<host-of-nagios-omd>/test
 {% endhighlight %}
 
 #Reference links
+ - [check_mk official](http://mathias-kettner.com/index.html)
+ - [check_mk download](http://mathias-kettner.com/download/)  
+ - [check_mk download archive](http://mathias-kettner.com/check_mk_download_archive.php)  
+ - [check_mk doc](http://mathias-kettner.com/checkmk_wato.html)  
+ - [check_mk install](http://mathias-kettner.com/checkmk_install_with_omd.html)  
+ - [omd](http://omdistro.org/start)
  - Example on [How To Use Open Monitoring Distribution with Check_MK on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-use-open-monitoring-distribution-with-check_mk-on-ubuntu-14-04)
  - Example on [How To Install Nagios 4 and Monitor Your Servers on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
