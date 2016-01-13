@@ -50,7 +50,7 @@ $ http://hub-server:4444/grid/console
 {% endhighlight %}
 
 # Finally use the grid setup for web automation testing in robotframework script
-{% highlight robotframework linenos %}
+{% highlight robotframework %}
 *** Settings ***
 Documentation               This is just an example
 Metadata                    VERSION     1.0
