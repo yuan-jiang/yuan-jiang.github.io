@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Linux how-to collections
+title: Linux useful commands and how-to collections
 date: 2014-11-22 09:00:00 +0800
 author: Yuan Jiang
 tags: linux
 ---
 
-Linux how-to collections
+Linux useful commands and how-to collections.
 
 Config for mount with nfs
 {% highlight bash %}
@@ -240,4 +240,25 @@ route del -net xx.xx.xx.xx netmask 255.255.255.0 gw xx.xx.xx.xx
 Write to syslog
 {% highlight bash %}
 logger hello
+{% endhighlight %}
+
+Display system uptime
+{% highlight bash %}
+$ uptime
+{% endhighlight %}
+
+Display users and activity
+{% highlight bash %}
+$ w
+$ users
+$ who
+$ whoami
+$ last
+{% endhighlight %}
+
+List open files
+{% highlight bash %}
+$ lsof
+$ lsof -i:22
+$ lsof -u ubuntu
 {% endhighlight %}
