@@ -106,6 +106,8 @@
   link: http://www.cleancss.com/css-beautify/
 - description: CSSMinify
   link: http://www.cleancss.com/css-minify/
+- description: CSSReference
+  link: http://www.w3schools.com/cssref/
 - description: DiffMergeCompare
   link: http://www.cleancss.com/diff-compare-merge/
 - description: HTMLFormatter
