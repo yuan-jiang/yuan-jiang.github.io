@@ -14,7 +14,7 @@ Config for mount with nfs
 $ vi /etc/exports
 add below entry:
 => /path/to/share *(ro, root_squash)
-service nfs start
+$ service nfs start
 2) set on destination:
 $ mount source_ip:/path/to/share /destination/dir
 {% endhighlight %}
@@ -215,9 +215,9 @@ gateway xxx.xxx.xxx.xxx
 
 Check http resource but not download
 {% highlight bash %}
-=> wget --spider url
-=> curl -I url
-=> curl --head url
+$ wget --spider url
+$ curl -I url
+$ curl --head url
 {% endhighlight %}
 
 Check disk info

@@ -106,7 +106,12 @@ Getting started notes on ELK (Elasticsearch, Logstash, Kibana).
 ## DSL
   - Logstash::Event
   - Reference field: [field], [field][field], ...
-  - Data value type: bool(true/false)/string/number/array/hash
+  - Data value type:
+    - bool: true or false
+    - string: "hello,logstash"
+    - number: 514
+    - array: ["input", "output"]
+    - hash: {"codec" => "rubydebug"}
   - Conditionals and expression:
     - ==,!=,<,>,<=,>=
     - =~ (regex match), !~ (regex nonmatch)
