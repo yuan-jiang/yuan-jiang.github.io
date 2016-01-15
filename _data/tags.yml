@@ -24,3 +24,7 @@
   name: testng
 - slug: ant
   name: ant
+- slug: service-assurance
+  name: service assurance
+- slug: service-monitoring
+  name: service monitoring

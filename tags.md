@@ -9,11 +9,11 @@ sitemap: false
 <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
-     <span class="site-tag">
-        <a href="/tag/{{ tag | first | slugify }}">
+     <div class="site-tag">
+        • <a href="/tag/{{ tag | first | slugify }}">
                 {{ tag[0] | replace:'-', ' ' }}[{{ tag | last | size }}]
         </a>
-    </span>
+    </div>
     {% endfor %}
 </div>
 
