@@ -22,6 +22,8 @@
   link: http://javadoc.allimant.org/
 - description: ApacheCommons
   link: http://commons.apache.org/
+- description: ApacheCommonsJavaDoc
+  link: https://commons.apache.org/proper/commons-lang/apidocs/index.html?overview-summary.html
 - description: ThinkingInJava4thEdition
   link: http://www.saeedsh.com/resources/Thinking%20in%20Java%204th%20Ed.pdf
 - description: AntManual
