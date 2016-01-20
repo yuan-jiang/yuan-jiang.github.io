@@ -2,6 +2,8 @@
   name: git
 - slug: linux
   name: linux
+- slug: bash
+  name: bash
 - slug: java
   name: java
 - slug: automation
