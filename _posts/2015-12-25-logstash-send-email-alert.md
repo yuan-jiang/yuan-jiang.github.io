@@ -3,7 +3,7 @@ layout: post
 title: Logstash send email alert
 date: 2015-12-25 11:55:00 +0800
 author: Yuan Jiang
-tags: devops
+tags: devops logstash
 ---
 
 How to config logstash email output plugin to send email alert.

@@ -16,6 +16,14 @@
   name: ruby
 - slug: devops
   name: devops
+- slug: logstash
+  name: logstash
+- slug: elasticsearch
+  name: elasticsearch
+- slug: nagios
+  name: nagios
+- slug: kibana
+  name: kibana
 - slug: selenium
   name: selenium
 - slug: webdriver

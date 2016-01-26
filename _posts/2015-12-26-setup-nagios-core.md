@@ -3,7 +3,7 @@ layout: post
 title: Setup nagios core
 date: 2015-12-26 11:23:00 +0800
 author: Yuan Jiang
-tags: devops service-assurance service-monitoring
+tags: devops service-assurance service-monitoring nagios
 ---
 
 Setup nagios core on ubuntu 12.04 (precise 32) with root user.

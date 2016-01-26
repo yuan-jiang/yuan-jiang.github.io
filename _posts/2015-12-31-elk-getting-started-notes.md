@@ -3,7 +3,7 @@ layout: post
 title: ELK getting started notes
 date: 2015-12-31 21:45:00 +0800
 author: Yuan Jiang
-tags: devops
+tags: devops logstash elasticsearch kibana
 ---
 
 Getting started notes on ELK (Elasticsearch, Logstash, Kibana).

@@ -3,7 +3,7 @@ layout: post
 title: Setup nagios and check_mk with omd
 author: Yuan Jiang
 date: 2015-12-28 17:00:00 +0800
-tags: devops
+tags: devops nagios
 ---
 
 References on how to setup nagios with check_mk plugin with omd package.

@@ -3,7 +3,7 @@ layout: post
 title: Logstash getting started
 date: 2015-12-24 16:10:00 +0800
 author: Yuan Jiang
-tags: devops
+tags: devops logstash
 ---
 
 Logstash getting started simple guide covering installation and a simple example.
