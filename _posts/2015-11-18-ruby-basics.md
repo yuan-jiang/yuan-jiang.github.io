@@ -267,5 +267,5 @@ raise "message"                   #=> raise RuntimeError with specified message
 raise CustomException             #=> raise custom exception
 raise CustomException, "message"  #=> raise custom exception with specified message
 raise                             #=> 1) within rescue, raise $! (most recent exception again)
-                                      2) outside rescue, raise RuntimeError
+                                  #=> 2) outside rescue, raise RuntimeError
 {% endhighlight %}

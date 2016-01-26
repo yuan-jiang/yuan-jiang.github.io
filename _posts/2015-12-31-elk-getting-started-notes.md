@@ -157,3 +157,7 @@ Getting started notes on ELK (Elasticsearch, Logstash, Kibana).
 
 ## Docs
   - [Kibana official guide](https://www.elastic.co/guide/en/kibana/current/index.html)
+
+# Reference links
+- Good post series on [monitoring everything](https://ianunruh.com/2014/05/monitor-everything.html)  
+- Tutorial on [How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04)
