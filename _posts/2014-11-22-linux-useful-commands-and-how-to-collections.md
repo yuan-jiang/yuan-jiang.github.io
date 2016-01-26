@@ -263,3 +263,8 @@ $ lsof
 $ lsof -i:22
 $ lsof -u ubuntu
 {% endhighlight %}
+
+List most appearing of english words in text
+{% highlight bash %}
+cat xxx-file | tr -s ' ' '\n' | sort | uniq -c | sort -rn | head -n 10
+{% endhighlight %}
