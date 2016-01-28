@@ -176,6 +176,8 @@
   link: http://bulkan.github.io/robotframework-requests/
 - description: HTTPStatusCodesRef
   link: http://www.w3.org/Protocols/HTTP/HTRESP.html
+- description: HTTPHeaders
+  link: https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
 - description: RESTTutorial
   link: http://rest.elkstein.org/
 - description: RobotFrameworkUserGuide
