@@ -1,3 +1,3 @@
 My personal website
 
-Copyright (c) 2015 Yuan Jiang
+Copyright (c) 2012-2016 Yuan Jiang
