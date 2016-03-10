@@ -99,7 +99,7 @@ $ => user/password: nagiosadmin/[your-password-set-above]
 {% endhighlight %}
 
 
-##Reference links
+## Reference links
 - [Nagios core installation guide](https://assets.nagios.com/downloads/nagioscore/docs/Installing_Nagios_Core_From_Source.pdf)
 - [How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 14.04](How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 14.04)
 - [How To Install Nagios 4 and Monitor Your Servers on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
