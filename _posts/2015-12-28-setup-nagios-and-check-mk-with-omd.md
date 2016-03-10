@@ -8,7 +8,7 @@ tags: devops nagios
 
 References on how to setup nagios with check_mk plugin with omd package.
 
-#Setup with ubuntu precise32
+# Setup with ubuntu precise32
 {% highlight bash %}
 $ wget http://files.omdistro.org/releases/debian_ubuntu/omd-1.20.precise.i386.deb
 $ dpkg -i omd-1.20.precise.i386.deb
@@ -24,7 +24,7 @@ $ http://<host-of-nagios-omd>/test
 => open browser to above url and login with default username/password: omdadmin/omd
 {% endhighlight %}
 
-#Reference links
+# Reference links
  - [check_mk official](http://mathias-kettner.com/index.html)
  - [check_mk download](http://mathias-kettner.com/download/)  
  - [check_mk download archive](http://mathias-kettner.com/check_mk_download_archive.php)  
