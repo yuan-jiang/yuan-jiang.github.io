@@ -8,19 +8,19 @@ tags: virtualization
 
 Quick steps of getting started with vagrant including installation, vm starting up and a few commonly-used commands.
 
-#Download and install the native package for your operating system
+# Download and install the native package for your operating system
 [http://www.vagrantup.com/downloads](http://www.vagrantup.com/downloads)
 
-#Ensure virtualbox is also installed
+# Ensure virtualbox is also installed
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-#Check if vagrant is in system path
+# Check if vagrant is in system path
 {% highlight bash %}
 $ which vagrant
 /usr/local/bin/vagrant => on Mac OS X
 {% endhighlight %}
 
-#Get vagrant box up and running
+# Get vagrant box up and running
 {% highlight bash %}
 $ mkdir ~/VagrantVMs
 $ cd ~/VagrantVMs
@@ -38,7 +38,7 @@ $ vagrant ssh
   => Now you are working in the vagrant vm
 {% endhighlight %}
 
-#Other commonly-used commands
+# Other commonly-used commands
 {% highlight bash %}
 $ vagrant suspend
   => Save the state of running vm and stop it
