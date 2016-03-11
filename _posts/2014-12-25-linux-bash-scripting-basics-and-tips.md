@@ -77,7 +77,7 @@ $ $[expression] # get arithmetic expression value
 {% endhighlight %}
 
 
-##Reference links
+## Reference links
 - [BASH Programming - Introduction HOW-TO
 ](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 - [Bash Guide for Beginners
