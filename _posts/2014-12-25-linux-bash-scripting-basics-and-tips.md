@@ -83,3 +83,4 @@ $ $[expression] # get arithmetic expression value
 - [Bash Guide for Beginners
 ](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
 - [Advanced Bash Scripting](http://www.tldp.org/LDP/abs/abs-guide.pdf)
+- [Advanced Bash Scripting HTML Version](http://www.tldp.org/LDP/abs/html/)
