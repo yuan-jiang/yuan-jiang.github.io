@@ -1,8 +1,13 @@
 <!-- search bar at footer -->
 <span class="grid" id="searchBar">
+    <!--yuanjiang 2016-03-11: temporarily replace google custom search with google site search
+        as gcse does not work any more maybe due to github pages upgrade or other reasons-->
     <span id="search">
-        <form role="search" method="get" action="{{site.baseurl}}/search/">
+        <!-- <form role="search" method="get" action="{{site.baseurl}}/search/"> -->
+        <form role="search" method="get" action="https://www.google.com/search">
             <input id="searchString" name="q" placeholder="Enter text to search..." type="text"></input>
+            <input type="hidden" name="sitesearch" value="{{site.baseurl}}"></input>
+
             <!-- <input id="searchButton" name="submit" type="submit" value="GO"></input> -->
             <input id="searchButton" type="image" src="/images/search.png" alt="GO"></input>
         </form>
