@@ -38,3 +38,5 @@
   name: service assurance
 - slug: service-monitoring
   name: service monitoring
+- slug: html
+  name: html
