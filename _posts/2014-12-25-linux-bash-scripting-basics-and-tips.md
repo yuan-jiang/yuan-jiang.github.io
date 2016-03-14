@@ -76,6 +76,54 @@ $ $((expression)) # get arithmetic expression value
 $ $[expression] # get arithmetic expression value
 {% endhighlight %}
 
+File test operators
+{% highlight bash %}
+-e => file exists
+-a => same as -e but deprecated
+-f => regular file, not directory or device
+-s => file not zero size
+-d => file is directory
+-x => file has execute permission
+-r => file has read permission
+-w => file has write permission
+-nt => newer than
+-ot => older than
+and etc.
+{% endhighlight %}
+
+Integer comparison operators
+{% highlight bash %}
+-eq => equal to
+-ne => not equal to
+-gt => greater than
+-ge => greater than or equal to
+-lt => less than
+-le => less than  or equal to
+Below need to be in double parenthesis:
+<   => less than
+<=  => less than or equal to
+>   => greater than
+>=  => greater than or equal to
+{% endhighlight %}
+
+String comparison operators
+{% highlight bash %}
+=  => equal to (whitespace around)
+== => equal to
+!= => not equal to
+<  => less than
+>  => greater than
+-z => is null, zero length
+-n => is not null
+{% endhighlight %}
+
+Compound comparison operators
+{% highlight bash %}
+-a  => logical and (same as && within double brackets)
+-o  => logical or (same as || within double brackets)
+!   => NOT
+{% endhighlight %}
+
 
 ## Reference links
 - [BASH Programming - Introduction HOW-TO
