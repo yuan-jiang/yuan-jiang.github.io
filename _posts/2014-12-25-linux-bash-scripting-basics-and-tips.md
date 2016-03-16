@@ -67,6 +67,8 @@ $ $VAR # get var value
 #or
 $ ${VAR} # get var value
 
+$ ${#var} # get length of var
+
 $ $(command) # get command output
 #or
 $ `command` # get command output
@@ -74,6 +76,30 @@ $ `command` # get command output
 $ $((expression)) # get arithmetic expression value
 #or
 $ $[expression] # get arithmetic expression value
+#or
+$ let "expression" # do arithmetic evaluation on expression
+{% endhighlight %}
+
+If condition
+{% highlight bash %}
+if [ condition1 ]
+then
+  command(s)...
+elif [ condition2 ]
+then
+  command(s)...
+else
+  command(s)...
+fi
+
+where condition can be the following:
+1) test => builtin
+2) /usr/bin/test
+3) [ ]
+4) [[ ]]
+5) /usr/bin/[
+6) command => omit the [ or [[
+7) (( )) => arithmetic
 {% endhighlight %}
 
 File test operators
@@ -123,6 +149,69 @@ Compound comparison operators
 -o  => logical or (same as || within double brackets)
 !   => NOT
 {% endhighlight %}
+
+Loops - for loop
+{% highlight bash %}
+=> regular format:
+for arg in [list]
+do
+  command(s)...
+done
+
+=> c-style for loop:
+for ((i=1; i<=LIMIT; i++)); do
+  command(s)...
+done
+
+=> without do/done:
+for ((n=1; n<=10; n++))
+{
+  command(s)...
+}
+{% endhighlight %}
+
+Loops - while/until loop
+{% highlight bash %}
+while [ condition ]; do
+  command(s)...
+done
+
+until [ condition is true ]
+do
+  command(s)...
+done
+
+=> condition can be following formats:
+1) [ condition ]
+2) [[ condition ]]
+3) (( condition ))
+4) condition
+5) command
+6) multiple commands
+7) function call
+{% endhighlight %}
+
+Branching - case/select
+{% highlight bash %}
+case "$var" in
+  "$condition1")
+  command...
+  ;;
+  "$condition2")
+  command...
+  ;;
+  ...
+esac
+
+select var [in list]
+do
+  command...
+  break
+done
+
+=> when [in list] is omitted, select list is the command line arguments ($@) passed to script or function containing the select.
+{% endhighlight %}
+
 
 
 ## Reference links
