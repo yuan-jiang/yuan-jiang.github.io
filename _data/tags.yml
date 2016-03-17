@@ -40,3 +40,5 @@
   name: service monitoring
 - slug: html
   name: html
+- slug: sql
+  name: sql
