@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Basics
+title: SQL basics
 date: 2016-01-01 13:50:00 +0800
 author: Yuan Jiang
 tags: sql
