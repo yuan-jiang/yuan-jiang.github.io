@@ -46,3 +46,7 @@
   name: re
 - slug: regular-expression
   name: regular expression
+- slug: multithreading
+  name: multithreading
+- slug: multiprocessing
+  name: multiprocessing
