@@ -42,3 +42,7 @@
   name: html
 - slug: sql
   name: sql
+- slug: re
+  name: re
+- slug: regular-expression
+  name: regular expression
