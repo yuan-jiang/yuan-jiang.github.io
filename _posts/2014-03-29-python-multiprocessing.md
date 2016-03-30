@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Python multiprocessing example using ThreadPool
+title: Python multiprocessing
 date: 2014-03-29 17:19:00 +0800
 author: Yuan Jiang
-tags: multithreading multiprocessing
+tags: multiprocessing python
 ---
 
-Python multiprocessing example using ThreadPool.
+Python multiprocessing.
 
+## Python multiprocessing example with ThreadPool
 {% highlight python %}
 class TestUtil:
 
