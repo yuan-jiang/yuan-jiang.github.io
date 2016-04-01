@@ -54,3 +54,5 @@
   name: javascript
 - slug: js
   name: js
+- slug: ssl
+  name: ssl

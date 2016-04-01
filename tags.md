@@ -6,7 +6,18 @@ redirect_from: /tag/
 sitemap: false
 ---
 
-<div>
+<div style="word-break:break-all;">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+     <span class="site-tag">
+        • <a href="/tag/{{ tag | first | slugify }}">
+                {{ tag[0] | replace:'-', ' ' }}<sup>{{ tag | last | size }}</sup>
+        </a>
+    </span>
+    {% endfor %}
+</div>
+
+<!-- <div>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <div class="site-tag">
@@ -15,7 +26,7 @@ sitemap: false
         </a>
     </div>
     {% endfor %}
-</div>
+</div> -->
 
 <!-- <div id="index">
     {% for tag in tags %}

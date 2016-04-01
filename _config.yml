@@ -9,7 +9,7 @@
 title: yuanjiang.space
 
 description: > # this means to ignore newlines until "baseurl:"
-  My personal site for blogging some technical writing.
+  My personal site for keeping technical notes and bookmarks.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -28,7 +28,7 @@ linkedin:
 rss: true
 
 # Contact email
-email: yuanjiang@outlook.com
+email: me@yuanjiang.space
 
 # Disqus site unique id
 disqus: yuanjiangspace
