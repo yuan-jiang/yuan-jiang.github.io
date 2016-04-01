@@ -50,3 +50,7 @@
   name: multithreading
 - slug: multiprocessing
   name: multiprocessing
+- slug: javascript
+  name: javascript
+- slug: js
+  name: js

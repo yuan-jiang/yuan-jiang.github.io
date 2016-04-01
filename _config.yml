@@ -40,7 +40,7 @@ google_analytics: UA-69801579-1
 markdown: kramdown
 
 # How many items to display on each page
-paginate: 5
+paginate: 10
 
 # Timezone info for posting blogs
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
