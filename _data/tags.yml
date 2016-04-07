@@ -60,3 +60,5 @@
   name: css
 - slug: xpath
   name: xpath
+- slug: vim
+  name: vim
