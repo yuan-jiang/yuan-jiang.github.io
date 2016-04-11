@@ -35,7 +35,7 @@
 - description: JaCoCo
   link: http://www.eclemma.org/jacoco/trunk/
 - description: SeleniumSrc
-  link: https://code.google.com/p/selenium/source/browse/
+  link: https://github.com/seleniumhq/selenium
 - description: SeleniumJavaAPI
   link: http://selenium.googlecode.com/svn/trunk/docs/api/java/index.html
 - description: SeleniumPythonAPI
