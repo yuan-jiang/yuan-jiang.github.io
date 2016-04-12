@@ -62,3 +62,15 @@
   name: xpath
 - slug: vim
   name: vim
+- slug: xml
+  name: xml
+- slug: json
+  name: json
+- slug: yaml
+  name: yaml
+- slug: csv
+  name: csv
+- slug: ini
+  name: ini
+- slug: properties
+  name: properties
