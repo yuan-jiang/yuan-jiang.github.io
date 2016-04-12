@@ -74,3 +74,5 @@
   name: ini
 - slug: properties
   name: properties
+- slug: aop
+  name: aspect oriented programming
