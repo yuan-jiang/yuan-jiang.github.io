@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java multithreading demo
+title: Java multithreading
 date: 2013-07-21 11:29:00 +0800
 author: Yuan Jiang
 tags: java multithreading
