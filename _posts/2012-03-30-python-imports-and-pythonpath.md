@@ -9,7 +9,11 @@ tags: python
 Python imports and PYTHONPATH.
 
 ## Python imports
-- import foo.bar.x => full name of "foo.bar.x" must be used to refer to what's imported:
+- "import foo.bar.x" style:
+  + Full name of "foo.bar.x" must be used to refer to what's imported;
+  + Each item except for the last one ("x") must be a package;
+  + The "x" can be a module or a package;
+  + The "x" can't be any of class, function, or variable defined in 2nd last item.
 {% highlight ipython %}
 In [1]: import selenium.webdriver.firefox
 
@@ -25,7 +29,10 @@ NameError                                 Traceback (most recent call last)
 NameError: name 'firefox' is not defined
 {% endhighlight %}
 
-- from foo.bar import x => "x" is now only directly available for use:
+- "from foo.bar import x" style
+  + "x" is now only directly available for use;
+  + "x" can be either a module or a subpackage;
+  + "x" can also be function, class, variable defined in the module.
 {% highlight ipython %}
 In [1]: from selenium.webdriver import firefox
 
@@ -40,6 +47,7 @@ NameError                                 Traceback (most recent call last)
 
 NameError: name 'selenium' is not defined
 {% endhighlight %}
+
 
 - Package-relative import with . and .. using "from foo.bar import x" style:
 {% highlight python %}

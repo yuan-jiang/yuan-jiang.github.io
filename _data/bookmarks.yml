@@ -218,6 +218,8 @@
   link: https://docs.docker.com/
 - description: MultiMechanizePythonPerformanceTesting
   link: http://testutils.org/multi-mechanize/
+- description: PythonHTMLTestRunner
+  link: http://tungwaiyip.info/software/HTMLTestRunner.html
 - description: SST
   link: http://testutils.org/sst
 - description: GitDoc
