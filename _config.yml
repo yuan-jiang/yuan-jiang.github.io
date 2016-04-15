@@ -8,12 +8,15 @@
 # Site title
 title: yuanjiang.space
 
-description: > # this means to ignore newlines until "baseurl:"
-  My personal site for keeping technical notes and bookmarks.
+# Website description
+description: > # This means to ignore newlines until "baseurl:"
+  My personal site for keeping technical notes, clips, and bookmarks.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+# The subpath of your site, e.g. /blog
+baseurl: ""
 
-url: "http://yuanjiang.space" # the base hostname & protocol for your site
+# The base hostname & protocol for your site
+url: "http://yuanjiang.space"
 
 # Twitter user id - leave it empty for privacy
 twitter:
@@ -28,7 +31,7 @@ linkedin:
 rss: true
 
 # Contact email
-email: "me@yuanjiang.space"
+email: "ME@${location.host}"
 
 # Disqus site unique id
 disqus: yuanjiangspace
