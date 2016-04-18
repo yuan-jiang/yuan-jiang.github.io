@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">__init__(self,techStuff)</a>
+    <a class="site-title" href="{{ site.baseurl }}/">__init__(self,tech={% if page.tags %}{{ page.tags[0] }}{% else %}None{% endif %})</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
