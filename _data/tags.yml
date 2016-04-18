@@ -76,3 +76,5 @@
   name: properties
 - slug: aop
   name: aspect oriented programming
+- slug: algorithm
+  name: algorithm
