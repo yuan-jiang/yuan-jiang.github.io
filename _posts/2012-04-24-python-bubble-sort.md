@@ -6,7 +6,7 @@ author: Yuan Jiang
 tags: python algorithm
 ---
 
-Bubble sort algorithm is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order. The average and worst case complexity of bubble sort is O(n^2) where n is the number of items.
+Bubble sort algorithm is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order. The average and worst case complexity of bubble sort is O(n<sup>2</sup>) where n is the number of items.
 
 ## Python bubble sort examples
 
