@@ -3,7 +3,7 @@ layout: post
 title: Log4j testng reporter appender
 date: 2012-06-15 09:00:00 +0800
 author: Yuan Jiang
-tags: java automation testng
+tags: java automation testng log4j
 ---
 
 When developing test automation framework in java with testng and log4j, one can append log4j logs to the "Reporter output" section of testng html report and this post shows how to achieve that.
