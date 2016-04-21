@@ -117,7 +117,7 @@ class C extends P
 
 ## Static initialization block
 - A static initialization block is a normal block of code enclosed in braces, { }, and preceded by the static keyword, e.g. static { code }.
-- Static instantiation block has the advantage of providing capabilities such as error handling, for looping, and such complex logic for class variables instantiation.
+- Static instantiation block has the advantage of providing capabilities such as error handling, for looping, and such complex logic for class variables initialization.
 - A class can have any number of static initialization blocks, and they can appear anywhere in the class body. The runtime system guarantees that static initialization blocks are called in the order that they appear in the source code.
 - Static initialization blocks are always run (once) at class load time. They are not run again for every later instantiation of the class.
 - The blocks are run in the order they appear in the source code mixed in with regular static variable statements.
