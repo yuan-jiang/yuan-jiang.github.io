@@ -71,3 +71,4 @@ e.g. 192.168.1.1/24
 - [Classful network](https://en.wikipedia.org/wiki/Classful_network)
 - [IPv4 - Address Classes](http://www.tutorialspoint.com/ipv4/ipv4_address_classes.htm)
 - [IPv4 - Subnetting](http://www.tutorialspoint.com/ipv4/ipv4_subnetting.htm)
+- [8 Steps to Understanding IP Subnetting](https://www.techopedia.com/6/28587/internet/8-steps-to-understanding-ip-subnetting)
