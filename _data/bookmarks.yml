@@ -150,6 +150,8 @@
   link: http://kafka.apache.org/documentation.html
 - description: LogstashDoc
   link: https://www.elastic.co/guide/en/logstash/current/index.html
+- description: ElasticsearchPythonClientDoc
+  link: https://elasticsearch-py.readthedocs.org/en/master/index.html
 - description: NagiosDoc
   link: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/toc.html
 - description: NagiosOMD
