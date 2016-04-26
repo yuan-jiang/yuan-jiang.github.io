@@ -1,11 +1,11 @@
-- description: Whatsmyip
-  link: http://www.whatsmyip.org/
+- description: StackOverflow
+  link: http://stackoverflow.com/
+- description: GoogleGroups
+  link: https://groups.google.com/forum/?hl=en#!overview
 - description: GitHub
   link: https://github.com
 - description: BitBucket
   link: https://bitbucket.org
-- description: GoogleGroups
-  link: https://groups.google.com/forum/?hl=en#!overview
 - description: JavaDoc
   link: http://docs.oracle.com/javase/7/docs/api/
 - description: JavaProgrammingCheatsheet
@@ -178,6 +178,8 @@
   link: https://www.torproject.org/index.html.en
 - description: FreeBrowser
   link: https://github.com/greatfire/wiki/
+- description: Whatsmyip
+  link: http://www.whatsmyip.org/
 - description: OSForceCourses
   link: http://www.osforce.cn/
 - description: TutorialsPointCourses
