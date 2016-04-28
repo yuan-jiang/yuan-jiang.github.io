@@ -254,9 +254,9 @@
 
 
 /*
- * style for search button
+ * style for footer search bar and button
  */
- #searchBar {
+#searchBar {
        font-size: 100%;
        padding: 0.43em 0 0.57em;
 
@@ -267,7 +267,7 @@
            width: auto;
            height: auto;
            border: none;
-           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+          //  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
            padding: 0.3em 0.6em;
            background-color: #f1f1f1;
            margin-right: 0;
@@ -288,3 +288,34 @@
          }
       }
   }
+
+/*
+ * style for external elasticsearch search bar and button
+ */
+ #esSearch {
+   #esSearchButton {
+     float: right;
+     background: #f1f1f1;
+     border: none;
+     height: 30px;
+     border-radius: 50%;
+   }
+
+   #esSearchBar {
+     overflow: hidden;
+     padding-right: .5em;
+
+     #esSearchString {
+       width: 100%;
+       background-color: #f1f1f1;
+       border: none;
+       height: 30px
+     }
+   }
+
+   #esPoweredBy {
+     float: right;
+     font-style: italic;
+     font-size: small;
+   }
+ }
