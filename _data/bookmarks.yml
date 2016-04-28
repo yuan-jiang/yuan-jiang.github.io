@@ -70,6 +70,8 @@
   link: http://lxml.de/api/index.html
 - description: BeautifulSoup
   link: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- description: Scrapy
+  link: http://scrapy.org/
 - description: PywinautoAPI
   link: https://pywinauto.googlecode.com/hg/pywinauto/docs/contents.html
 - description: PyAutoGui
