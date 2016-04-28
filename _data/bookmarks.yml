@@ -50,6 +50,8 @@
   link: http://htmlunit.sourceforge.net/apidocs/index.html
 - description: PythonDoc
   link: https://docs.python.org/2/
+- description: AwesomePython
+  link: http://awesome-python.com/
 - description: Pylint
   link: https://www.pylint.org/
 - description: PythonSrc
