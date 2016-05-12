@@ -37,9 +37,9 @@
 - description: SeleniumSrc
   link: https://github.com/seleniumhq/selenium
 - description: SeleniumJavaAPI
-  link: http://selenium.googlecode.com/svn/trunk/docs/api/java/index.html
+  link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
 - description: SeleniumPythonAPI
-  link: https://selenium.googlecode.com/svn/trunk/docs/api/py/api.
+  link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
 - description: Log4JAPI
   link: http://logging.apache.org/log4j/1.2/apidocs/index.html
 - description: Dom4JAPI
