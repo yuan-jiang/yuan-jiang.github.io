@@ -82,3 +82,5 @@
   name: log4j
 - slug: networking
   name: networking
+- slug: maven
+  name: maven
