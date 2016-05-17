@@ -40,6 +40,8 @@
   link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
 - description: SeleniumPythonAPI
   link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
+- description: SeleniumWebDriverArch
+  link: http://www.aosabook.org/en/selenium.html
 - description: Log4JAPI
   link: http://logging.apache.org/log4j/1.2/apidocs/index.html
 - description: Dom4JAPI
