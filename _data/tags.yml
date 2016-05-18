@@ -84,3 +84,5 @@
   name: networking
 - slug: maven
   name: maven
+- slug: snmp
+  name: snmp
