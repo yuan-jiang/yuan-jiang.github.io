@@ -20,8 +20,8 @@
   link: http://www.docjar.com/
 - description: JavaDocWinFormat
   link: http://javadoc.allimant.org/
-- description: LibHunt
-  link: https://www.libhunt.com/
+- description: AwesomeJava
+  link: https://java.libhunt.com/
 - description: ApacheCommons
   link: http://commons.apache.org/
 - description: ApacheCommonsJavaDoc
@@ -42,7 +42,7 @@
   link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
 - description: SeleniumPythonAPI
   link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
-- description: SeleniumWebDriverArch
+- description: SeleniumWebDriverArchl
   link: http://www.aosabook.org/en/selenium.html
 - description: Log4JAPI
   link: http://logging.apache.org/log4j/1.2/apidocs/index.html
