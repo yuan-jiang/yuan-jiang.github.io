@@ -6,11 +6,24 @@ redirect_from: /tag/
 sitemap: false
 ---
 
+<!--Add a search bar on the sitemap page-->
+<div id="esSearch">
+  <form action="http://sh.yuanjiang.space/s" method="get" target="_blank">
+    <!-- <input type="submit" value="GO" id="esSearchButton"></input> -->
+    <div id="esSearchBar">
+      <input type="text" name="q" id="esSearchString" placeholder="Enter text to search..."></input>
+     </div>
+     <div id="esPoweredBy"> -- powered by elasticsearch.</div>
+  </form>
+</div>
+
+<br/><br/>
+
 <div style="word-break:break-all;">
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
      <span class="site-tag">
-        • <a href="/tag/{{ tag | first | slugify }}">
+        • <a href="/tag/{{ tag | first | slugify }}" target="_blank">
                 {{ tag[0] | replace:'-', ' ' }}<sup>{{ tag | last | size }}</sup>
         </a>
     </span>
