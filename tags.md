@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: Sitemap
 permalink: /tags/
 redirect_from: /tag/
 sitemap: false
