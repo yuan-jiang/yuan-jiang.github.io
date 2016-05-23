@@ -17,7 +17,7 @@ sitemap: false
   </form>
 </div>
 
-<br/><br/>
+<br/>
 
 <div style="word-break:break-all;">
     {% assign tags = site.tags | sort %}
