@@ -80,6 +80,8 @@
   link: https://pywinauto.googlecode.com/hg/pywinauto/docs/contents.html
 - description: PyAutoGui
   link: https://pyautogui.readthedocs.org/en/latest/
+- description: Kivy
+  link: https://kivy.org
 - description: OnlineIDE(ideone)
   link: http://ideone.com/
 - description: OnlineIDE(codeanywhere)
