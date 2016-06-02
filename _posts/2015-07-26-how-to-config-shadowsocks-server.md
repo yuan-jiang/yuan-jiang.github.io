@@ -8,18 +8,18 @@ tags: linux
 
 How to config shadowsocks server on ubuntu.
 
-## 1.Install required libs
+Install required libs
 {% highlight bash %}
 sudo apt-get install python-setuptools, pip
 sudo pip install m2crypto, supervisor
 {% endhighlight %}
 
-## 2.Install shadowsocks
+Install shadowsocks
 {% highlight bash %}
 sudo pip install shadowsocks
 {% endhighlight %}
 
-## 3.Config shadowsocks
+Config shadowsocks
 vi /etc/shadowsocks.json and add below content: 
 {% highlight json %}
 { 
@@ -32,7 +32,7 @@ vi /etc/shadowsocks.json and add below content:
 }
 {% endhighlight %}
 
-## 4.Config supervisord to manage shadowsocks
+Config supervisord to manage shadowsocks
 {% highlight ini %}
 # vi /etc/supervisor/supervisord.conf 
 [program:shadowsocks] 
@@ -44,10 +44,12 @@ log_stderr=true
 logfile=/var/log/shadowsocks.log
 {% endhighlight %}
 
-## 5.Start supervisor
+Start supervisor
 {% highlight bash %}
 sudo /etc/init.d/supervisor start
 {% endhighlight %}
 
-## 6.[Optional] Config autostart after system restart
+[Optional] Config autostart after system restart
+{% highlight text %}
 Add above start command to /etc/rc.local
+{% endhighlight %}
