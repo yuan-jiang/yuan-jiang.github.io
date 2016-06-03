@@ -86,3 +86,7 @@
   name: maven
 - slug: snmp
   name: snmp
+- slug: windows
+  name: windows
+- slug: android
+  name: android
