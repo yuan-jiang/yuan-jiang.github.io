@@ -20,6 +20,8 @@
   link: http://www.docjar.com/
 - description: JavaDocWinFormat
   link: http://javadoc.allimant.org/
+- description: AndroidSDKDoc
+  link: https://developer.android.com/reference/packages.html
 - description: AwesomeJava
   link: https://java.libhunt.com/
 - description: ApacheCommons
