@@ -11,7 +11,7 @@ sitemap: false
   <form action="http://sh.yuanjiang.space/s" method="get" target="_blank">
     <!-- <input type="submit" value="GO" id="esSearchButton"></input> -->
     <div id="esSearchBar">
-      <input type="text" name="q" id="esSearchString" placeholder="Enter text to search..."></input>
+      <input type="text" name="q" id="esSearchString" placeholder="Enter text to search..." />
      </div>
      <div id="esPoweredBy"> -- powered by elasticsearch.</div>
   </form>
