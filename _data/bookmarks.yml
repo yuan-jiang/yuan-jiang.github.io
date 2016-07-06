@@ -22,6 +22,8 @@
   link: http://javadoc.allimant.org/
 - description: AndroidSDKDoc
   link: https://developer.android.com/reference/packages.html
+- description: AndroidAppLauncherIconGenerator
+  link: https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html
 - description: AwesomeJava
   link: https://java.libhunt.com/
 - description: ApacheCommons
