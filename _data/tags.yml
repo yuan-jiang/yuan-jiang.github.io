@@ -90,3 +90,5 @@
   name: windows
 - slug: android
   name: android
+- slug: mac
+  name: mac
