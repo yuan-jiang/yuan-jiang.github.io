@@ -18,12 +18,13 @@ List of some of the techs know a bit:
 - jenkins/go/git/svn
 - ant/ivy/maven/gradle
 - ansible/puppet/fabric/bosh
-- openstack/linux/vagrant/docker
+- openstack/vagrant/docker
 - logstash/elasticsearch/kibana
 - nagios/graphite/grafana/pagerduty
 - collectd/statsd/monit
 - kafka/rabbitmq/zeromq
 - restful/soap/http/html/css/js/web
+- linux/android
 - etc.
 
 # More about me
