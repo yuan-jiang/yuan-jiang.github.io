@@ -31,7 +31,7 @@ linkedin:
 rss: true
 
 # Contact email
-email: "me@${location.host}"
+email: "me@${location.hostname}"
 
 # Disqus site unique id
 disqus: yuanjiangspace
