@@ -17,7 +17,7 @@ space assigned to child = (child's individual weight) / (sum of weight of every 
 
 ## Usages
 
-1. Horizontal orientation: child must be: layout_width="0dp"
+- Horizontal orientation: child must be: layout_width="0dp"
 {% highlight xml %}
 <LinearLayout
       android:layout_width="match_parent"
@@ -44,7 +44,7 @@ space assigned to child = (child's individual weight) / (sum of weight of every 
 </LinearLayout>
 {% endhighlight %}
 
-2. Vertical orientation: child must be: layout_height="0dp"
+- Vertical orientation: child must be: layout_height="0dp"
 {% highlight xml %}
 <LinearLayout
     android:orientation="vertical"
