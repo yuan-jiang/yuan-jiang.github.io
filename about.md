@@ -30,4 +30,5 @@ List of some of the techs know a bit:
 # More about me
 - motto: simple is better
 - hobby: football is the game watch very often and badminton is the one sometimes do
+- tongue: chinese(native);english(ffl);japanese(sfl)
 - other: [living](https://www.google.com/maps/place/Shanghai,+China) & [work](http://www.cisco.com/) & [education](http://www.cs.ecnu.edu.cn/)
