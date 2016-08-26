@@ -28,7 +28,7 @@ List of some of the techs know a bit:
 - etc.
 
 # More about me
-- motto: simple is better
+- motto: simple is better & less is more
 - hobby: football(watch+often) & badminton(play+sometimes)
 - tongue: chinese(native) & english(ffl) & japanese(sfl)
 - other: [living](https://www.google.com/maps/place/Shanghai,+China) & [work](http://www.cisco.com/) & [education](http://www.cs.ecnu.edu.cn/)
