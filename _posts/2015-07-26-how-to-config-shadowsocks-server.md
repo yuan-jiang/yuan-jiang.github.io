@@ -11,7 +11,7 @@ How to config shadowsocks server on ubuntu.
 Install required libs:
 {% highlight bash %}
 sudo apt-get install python-setuptools, pip
-sudo pip install m2crypto, supervisor
+sudo apt-get install python-m2crypto, supervisor
 {% endhighlight %}
 
 Install shadowsocks:
@@ -21,7 +21,7 @@ sudo pip install shadowsocks
 
 Config shadowsocks:
 {% highlight python %}
-# vi /etc/shadowsocks.json and add below content:
+# sudo vi /etc/shadowsocks.json and add below content:
 { 
   "server": "0.0.0.0", 
   "server_port": 8388, 
@@ -34,7 +34,7 @@ Config shadowsocks:
 
 Config supervisord to manage shadowsocks:
 {% highlight ini %}
-# vi /etc/supervisor/supervisord.conf 
+# sudo vi /etc/supervisor/supervisord.conf 
 [program:shadowsocks] 
 command=ssserver -c /etc/shadowsocks.json 
 autostart=true 
