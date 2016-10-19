@@ -8,8 +8,6 @@
   link: https://bitbucket.org
 - description: JavaDoc
   link: http://docs.oracle.com/javase/7/docs/api/
-- description: JavaProgrammingCheatsheet
-  link: http://introcs.cs.princeton.edu/java/11cheatsheet/
 - description: JavaProgrammingStyle
   link: http://geosoft.no/development/javastyle.html
 - description: JavaSourceCodeSearch(codatlas)
