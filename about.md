@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About me, the site
-Personal site for keeping technical notes, clips, and bookmarks. Used to save such stuff in evernote but over years come to find it not handy when they are really needed. So decided to start putting them here with in mind that may get a better chance revisiting and someone sometime might also happen to land here and find something more or less useful.
+Personal site for keeping technical notes, clips, and bookmarks. Used to save such stuff in evernote but over years come to find it not handy when they are really needed. So decided to put them here with in mind that may get easier revisiting and someone sometime might also happen to land here finding out something somewhat useful.
 
 # About me, the person
 Of the ordinary who JUST DO IT (只是个搞IT的) and engineering in IT industry for more than 8 years and nowadays daily work involves things like software development and testing, tools and scripts development, deployment and configuration automation, service monitoring and assurance, and etc.
