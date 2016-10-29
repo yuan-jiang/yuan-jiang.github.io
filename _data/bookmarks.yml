@@ -110,6 +110,8 @@
   link: http://www.w3schools.com/tags/ref_urlencode.asp
 - description: JSAndHtmlDomRef
   link: http://www.w3schools.com/jsref/default.asp
+- description: JSFiddle
+  link: https://jsfiddle.net/
 - description: HTMLCodesTable
   link: http://www.ascii.cl/htmlcodes.htm
 - description: PrettyPrintJson
