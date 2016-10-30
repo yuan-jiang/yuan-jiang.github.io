@@ -9,7 +9,7 @@ tags: virtualization
 Quick steps of getting started with vagrant including installation, vm starting up and a few commonly-used commands.
 
 # Download and install the native package for your operating system
-[http://www.vagrantup.com/downloads](http://www.vagrantup.com/downloads)
+[http://www.vagrantup.com/downloads](https://www.vagrantup.com/downloads.html)
 
 # Ensure virtualbox is also installed
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
