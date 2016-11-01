@@ -59,7 +59,7 @@
 - description: PythonDoc
   link: https://docs.python.org/2/
 - description: AwesomePython
-  link: http://awesome-python.com/
+  link: https://github.com/vinta/awesome-python
 - description: Pylint
   link: https://www.pylint.org/
 - description: PythonSrc
