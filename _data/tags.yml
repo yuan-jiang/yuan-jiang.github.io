@@ -92,3 +92,5 @@
   name: android
 - slug: mac
   name: mac
+- slug: security
+  name: security
