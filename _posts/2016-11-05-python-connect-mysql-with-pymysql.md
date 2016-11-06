@@ -15,10 +15,12 @@ $ pip install pymysql
 
 # Create db connection
 {% highlight python %}
+import pymysql
 import pymysql.cursors
 
 # Connect to the database
 connection = pymysql.connect(host='dbhost',
+                             port='dbport',
                              user='dbuser',
                              password='dbpass',
                              db='dbname',
@@ -31,7 +33,7 @@ connection = pymysql.connect(host='dbhost',
 with connection.cursor() as cursor:
     # Create a new record
     sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
-    cursor.execute(sql, ('me@yuanjiang.space', 'you-never-know'))
+    cursor.execute(sql, ('webmaster@python.org', 'you-never-know'))
 
 # connection is not autocommit by default. So you must commit to save
 # your changes.
@@ -51,8 +53,8 @@ with connection.cursor() as cursor:
 # Close db connection
 {% highlight python %}
 try:
-  pass
   # db operation
+  pass
 finally:
   connection.close()
 {% endhighlight %}
