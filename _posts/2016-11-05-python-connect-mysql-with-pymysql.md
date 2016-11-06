@@ -6,6 +6,8 @@ author: Yuan Jiang
 tags: mysql db database python
 ---
 
+PyMySQL is a pure-Python MySQL client library which allows you to easily connect to MySQL db and perform db operations in pythonic way.
+
 # Installation
 {% highlight bash %}
 $ pip install pymysql
