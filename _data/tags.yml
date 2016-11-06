@@ -94,3 +94,9 @@
   name: mac
 - slug: security
   name: security
+- slug: database
+  name: database
+- slug: db
+  name: db
+- slug: mysql
+  name: mysql
