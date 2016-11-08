@@ -1,6 +1,6 @@
 ---
 layout: post
-titlel: Jenkins html publisher css issue
+title: Jenkins html publisher css issue
 date: 2016-11-08 10:29:00 +0800
 author: Yuan Jiang
 tags: jenkins
