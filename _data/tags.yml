@@ -100,3 +100,5 @@
   name: db
 - slug: mysql
   name: mysql
+- slug: jenkins
+  name: jenkins
