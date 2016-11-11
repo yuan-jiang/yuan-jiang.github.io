@@ -26,6 +26,10 @@
   link: https://www.genymotion.com/
 - description: AwesomeJava
   link: https://java.libhunt.com/
+- description: ProjectLombok
+  link: https://projectlombok.org/
+- description: LombokTutorial
+  link: http://jnb.ociweb.com/jnb/jnbJan2010.html
 - description: ApacheCommons
   link: http://commons.apache.org/
 - description: ApacheCommonsJavaDoc
