@@ -50,6 +50,10 @@
   link: http://www.aosabook.org/en/selenium.html
 - description: Log4JAPI
   link: http://logging.apache.org/log4j/1.2/apidocs/index.html
+- description: SLF4j
+  link: http://www.slf4j.org/
+- description: SLF4j(Lombok)
+  link: https://projectlombok.org/api/lombok/extern/slf4j/Slf4j.html
 - description: Dom4JAPI
   link: http://dom4j.sourceforge.net/apidocs/
 - description: GoogleGsonAPI
