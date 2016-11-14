@@ -124,8 +124,6 @@
   link: https://jsfiddle.net/
 - description: HTMLCodesTable
   link: http://www.ascii.cl/htmlcodes.htm
-- description: PrettyPrintJson
-  link: http://json.phpddt.com/
 - description: YamlValidator
   link: http://www.yamllint.com/
 - description: ConvertYamlToJson
