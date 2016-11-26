@@ -65,7 +65,9 @@
 - description: HtmlUnitAPI
   link: http://htmlunit.sourceforge.net/apidocs/index.html
 - description: PythonDoc
-  link: https://docs.python.org/2/
+  link: https://docs.python.org/3/
+- description: Python3SupportedPyPI
+  link: http://python3wos.appspot.com/
 - description: AwesomePython
   link: https://github.com/vinta/awesome-python
 - description: AwesomePythonAlternativeSite
