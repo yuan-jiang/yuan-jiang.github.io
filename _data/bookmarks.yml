@@ -78,6 +78,8 @@
   link: https://www.pylint.org/
 - description: PythonSrc
   link: https://hg.python.org/cpython/file/tip
+- description: ConvertPythonWheelToEgg
+  link: https://pypi.python.org/pypi/humpty
 - description: WebpyDoc
   link: http://webpy.org/docs/0.3/api
 - description: PythonSourceCodeSearch(nullege)
@@ -86,6 +88,8 @@
   link: http://docs.fabfile.org/en/1.10/index.html
 - description: NoseDoc
   link: https://nose.readthedocs.org/en/latest/index.html
+- description: PytestDoc
+  link: http://docs.pytest.org/en/latest/
 - description: RequestsDoc
   link: http://docs.python-requests.org/en/latest/
 - description: PythonlxmlAPI
@@ -120,6 +124,8 @@
   link: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
 - description: OldApps
   link: http://www.oldapps.com/
+- description: ChromiumStableBuilds
+  link: https://chromium.woolyss.com/
 - description: HTMLURLEncodingReference
   link: http://www.w3schools.com/tags/ref_urlencode.asp
 - description: JSAndHtmlDomRef
@@ -192,6 +198,8 @@
   link: http://grokdebug.herokuapp.com/
 - description: LogstashGrokConstructor
   link: http://grokconstructor.appspot.com/
+- description: GrayLog
+  link: https://www.graylog.org
 - description: ApacheCassandraDoc
   link: http://wiki.apache.org/cassandra/GettingStarted
 - description: GooglePlayAPKDownloader(apk-dl)
@@ -338,3 +346,7 @@
   link: https://hpbn.co/?utm_source=igvita&utm_medium=referral&utm_campaign=igvita-homepage
 - description: AwesomeMySQL
   link: http://shlomi-noach.github.io/awesome-mysql/
+- description: JavaSpringReleases
+  link: http://repo.spring.io/release/org/springframework/spring/
+- description: JavaSpringDocs
+  link: http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/
