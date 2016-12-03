@@ -350,3 +350,5 @@
   link: http://repo.spring.io/release/org/springframework/spring/
 - description: JavaSpringDocs
   link: http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/
+- description: SqliteStudio
+  link: http://sqlitestudio.pl/
