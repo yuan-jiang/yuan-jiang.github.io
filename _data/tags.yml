@@ -40,6 +40,8 @@
   name: service monitoring
 - slug: html
   name: html
+- slug: sqlite
+  name: sqlite
 - slug: sql
   name: sql
 - slug: re
