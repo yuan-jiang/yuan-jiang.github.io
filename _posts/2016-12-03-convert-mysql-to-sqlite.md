@@ -70,6 +70,9 @@ inTrigger != 0 { print; next }
 	if ( match( $0, /\"[^\"]+/ ) ) tableName = substr( $0, RSTART+1, RLENGTH-1 )
 }
 
+# Replace table and column COMMENT
+/ COMMENT '.*'/ { gsub( / COMMENT '.*'/, "" ) }
+
 # Replace `FULLTEXT KEY` or any other `XXXXX KEY` except PRIMARY by `KEY`
 /^  [^"]+KEY/ && !/^  PRIMARY KEY/ { gsub( /.+KEY/, "  KEY" ) }
 
