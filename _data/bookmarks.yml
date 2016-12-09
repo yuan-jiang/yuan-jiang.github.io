@@ -10,6 +10,8 @@
   link: https://github.com/sindresorhus/awesome
 - description: JavaDoc
   link: http://docs.oracle.com/javase/7/docs/api/
+- description: JavaREPL
+  link: http://www.javarepl.com/term.html
 - description: JavaProgrammingStyle
   link: http://geosoft.no/development/javastyle.html
 - description: JavaSourceCodeSearch(codatlas)
