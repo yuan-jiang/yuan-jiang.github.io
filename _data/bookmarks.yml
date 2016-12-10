@@ -140,6 +140,8 @@
   link: http://www.yamllint.com/
 - description: ConvertYamlToJson
   link: http://yamltojson.com/
+- description: Toml
+  link: https://github.com/toml-lang/toml#implementations
 - description: SafariBooksOnline
   link: http://cisco.safaribooksonline.com/
 - description: W3SchoolsTryitEditor
