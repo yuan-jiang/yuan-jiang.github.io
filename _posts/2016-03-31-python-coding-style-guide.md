@@ -43,3 +43,4 @@ NOTE that for more details PEP8 should always be referenced and the following se
 - [PEP8](https://www.python.org/dev/peps/pep-0008/)
 - [Pylint](https://www.pylint.org/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+- [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/style/)
