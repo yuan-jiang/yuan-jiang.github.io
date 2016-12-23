@@ -42,10 +42,11 @@ $ sudo apt-get install pagekite
 /usr/bin/pagekite
 {% endhighlight %}
 
-- Install with other methods:
-+ [Built Debian packages](http://pagekite.net/pk/deb/pool/main/p/)
-+ [RPM packages & Yum](http://pagekite.net/wiki/Howto/GNULinux/RpmPackage/)
-+ [Pagekite.py source file](http://pagekite.net/downloads)
+- Install with other methods:  
+  + [Built Debian packages](http://pagekite.net/pk/deb/pool/main/p/)
+  + [RPM packages & Yum](http://pagekite.net/wiki/Howto/GNULinux/RpmPackage/)
+  + [Pagekite.py source file](http://pagekite.net/downloads)  
+
 Note that installing with deb (apt) or rpm (yum) will install bonus scripts for auto start and upgrade and configs, so it should be preferred on linux (ubuntu or centos).
 
 ## How to config pagekite.py frontend
@@ -53,8 +54,9 @@ Note that installing with deb (apt) or rpm (yum) will install bonus scripts for 
 # Remove all lines in below file:
 sudo vi /etc/pagekite.d/10_account.rc
 
-# Add below lines to below file:
+# Edit below file:
 sudo vi /etc/pagekite.d/20_frontend.rc
+# Add below content:
 isfrontend
 # the ports are the ports that frontend are listening for outsiders to access, comma separated, such as 80,443
 ports=8080
@@ -81,3 +83,4 @@ $ pagekite.py 8080 xxx.com:8080
 - Pagekite.py can also be used to quickly expose static files or directories thanks to its built web http server
 - [pagekite.me](http://pagekite.me) is a paid frontend where you can register a custom name like http://youname.pagekite.me for public access
 - Similar tools and services are also available, such as: [ngrok](https://ngrok.com/), [localtunnel](https://localtunnel.github.io/www/), and etc.
+- Pagekite is open source and available [here](https://github.com/pagekite/PyPagekite)
