@@ -104,3 +104,5 @@
   name: mysql
 - slug: jenkins
   name: jenkins
+- slug: nginx
+  name: nginx
