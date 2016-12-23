@@ -6,7 +6,7 @@ author: Yuan Jiang
 tags: nginx
 ---
 
-How to use [nginx](https://www.nginx.com/) to proxy http request to default port (e.g. 80) to other processes running on different ports on the same server.
+How to use [nginx](http://nginx.org/) to proxy http request to default port (e.g. 80) to other processes running on different ports on the same server.
 
 ## Add a config file named "myconfig" under /etc/nginx/sites-available
 {% highlight nginx %}
