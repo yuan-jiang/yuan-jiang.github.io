@@ -66,16 +66,25 @@ protos=http
 domain=http://xxx.com:password
 {% endhighlight %}
 
-## How to config pagekite.py backend and make connection to expose local running web app
+## How to config pagekite.py backend with rc file and make connection to expose local running web app
 - Create a config file at: ~/.pagekite.rc with below content
 {% highlight properties %}
-kitename=xxx.com
-kitesecret=password
-frontend=xxx.com:8080
+kitename=KITENAME
+kitesecret=YourPassword
+frontend=FRONTEND_HOSTNAME:FRONTEND_PORT
 {% endhighlight %}
 - Run command below to expose http://localhost:8080 for example:
 {% highlight bash %}
-$ pagekite.py 8080 xxx.com:8080
+$ pagekite.py 8080 KITENAME
+{% endhighlight %}
+
+## How to connect to frontend directly with command line config
+{% highlight bash %}
+# expose a local service running on port 8080
+$ pagekite.py --service_on=http:KITENAME:FRONTEND_HOSTNAME:FRONTEND_PORT:YourPassword 8080 KITENAME
+
+# expose a local directory
+$ pagekite.py --service_on=http:KITENAME:FRONTEND_HOSTNAME:FRONTEND_PORT:YourPassword <directory> KITENAME +indexes
 {% endhighlight %}
 
 ## Others
