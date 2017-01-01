@@ -63,7 +63,7 @@ ports=8080
 # the protos are the protocols frontend are using for outsiders to access, such as http,https
 protos=http
 # the domain is the domain of the frontend server and password is for backend authentication
-domain=http://xxx.com:password
+domain=http:xxx.com:password
 {% endhighlight %}
 
 ## How to config pagekite.py backend with rc file and make connection to expose local running web app
@@ -76,6 +76,10 @@ frontend=FRONTEND_HOSTNAME:FRONTEND_PORT
 - Run command below to expose http://localhost:8080 for example:
 {% highlight bash %}
 $ pagekite.py 8080 KITENAME
+{% endhighlight %}
+- Run command below to expose running web app on other known hosts:
+{% highlight bash %}
+$ pagekite.py x.x.x.x:yy KITENAME
 {% endhighlight %}
 
 ## How to connect to frontend directly with command line config
