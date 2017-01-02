@@ -118,3 +118,9 @@ $ pagekite.py --clean --frontend=FRONTEND-HOST:FRONTEND-PORT --service_on=http:K
 - [pagekite.me](http://pagekite.me) is a paid frontend where you can register a custom name like http://youname.pagekite.me for public access
 - Similar tools and services are also available, such as: [ngrok](https://ngrok.com/), [localtunnel](https://localtunnel.github.io/www/), and etc.
 - Pagekite is open source and available [here](https://github.com/pagekite/PyPagekite)
+
+## References
+- [PageKite Technical Manual](https://pagekite.net/wiki/Floss/TechnicalManual/)
+- [Access localhost with pagekite](http://javier.io/blog/en/2013/04/06/access-localhost-with-pagekite.html)
+- [HOW TO RUN A PAGEKITE SERVER TO EXPOSE YOUR RASPBERRY PI](http://hackaday.com/2016/09/21/how-to-run-a-pagekite-server-to-expose-your-raspberry-pi/)
+- [
