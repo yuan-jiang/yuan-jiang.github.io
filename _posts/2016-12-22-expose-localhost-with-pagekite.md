@@ -58,37 +58,58 @@ sudo vi /etc/pagekite.d/10_account.rc
 sudo vi /etc/pagekite.d/20_frontend.rc
 # Add below content:
 isfrontend
-# the ports are the ports that frontend are listening for outsiders to access, comma separated, such as 80,443
+# ports that frontend is listening for local service to connect to and also for outsiders to access, comma separated, such as 80,443
 ports=8080
-# the protos are the protocols frontend are using for outsiders to access, such as http,https
+# protocols that frontend is using for outsiders to access, such as http,https
 protos=http
-# the domain is the domain of the frontend server and password is for backend authentication
+# domain of the frontend server and password is for backend authentication during pagekite connection
 domain=http:xxx.com:password
+# if dns is configured to allow for wildcard naming resolution, then using the * like below gives users free or choice for kite names
+domain=http:*.xxx.com:password
+# if tls/ssl will be used (e.g. 443 port), then below entry is for specifying the pem file (containing certificate and key)
+#tls_endpoint=xxx.com:/path/to/pem
 {% endhighlight %}
 
-## How to config pagekite.py backend with rc file and make connection to expose local running web app
+## How to config pagekite.py backend with rc file and make connection to expose local services
 - Create a config file at: ~/.pagekite.rc with below content
 {% highlight properties %}
 kitename=KITENAME
-kitesecret=YourPassword
+kitesecret=PASSWORD
 frontend=FRONTEND_HOSTNAME:FRONTEND_PORT
 {% endhighlight %}
 - Run command below to expose http://localhost:8080 for example:
 {% highlight bash %}
 $ pagekite.py 8080 KITENAME
 {% endhighlight %}
-- Run command below to expose running web app on other known hosts:
+- Run command below to expose running web app on other known hosts (with ip: x.x.x.x):
 {% highlight bash %}
 $ pagekite.py x.x.x.x:yy KITENAME
 {% endhighlight %}
+- Run command below to expose a local directory and files:
+{% highlight bash %}
+$ pagekite.py <directory> KITENAME +indexes
+{% endhighlight %}
+- Run command below to expose html files:
+{% highlight bash %}
+$ pagekite.py *.html KITENAME
+{% endhighlight %}
+- NOTE: If need different KITENAMEs for above examples, multiple kitename entries should be added in ~/.pagekite.rc file:
+{% highlight properties %}
+kitename=KITENAME1
+kitename=KITENAME2
+...
+kitename=KITENAMEX
+kitesecret=PASSWORD
+frontend=FRONTEND_HOSTNAME:FRONTEND_PORT
+{% endhighlight %}
 
-## How to connect to frontend directly with command line config
+## How to connect to frontend directly from command line without using ~/.pagekite.rc
 {% highlight bash %}
 # expose a local service running on port 8080
-$ pagekite.py --service_on=http:KITENAME:FRONTEND_HOSTNAME:FRONTEND_PORT:YourPassword 8080 KITENAME
-
-# expose a local directory
-$ pagekite.py --service_on=http:KITENAME:FRONTEND_HOSTNAME:FRONTEND_PORT:YourPassword <directory> KITENAME +indexes
+## specify proto and port:
+$ pagekite.py --clean --frontend=FRONTEND-HOST:FRONTEND-PORT --service_on=http/8080:KITENAME:localhost:8080:password
+## specify proto and use default port frontend is listening on
+$ pagekite.py --clean --frontend=FRONTEND-HOST:FRONTEND-PORT --service_on=http:KITENAME:localhost:8080:password
 {% endhighlight %}
 
 ## Others
