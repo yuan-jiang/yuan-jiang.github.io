@@ -64,7 +64,7 @@ ports=8080
 protos=http
 # domain of the frontend server and password is for backend authentication during pagekite connection
 domain=http:xxx.com:password
-# if dns is configured to allow for wildcard naming resolution, then using the * like below gives users free or choice for kite names
+# if dns is configured to allow for wildcard naming resolution, then using the * like below gives users free choices for kite names
 domain=http:*.xxx.com:password
 # if tls/ssl will be used (e.g. 443 port), then below entry is for specifying the pem file (containing certificate and key)
 #tls_endpoint=xxx.com:/path/to/pem
@@ -123,4 +123,3 @@ $ pagekite.py --clean --frontend=FRONTEND-HOST:FRONTEND-PORT --service_on=http:K
 - [PageKite Technical Manual](https://pagekite.net/wiki/Floss/TechnicalManual/)
 - [Access localhost with pagekite](http://javier.io/blog/en/2013/04/06/access-localhost-with-pagekite.html)
 - [HOW TO RUN A PAGEKITE SERVER TO EXPOSE YOUR RASPBERRY PI](http://hackaday.com/2016/09/21/how-to-run-a-pagekite-server-to-expose-your-raspberry-pi/)
-- [
