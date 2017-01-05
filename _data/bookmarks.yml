@@ -96,6 +96,8 @@
   link: http://docs.pytest.org/en/latest/
 - description: RequestsDoc
   link: http://docs.python-requests.org/en/latest/
+- description: PythonFlask
+  link: http://flask.pocoo.org/
 - description: PythonlxmlAPI
   link: http://lxml.de/api/index.html
 - description: BeautifulSoup
@@ -370,3 +372,7 @@
   link: https://www.owasp.org/index.php/Main_Page
 - description: BestSelfHostedAlternative
   link: https://n0where.net/best-self-hosted-alternatives/
+- description: Win32DiskImager
+  link: https://sourceforge.net/projects/win32diskimager/
+- description: RaspberryPI
+  link: https://www.raspberrypi.org/
