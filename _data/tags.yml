@@ -106,3 +106,5 @@
   name: jenkins
 - slug: nginx
   name: nginx
+- slug: ubuntu
+  name: ubuntu
