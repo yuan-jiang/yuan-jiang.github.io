@@ -318,6 +318,8 @@
   link: http://docs.ansible.com/ansible/list_of_all_modules.html
 - description: TimezoneDatabase
   link: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+- description: EpochTimestampConverter
+  link: http://www.epochconverter.com/
 - description: JekyllCheatSheet
   link: http://news.humancoders.com/t/developpement/items/11149-jekyll-cheat-sheet
 - description: JcabiSSH
