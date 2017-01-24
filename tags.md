@@ -8,7 +8,7 @@ sitemap: false
 
 <!--Add a search bar on the sitemap page-->
 <div id="esSearch">
-  <form action="http://sh.yuanjiang.space/s" method="get" target="_blank">
+  <form action="https://sh.yuanjiang.space/s" method="get" target="_blank">
     <!-- <input type="submit" value="GO" id="esSearchButton"></input> -->
     <div id="esSearchBar">
       <input type="text" name="q" id="esSearchString" placeholder="Enter text to search..." />
