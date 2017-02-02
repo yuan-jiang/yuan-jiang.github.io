@@ -378,3 +378,5 @@
   link: https://sourceforge.net/projects/win32diskimager/
 - description: RaspberryPI
   link: https://www.raspberrypi.org/
+- description: ConvertCurlToScript
+  link: https://curl.trillworks.com/
