@@ -380,3 +380,5 @@
   link: https://www.raspberrypi.org/
 - description: ConvertCurlToScript
   link: https://curl.trillworks.com/
+- description: JenkinsPluginsOfflineDownload
+  link: https://updates.jenkins-ci.org/download/plugins/
