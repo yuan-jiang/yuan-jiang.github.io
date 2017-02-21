@@ -135,3 +135,4 @@ css=input[type=button]:not(p#not_this_input > input)
 ## References
 - [SELENIUM TIPS: CSS SELECTORS](http://saucelabs.com/resources/selenium/css-selectors)
 - [CSS Selectors Reference](http://www.w3schools.com/cssref/css_selectors.asp)
+- [Comprehensive CSS Cheat Sheet](https://www.onblastblog.com/css3-cheat-sheet/)
