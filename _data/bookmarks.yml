@@ -382,3 +382,5 @@
   link: https://curl.trillworks.com/
 - description: JenkinsPluginsOfflineDownload
   link: https://updates.jenkins-ci.org/download/plugins/
+- description: PixelToEm
+  link: http://pxtoem.com/
