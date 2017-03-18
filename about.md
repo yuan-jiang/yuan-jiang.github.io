@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-# About me, the site
+## About me, the site
 Personal site for keeping notes, references, and bookmarks.
 
-# About me, the person
+## About me, the person
 One of the typical migrate workers in IT industry since 2008.
 
-# About me, the work
+## About me, the work
 - Skillset
     + Java
     + Python
@@ -27,12 +27,12 @@ One of the typical migrate workers in IT industry since 2008.
     + Previous: Cisco
     + Current: Coupang
 
-# About me, the more
+## About me, the more
 - Life
     + Residence: Shanghai, China
     + Hobby: Football; Anime
 - Education
-    + Colleage: CS, ECNU
+    + College: CS.ECNU.EDU.CN
     + FFL: English
     + SFL: Japanese
 
