@@ -8,7 +8,7 @@ permalink: /about/
 Personal site for keeping notes, references, and bookmarks.
 
 ## About me, the person
-One of the typical migrate workers in IT industry since 2008.
+One of the typical IT migrate workers in China since 2008.
 
 ## About me, the work
 - Skillset
@@ -32,7 +32,7 @@ One of the typical migrate workers in IT industry since 2008.
     + Residence: Shanghai, China
     + Hobby: Football; Anime
 - Education
-    + College: CS.ECNU.EDU.CN
+    + College: CS.ECNU
     + FFL: English
     + SFL: Japanese
 
