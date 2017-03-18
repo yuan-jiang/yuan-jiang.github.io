@@ -13,7 +13,7 @@ author: Yuan Jiang
 
 # Website description
 description: > # This means to ignore newlines until "baseurl:"
-  My personal site for keeping technical notes, clips, and bookmarks.
+  Personal site for keeping notes, references, and bookmarks.
 
 # The subpath of your site, e.g. /blog
 baseurl: ""
