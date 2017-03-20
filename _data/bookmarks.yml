@@ -176,6 +176,8 @@
   link: http://www.danstools.com/javascript-minify/
 - description: JavaScriptObfuscate
   link: http://www.danstools.com/javascript-obfuscate/index.php/
+- description: JsonTool
+  link: http://json.awesomes.cn/
 - description: JsonFormatter
   link: http://www.cleancss.com/json-beautify/
 - description: JsonMinify
