@@ -138,6 +138,8 @@
   link: http://www.w3schools.com/jsref/default.asp
 - description: JSFiddle
   link: https://jsfiddle.net/
+- description: AngularJsAPI
+  link: https://docs.angularjs.org/api
 - description: HTMLCodesTable
   link: http://www.ascii.cl/htmlcodes.htm
 - description: YamlValidator
