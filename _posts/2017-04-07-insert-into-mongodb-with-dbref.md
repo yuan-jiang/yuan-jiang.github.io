@@ -28,7 +28,5 @@ from bson.dbref import DBRef
 {% endhighlight %}
 
 ## References
-- [How to query through a DBRef in MongoDB/pymongo?
-
-](http://stackoverflow.com/questions/2867513/how-to-query-through-a-dbref-in-mongodb-pymongo)
+- [How to query through a DBRef in MongoDB/pymongo?](http://stackoverflow.com/questions/2867513/how-to-query-through-a-dbref-in-mongodb-pymongo)
 - [BSON](http://bsonspec.org/)
