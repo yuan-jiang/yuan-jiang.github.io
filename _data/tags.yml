@@ -108,3 +108,7 @@
   name: nginx
 - slug: ubuntu
   name: ubuntu
+- slug: nosql
+  name: nosql
+- slug: mongodb
+  name: mongodb
