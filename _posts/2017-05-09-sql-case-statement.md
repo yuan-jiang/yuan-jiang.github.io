@@ -5,7 +5,7 @@ date: 2017-05-09 21:13:00 +0800
 tags: sql
 ---
 
-How to use CASE statement in sql select statement deal with if-then-else logic.
+How to use CASE statement in sql select statement to deal with if-then-else logic.
 
 {% highlight sql %}
 INSERT INTO table_new(newColumnA, newColumnB, newColumnC, newColumnD)
