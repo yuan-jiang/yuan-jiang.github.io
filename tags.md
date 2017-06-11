@@ -7,7 +7,7 @@ sitemap: false
 ---
 
 <!--Add a search bar on the sitemap page-->
-<div id="esSearch">
+<!-- <div id="esSearch">
   <form action="https://sh.yuanjiang.space/s" method="get" target="_blank">
     <!-- <input type="submit" value="GO" id="esSearchButton"></input> -->
     <div id="esSearchBar">
@@ -15,8 +15,16 @@ sitemap: false
      </div>
      <div id="esPoweredBy"> -- powered by elasticsearch.</div>
   </form>
-</div>
-
+</div> -->
+  <div id='search-box'>
+    <form action='https://sh.yuanjiang.space/s' id='search-form' method='get' target='_blank_'>
+        <input id='search-text' name='q' placeholder='Enter text to search...' type='text'/>
+        <button id='search-button' type='submit'>
+            <span>Search</span>
+        </button>
+    </form>
+    <div id="esPoweredBy"> -- powered by elasticsearch.</div>
+  </div>
 <br/>
 
 <div style="word-break:break-all;">
