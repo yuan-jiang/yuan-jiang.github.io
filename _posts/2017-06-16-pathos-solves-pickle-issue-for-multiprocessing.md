@@ -7,7 +7,7 @@ tags: python
 
 Python multiprocssing is useful in executing concurrent tasks with multiple processes. But it also requires the objects being executed support pickling, which is not always true for types like class instance methods, staticmethods and etc. [Pathos](https://github.com/uqfoundation/pathos) has a multiprocessing implementation that uses [dill](https://github.com/uqfoundation/dill) on the backend which supports serializing and deserializing for almost all types.
 
-## Example using standard built multiprocessing that would raise PicklingError
+## Example using standard builtin multiprocessing that would raise PicklingError
 {% highlight python %}
 import os
 from multiprocessing import Pool
