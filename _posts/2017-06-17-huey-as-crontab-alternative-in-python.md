@@ -84,7 +84,7 @@ $ huey_consumer.py main.huey -k process -w 4 --logfile=../logs/huey.log
 {% endhighlight %}
 
 ## References
-- [huey](https://huey.readthedocs.io/en/latest/index.html)
+- [Huey](https://huey.readthedocs.io/en/latest/index.html)
 - [Huey’s API](https://huey.readthedocs.io/en/latest/api.html)
 - [Manage by supervisord](https://github.com/coleifer/huey/issues/88)
 
