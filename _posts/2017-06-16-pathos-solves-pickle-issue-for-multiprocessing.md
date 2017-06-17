@@ -46,12 +46,12 @@ _pickle.PicklingError: Can't pickle <function Tasks.process_some_task at 0x7f45b
 
 ## Solution by pathos
 - install pathos
-{% highligh bash %}
+{% highlight bash %}
 $ pip install pathos
 {% endhighlight %}
 
 - replace multiprocessing
-{% highligh python %}
+{% highlight python %}
 import os
 from pathos.multiprocessing import ProcessingPool as Pool
 
