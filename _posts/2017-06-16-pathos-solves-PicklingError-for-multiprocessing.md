@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pathos solves pickle issue for multiprocssing
+title: Pathos solves PicklingError for multiprocssing
 date: 2017-06-16 23:15:00 +0800
 tags: python
 ---
