@@ -63,7 +63,7 @@ COPY ["src", ..., "dest"]
 EXPOSE port [<port>]
 
 # mount container paths to host or other containers
-VOLUE ["/path1", "/path2"]
+VOLUME ["/path1", "/path2"]
 
 # default app execution - only one per docker file
 CMD cmd
