@@ -38,8 +38,18 @@ $ docker images
 # remove images
 $ docker rmi <image-id>
 
+# pull image
+$ docker pull <image-name>:[<image-tag>]
+
 # execute command in container from host
 $ docker exec <container-id> <cmd> [<cmd-args>]
+
+# copy files/folders between a container and the host system
+$ docker cp <container-id>:/src/path/in/container /dest/path/in/host
+$ docker cp /src/path/in/host <container-id>:/dest/path/in/container
+
+# display running processes in container
+$ docker top <container-id>
 {% endhighlight %}
 
 ## Dockerfile
