@@ -19,6 +19,8 @@ $ docker run -p <host-port>:<container-port> <image-name>
   1) -d
   # mount container path to outside host path
   2) -v /path/in/host:/path/in/container 
+  # assign a name to container
+  3) --name <name>
 
 # start/restart container
 $ docker start/restart <container-id>
@@ -38,11 +40,17 @@ $ docker images
 # remove images
 $ docker rmi <image-id>
 
+# search images in official docker hub
+$ docker search <images-term>
+
 # pull image
 $ docker pull <image-name>:[<image-tag>]
 
 # execute command in container from host
 $ docker exec <container-id> <cmd> [<cmd-args>]
+
+# run interactive shell inside container from host
+$ docker exec -it <container-id> bash
 
 # copy files/folders between a container and the host system
 $ docker cp <container-id>:/src/path/in/container /dest/path/in/host
