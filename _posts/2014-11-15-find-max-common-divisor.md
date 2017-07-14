@@ -8,7 +8,7 @@ tags: algorithm python
 
 Find max common divisor.
 
-Python example:
+Python examples:
 {% highlight ipython %}
 In [1]: def find_max_common_divisor(x, y):
    ...:     if x == y:
@@ -24,4 +24,15 @@ In [1]: def find_max_common_divisor(x, y):
 
 In [2]: print find_max_common_divisor(24, 36)
 12
+{% endhighlight %}
+
+{% highlight ipython %}
+In [1]: def gcd(a, b):
+   ...:     while b:
+   ...:         a, b = b, a % b
+   ...:     return a
+   ...:
+
+In [2]: gcd(12, 18)
+Out[2]: 6
 {% endhighlight %}
