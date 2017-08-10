@@ -80,3 +80,11 @@ redirect_stderr=true
 $ /etc/init.d/nginx start
 $ /etc/init.d/supervisor start
 {% endhighlight %}
+
+## References
+- [Deploying Gunicorn](http://docs.gunicorn.org/en/stable/deploy.html)
+- [Ubuntu Manpage:logrotate ‐ rotates, compresses, and mails system logs](http://manpages.ubuntu.com/manpages/xenial/man8/logrotate.8.html)
+
+## Notes
+- The above web stack is deployed with a regular ubuntu linux, but a docker container is also recommended
+- The above web stack is deployed with system python, but a python venv is highly recommended
