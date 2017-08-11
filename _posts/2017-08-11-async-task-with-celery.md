@@ -2,7 +2,7 @@
 layout: post
 title: Async task with celery
 date: 2017-08-11 15:09:00 +0800
-tags: celery python
+tags: celery
 ---
 
 A quick guide on how to use celery to accomplish async task in application.
