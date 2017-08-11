@@ -122,5 +122,8 @@
   name: gunicorn
 - slug: supervisor
   name: supervisor
+- slug: celery
+  name: celery
+
 
 
