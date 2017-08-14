@@ -27,6 +27,20 @@ In [2]: print find_max_common_divisor(24, 36)
 {% endhighlight %}
 
 {% highlight ipython %}
+In [1]: def find_max_common_divisor(x, y):
+   ...:     if x == y:
+   ...:         return x
+   ...:     small = min(x, y)
+   ...:     for i in range(small, 0, -1):
+   ...:        if x % i == 0 and y % i == 0:
+   ...:            return i
+   ...:
+
+In [2]: print(find_max_common_divisor(24, 36))
+12
+{% endhighlight %}
+
+{% highlight ipython %}
 In [1]: def gcd(a, b):
    ...:     while b:
    ...:         a, b = b, a % b
