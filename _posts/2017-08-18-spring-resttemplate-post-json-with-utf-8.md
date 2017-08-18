@@ -33,9 +33,15 @@ headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 headers.setAcceptCharset(Arrays.asList(Charset.forName("UTF-8")));
 {% endhighlight %}
 
-## Set encoding
+## Set encoding - option 1
 {% highlight java %}
 restTemplate.getMessageConverters().add(0, new StringHttpMessageConverter(Charset.forName("UTF-8")));
+{% endhighlight %}
+
+## Set encoding - option 2
+{% highlight java %}
+MediaType mediaType = new MediaType("application", "json", Charset.forName("UTF-8"));
+httpHeaders.setContentType(mediaType);
 {% endhighlight %}
 
 ## Post request
