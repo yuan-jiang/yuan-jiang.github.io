@@ -5,7 +5,7 @@ date: 2017-08-18 15:51:00 +0800
 tags: python aop
 ---
 
-Python decorators are usually created with function, but this post also shows an example on how to create decorators with class.
+Python decorators are usually created with function, see another related [post](/python-aop-with-decorators), but this post also shows an example on how to create decorators with class.
 
 {% highlight ipython %}
 In [1]: def greet(name):
