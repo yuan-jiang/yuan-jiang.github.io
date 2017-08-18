@@ -124,6 +124,9 @@
   name: supervisor
 - slug: celery
   name: celery
+- slug: spring
+  name: spring
+
 
 
 
