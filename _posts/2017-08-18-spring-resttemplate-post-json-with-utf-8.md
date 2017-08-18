@@ -28,7 +28,7 @@ httpHeaders.setContentType(MediaType.APPLICATION_JSON);
 {% endhighlight %}
 
 ## Set Accept
-{% highlight java %}]
+{% highlight java %}
 headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 headers.setAcceptCharset(Arrays.asList(Charset.forName("UTF-8")));
 {% endhighlight %}
