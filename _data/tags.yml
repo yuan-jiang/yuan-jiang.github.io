@@ -102,6 +102,8 @@
   name: redis
 - slug: db
   name: db
+- slug: poi
+  name: poi
 - slug: mysql
   name: mysql
 - slug: jenkins
