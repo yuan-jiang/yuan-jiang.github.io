@@ -128,6 +128,13 @@
   name: celery
 - slug: spring
   name: spring
+- slug: jquery
+  name: jquery
+- slug: bootstrap
+  name: bootstrap
+- slug: angularjs
+  name: angularjs
+
 
 
 
