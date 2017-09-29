@@ -1,4 +1,4 @@
-Code:
+- Code:
   - description: SO
     link: http://stackoverflow.com/
   - description: GG
@@ -8,7 +8,7 @@ Code:
   - description: BB
     link: https://bitbucket.org
 
-Python:
+- Python:
   - description: PythonDocs
     link: https://docs.python.org/3/
   - description: Requests
@@ -26,7 +26,7 @@ Python:
   - description: PythonSourceCodeSearch(nullege)
     link: http://nullege.com/
 
-Java:
+- Java:
   - description: JavaDocs
     link: http://docs.oracle.com/javase/8/docs/api/
   - description: SpringDocs
@@ -64,7 +64,7 @@ JavaScript:
   - description: CodePen
     link: https://codepen.io/
 
-HTTP/Web:
+- HTTP/Web:
   - description: HTML
     link: https://developer.mozilla.org/en-US/docs/Web/HTML
   - description: CSS
@@ -82,7 +82,7 @@ HTTP/Web:
   - description: HTMLCodes
     link: http://www.ascii.cl/htmlcodes.htm
 
-SQL/NoSQL:
+- SQL/NoSQL:
   - description: MySQL
     link: https://dev.mysql.com/doc/
   - description: MongoDB
@@ -92,7 +92,7 @@ SQL/NoSQL:
   - description: Redis
     link: https://redis.io/
 
-Generic:
+- Generic:
   - description: Git
     link: https://git-scm.com/documentation
   - description: Docker
@@ -106,8 +106,7 @@ Generic:
   - description: Ansible
     link: http://docs.ansible.com/
 
-
-Testing:
+- Testing:
   - description: Selenium
     link: http://www.seleniumhq.org/
   - description: SeleniumJavaAPI
@@ -123,7 +122,7 @@ Testing:
   - description: JaCoCo
     link: http://www.eclemma.org/jacoco/trunk/
 
-Tools:
+- Tools:
   - description: ideone
     link: http://ideone.com/
   - description: codeanywhere
@@ -205,7 +204,7 @@ Tools:
   - description: ImageShare
     link: https://sm.ms/
 
-Others:
+- Others:
   - description: FirefoxReleases
     link: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
   - description: JenkinsPluginsOfflineDownload
