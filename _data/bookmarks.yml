@@ -1,17 +1,17 @@
 - category: Code
-  data:
-    - description: SO
+  bookmarks:
+    - description: StackOverflow
       link: http://stackoverflow.com/
-    - description: GG
+    - description: Google
       link: http://www.google.com/
-    - description: GH
+    - description: Github
       link: https://github.com
-    - description: BB
+    - description: Bitbucket
       link: https://bitbucket.org
 
 - category: Python
-  data:
-    - description: PythonDocs
+  bookmarks:
+    - description: Python
       link: https://docs.python.org/3/
     - description: Requests
       link: http://docs.python-requests.org/en/latest/
@@ -25,24 +25,24 @@
       link: http://www.celeryproject.org/
     - description: AwesomePython
       link: https://github.com/vinta/awesome-python
-    - description: PythonSourceCodeSearch(nullege)
+    - description: Nullege
       link: http://nullege.com/
 
 - category: Java
-  data:
-    - description: JavaDocs
+  bookmarks:
+    - description: Java
       link: http://docs.oracle.com/javase/8/docs/api/
-    - description: SpringDocs
+    - description: Spring
       link: https://spring.io/docs/reference
-    - description: HiberateDocs
+    - description: Hiberate
       link: http://hibernate.org/orm/documentation/5.2/
-    - description: JavaTutorils
+    - description: JavaTutorials
       link: http://www.mkyong.com/tutorials/java-8-tutorials/
     - description: HowToDoInJava
       link: https://howtodoinjava.com/
     - description: GrepCode
       link: http://grepcode.com/
-    - description: JavaProgrammingStyle
+    - description: ProgrammingStyle
       link: http://geosoft.no/development/javastyle.html
     - description: AwesomeJava
       link: https://java.libhunt.com/
@@ -54,7 +54,7 @@
       link: http://search.maven.org/
 
 - category: JavaScript
-  data:
+  bookmarks:
     - description: JSReferences
       link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     - description: AngularJS
@@ -69,7 +69,7 @@
       link: https://codepen.io/
 
 - category: HTTP/Web
-  data:
+  bookmarks:
     - description: HTML
       link: https://developer.mozilla.org/en-US/docs/Web/HTML
     - description: CSS
@@ -88,7 +88,7 @@
       link: http://www.ascii.cl/htmlcodes.htm
 
 - category: SQL/NoSQL
-  data:
+  bookmarks:
     - description: MySQL
       link: https://dev.mysql.com/doc/
     - description: MongoDB
@@ -99,7 +99,7 @@
       link: https://redis.io/
 
 - category: Generic
-  data:
+  bookmarks:
     - description: Git
       link: https://git-scm.com/documentation
     - description: Docker
@@ -114,12 +114,12 @@
       link: http://docs.ansible.com/
 
 - category: Testing
-  data:
+  bookmarks:
     - description: Selenium
       link: http://www.seleniumhq.org/
-    - description: SeleniumJavaAPI
+    - description: SeleniumJava
       link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
-    - description: SeleniumPythonAPI
+    - description: SeleniumPython
       link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
     - description: RobotFramework
       link: http://robotframework.org/
@@ -131,7 +131,7 @@
       link: http://www.eclemma.org/jacoco/trunk/
 
 - category: Tools
-  data:
+  bookmarks:
     - description: ideone
       link: http://ideone.com/
     - description: codeanywhere
@@ -150,11 +150,11 @@
       link: http://dia-installer.de/index.html.en
     - description: YamlValidator
       link: http://www.yamllint.com/
-    - description: ConvertYamlToJson
+    - description: YamlToJson
       link: http://yamltojson.com/
     - description: URLEncodeAndDecode
       link: http://www.url-encode-decode.com
-    - description: Base64EncodeAndDecode
+    - description: Base64
       link: http://www.url-encode-decode.com/base64-encode-decode/
     - description: BinaryConverter
       link: http://www.danstools.com/binary-converter/
@@ -204,9 +204,9 @@
       link: http://jodies.de/ipcalc
     - description: CssToolkit
       link: http://tachyons.io/
-    - description: ConvertHtmlToMarkdown
+    - description: HtmlToMarkdown
       link: http://markdownplease.com/
-    - description: ConvertCurlToScript
+    - description: CurlToScript
       link: https://curl.trillworks.com/
     - description: PixelToEm
       link: http://pxtoem.com/
@@ -214,14 +214,14 @@
       link: https://sm.ms/
 
 - category: Others
-  data:
+  bookmarks:
     - description: FirefoxReleases
       link: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
-    - description: JenkinsPluginsOfflineDownload
+    - description: JenkinsPlugins
       link: https://updates.jenkins-ci.org/download/plugins/
     - description: OldApps
       link: http://www.oldapps.com/
-    - description: ChromiumStableBuilds
+    - description: ChromiumBuilds
       link: https://chromium.woolyss.com/
     - description: AwesomeListsOfEverything
       link: https://github.com/sindresorhus/awesome
