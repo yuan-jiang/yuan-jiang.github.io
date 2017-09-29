@@ -4,7 +4,7 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
-<div style="word-break:break-all;">
+<div>
 {% for group in site.data.bookmarks %}
     <span style="font-style: italic; font-weight: bold;">{{ group.category }}</span>
     <hr style="border-top: dotted 1px;" />

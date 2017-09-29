@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-## Site
-Personal site for keeping notes, references, and bookmarks.
-
-## Profession
-One of the typical IT migrate workers in China since 2008.
+## Brief
+- Personal site for keeping notes, references, and bookmarks
+- One of the typical IT migrate workers in China since 2008
 
 ## Skills
 - Python, Java, JavaScript
@@ -34,5 +32,6 @@ One of the typical IT migrate workers in China since 2008.
 - FFL: EN
 - SFL: JA
 
-## Residence
-Shanghai, China
+## Location
+- Residence: Shanghai, CN
+- Email: UmVhY2hhYmxlIGF0IFt5dWFuamlhbmdAb3V0bG9vay5jb21d

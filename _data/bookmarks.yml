@@ -57,7 +57,7 @@
   data:
     - description: JSReferences
       link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-    - description: AngularJs
+    - description: AngularJS
       link: https://docs.angularjs.org/api
     - description: JQuery
       link: http://api.jquery.com/
