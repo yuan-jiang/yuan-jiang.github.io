@@ -5,7 +5,11 @@ permalink: /bookmarks/
 ---
 
 <div style="word-break:break-all;">
-{% for bookmark in site.data.bookmarks %}
+{% for category in site.data.bookmarks %}
+    [{{ category }}]
+    <hr>
+    {% for bookmark in category %}
     <a href="{{ bookmark.link }}" target="_blank">{{ bookmark.description }}</a>
+    {% endfor %}
 {% endfor %}
 </div>
