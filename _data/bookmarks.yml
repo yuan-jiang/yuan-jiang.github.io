@@ -40,7 +40,7 @@
       link: http://www.mkyong.com/tutorials/java-8-tutorials/
     - description: HowToDoInJava
       link: https://howtodoinjava.com/
-    - description: JavaSourceCodeSearch(grepcode)
+    - description: GrepCode
       link: http://grepcode.com/
     - description: JavaProgrammingStyle
       link: http://geosoft.no/development/javastyle.html
@@ -136,15 +136,15 @@
       link: http://ideone.com/
     - description: codeanywhere
       link: https://codeanywhere.com/editor/
-    - description: OnlineIDEAndTerminal
+    - description: IDEAndTerminal
       link: http://www.tutorialspoint.com/codingground.htm
-    - description: OnlineWhiteboard
+    - description: Whiteboard
       link: https://www.tutorialspoint.com/whiteboard.htm
-    - description: OnlineDevTools
+    - description: DevTools
       link: http://www.tutorialspoint.com/online_dev_tools.htm
-    - description: OnlineImageEditor
+    - description: ImageEditor
       link: http://www.tutorialspoint.com/online_image_editor.htm
-    - description: DrawFlowChartOnline
+    - description: DrawFlowChart
       link: https://www.draw.io/
     - description: DiaDiagramEditor
       link: http://dia-installer.de/index.html.en
@@ -152,7 +152,7 @@
       link: http://www.yamllint.com/
     - description: ConvertYamlToJson
       link: http://yamltojson.com/
-    - description: URLEncodeAndDecodeTool
+    - description: URLEncodeAndDecode
       link: http://www.url-encode-decode.com
     - description: Base64EncodeAndDecode
       link: http://www.url-encode-decode.com/base64-encode-decode/
@@ -190,7 +190,7 @@
       link: http://www.danstools.com/md5-hash-generator/sha1-generator.php
     - description: XMLFormatter
       link: http://www.cleancss.com/xml-beautify/
-    - description: OnlineMarkdownEditor
+    - description: MarkdownEditor
       link: http://dillinger.io/
     - description: EpochTimestampConverter
       link: http://www.epochconverter.com/
