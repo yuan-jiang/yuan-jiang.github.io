@@ -4,35 +4,35 @@ title: About
 permalink: /about/
 ---
 
-## About me, the site
+## Site
 Personal site for keeping notes, references, and bookmarks.
 
-## About me, the person
+## Profession
 One of the typical IT migrate workers in China since 2008.
 
-## About me, the work
-- Skillset
-    + Java
-    + Python
-    + Web
-    + Linux
-    + Jenkins
-    + Git
-- Experience
-    + Software application - dev & test
-    + Software application - automation testing
-    + Cloud platform devops - configuration automation 
-    + Cloud platform devops - monitoring
-- Employer
-    + Previous: Cisco
-    + Current: Coupang
+## Skills
+- Python, Java, JavaScript
+- Linux, Docker
+- Jenkins, Git
+- MySQL, Redis
+- etc.
 
-## About me, the more
-- Life
-    + Residence: Shanghai, China
-    + Hobby: Football; Anime
-- Education
-    + College: CS.ECNU
-    + FFL: English
-    + SFL: Japanese
+## Employers
+- Previous: Cisco
+- Current: Coupang
 
+## Hobby
+- Football
+- Anime
+
+## Education
+- College: CS.ECNU
+- Degree: BA
+
+## Languages
+- Native: ZH-CN
+- FFL: EN
+- SFL: JA
+
+## Residence
+Shanghai, China
