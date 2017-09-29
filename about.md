@@ -34,4 +34,4 @@ permalink: /about/
 
 ## Location
 - Residence: Shanghai, CN
-- Email: UmVhY2hhYmxlIGF0IFt5dWFuamlhbmdAb3V0bG9vay5jb21d
+- Email: W3l1YW5qaWFuZ0BvdXRsb29rLmNvbV0=
