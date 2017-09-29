@@ -1,219 +1,229 @@
-- Code:
-  - description: SO
-    link: http://stackoverflow.com/
-  - description: GG
-    link: http://www.google.com/
-  - description: GH
-    link: https://github.com
-  - description: BB
-    link: https://bitbucket.org
+- category: Code
+  data:
+    - description: SO
+      link: http://stackoverflow.com/
+    - description: GG
+      link: http://www.google.com/
+    - description: GH
+      link: https://github.com
+    - description: BB
+      link: https://bitbucket.org
 
-- Python:
-  - description: PythonDocs
-    link: https://docs.python.org/3/
-  - description: Requests
-    link: http://docs.python-requests.org/en/latest/
-  - description: Flask
-    link: http://flask.pocoo.org/
-  - description: Gunicorn
-    link: http://gunicorn.org/
-  - description: uWSGI
-    link: https://uwsgi-docs.readthedocs.io/en/latest/
-  - description: Celery
-    link: http://www.celeryproject.org/
-  - description: AwesomePython
-    link: https://github.com/vinta/awesome-python
-  - description: PythonSourceCodeSearch(nullege)
-    link: http://nullege.com/
+- category: Python
+  data:
+    - description: PythonDocs
+      link: https://docs.python.org/3/
+    - description: Requests
+      link: http://docs.python-requests.org/en/latest/
+    - description: Flask
+      link: http://flask.pocoo.org/
+    - description: Gunicorn
+      link: http://gunicorn.org/
+    - description: uWSGI
+      link: https://uwsgi-docs.readthedocs.io/en/latest/
+    - description: Celery
+      link: http://www.celeryproject.org/
+    - description: AwesomePython
+      link: https://github.com/vinta/awesome-python
+    - description: PythonSourceCodeSearch(nullege)
+      link: http://nullege.com/
 
-- Java:
-  - description: JavaDocs
-    link: http://docs.oracle.com/javase/8/docs/api/
-  - description: SpringDocs
-    link: https://spring.io/docs/reference
-  - description: HiberateDocs
-    link: http://hibernate.org/orm/documentation/5.2/
-  - description: JavaTutorils
-    link: http://www.mkyong.com/tutorials/java-8-tutorials/
-  - description: HowToDoInJava
-    link: https://howtodoinjava.com/
-  - description: JavaSourceCodeSearch(grepcode)
-    link: http://grepcode.com/
-  - description: JavaProgrammingStyle
-    link: http://geosoft.no/development/javastyle.html
-  - description: AwesomeJava
-    link: https://java.libhunt.com/
-  - description: ApacheCommons
-    link: http://commons.apache.org/
-  - description: MavenRepository
-    link: http://mvnrepository.com/
-  - description: MavenCentral
-    link: http://search.maven.org/
+- category: Java
+  data:
+    - description: JavaDocs
+      link: http://docs.oracle.com/javase/8/docs/api/
+    - description: SpringDocs
+      link: https://spring.io/docs/reference
+    - description: HiberateDocs
+      link: http://hibernate.org/orm/documentation/5.2/
+    - description: JavaTutorils
+      link: http://www.mkyong.com/tutorials/java-8-tutorials/
+    - description: HowToDoInJava
+      link: https://howtodoinjava.com/
+    - description: JavaSourceCodeSearch(grepcode)
+      link: http://grepcode.com/
+    - description: JavaProgrammingStyle
+      link: http://geosoft.no/development/javastyle.html
+    - description: AwesomeJava
+      link: https://java.libhunt.com/
+    - description: ApacheCommons
+      link: http://commons.apache.org/
+    - description: MavenRepository
+      link: http://mvnrepository.com/
+    - description: MavenCentral
+      link: http://search.maven.org/
 
-JavaScript:
-  - description: JSReferences
-    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  - description: AngularJs
-    link: https://docs.angularjs.org/api
-  - description: JQuery
-    link: http://api.jquery.com/
-  - description: NodeJS
-    link: https://nodejs.org/dist/latest-v6.x/docs/api/
-  - description: JSFiddle
-    link: https://jsfiddle.net/
-  - description: CodePen
-    link: https://codepen.io/
+- category: JavaScript
+  data:
+    - description: JSReferences
+      link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+    - description: AngularJs
+      link: https://docs.angularjs.org/api
+    - description: JQuery
+      link: http://api.jquery.com/
+    - description: NodeJS
+      link: https://nodejs.org/dist/latest-v6.x/docs/api/
+    - description: JSFiddle
+      link: https://jsfiddle.net/
+    - description: CodePen
+      link: https://codepen.io/
 
-- HTTP/Web:
-  - description: HTML
-    link: https://developer.mozilla.org/en-US/docs/Web/HTML
-  - description: CSS
-    link: https://developer.mozilla.org/en-US/docs/Web/CSS
-  - description: Bootstrap
-    link: https://getbootstrap.com/docs/3.3/getting-started/
-  - description: UIBootstrap
-    link: http://angular-ui.github.io/bootstrap/
-  - description: AceAdmin
-    link: http://ace.jeka.by/index.html
-  - description: HTTP
-    link: https://developer.mozilla.org/en-US/docs/Web/HTTP
-  - description: HTMLUrlEncode
-    link: https://www.w3schools.com/tags/ref_urlencode.asp
-  - description: HTMLCodes
-    link: http://www.ascii.cl/htmlcodes.htm
+- category: HTTP/Web
+  data:
+    - description: HTML
+      link: https://developer.mozilla.org/en-US/docs/Web/HTML
+    - description: CSS
+      link: https://developer.mozilla.org/en-US/docs/Web/CSS
+    - description: Bootstrap
+      link: https://getbootstrap.com/docs/3.3/getting-started/
+    - description: UIBootstrap
+      link: http://angular-ui.github.io/bootstrap/
+    - description: AceAdmin
+      link: http://ace.jeka.by/index.html
+    - description: HTTP
+      link: https://developer.mozilla.org/en-US/docs/Web/HTTP
+    - description: HTMLUrlEncode
+      link: https://www.w3schools.com/tags/ref_urlencode.asp
+    - description: HTMLCodes
+      link: http://www.ascii.cl/htmlcodes.htm
 
-- SQL/NoSQL:
-  - description: MySQL
-    link: https://dev.mysql.com/doc/
-  - description: MongoDB
-    link: https://www.mongodb.com/
-  - description: Elasticsearch
-    link: https://www.elastic.co/
-  - description: Redis
-    link: https://redis.io/
+- category: SQL/NoSQL
+  data:
+    - description: MySQL
+      link: https://dev.mysql.com/doc/
+    - description: MongoDB
+      link: https://www.mongodb.com/
+    - description: Elasticsearch
+      link: https://www.elastic.co/
+    - description: Redis
+      link: https://redis.io/
 
-- Generic:
-  - description: Git
-    link: https://git-scm.com/documentation
-  - description: Docker
-    link: https://www.docker.com/
-  - description: RabbitMQ
-    link: https://www.rabbitmq.com/
-  - description: Jenkins
-    link: https://jenkins.io/
-  - description: Logstash
-    link: https://www.elastic.co/guide/en/logstash/current/index.html
-  - description: Ansible
-    link: http://docs.ansible.com/
+- category: Generic
+  data:
+    - description: Git
+      link: https://git-scm.com/documentation
+    - description: Docker
+      link: https://www.docker.com/
+    - description: RabbitMQ
+      link: https://www.rabbitmq.com/
+    - description: Jenkins
+      link: https://jenkins.io/
+    - description: Logstash
+      link: https://www.elastic.co/guide/en/logstash/current/index.html
+    - description: Ansible
+      link: http://docs.ansible.com/
 
-- Testing:
-  - description: Selenium
-    link: http://www.seleniumhq.org/
-  - description: SeleniumJavaAPI
-    link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
-  - description: SeleniumPythonAPI
-    link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
-  - description: RobotFramework
-    link: http://robotframework.org/
-  - description: Pytest
-    link: http://docs.pytest.org/en/latest/
-  - description: TestNG
-    link: http://testng.org/javadocs/index.html
-  - description: JaCoCo
-    link: http://www.eclemma.org/jacoco/trunk/
+- category: Testing
+  data:
+    - description: Selenium
+      link: http://www.seleniumhq.org/
+    - description: SeleniumJavaAPI
+      link: http://seleniumhq.github.io/selenium/docs/api/java/index.html
+    - description: SeleniumPythonAPI
+      link: http://seleniumhq.github.io/selenium/docs/api/py/api.html
+    - description: RobotFramework
+      link: http://robotframework.org/
+    - description: Pytest
+      link: http://docs.pytest.org/en/latest/
+    - description: TestNG
+      link: http://testng.org/javadocs/index.html
+    - description: JaCoCo
+      link: http://www.eclemma.org/jacoco/trunk/
 
-- Tools:
-  - description: ideone
-    link: http://ideone.com/
-  - description: codeanywhere
-    link: https://codeanywhere.com/editor/
-  - description: OnlineIDEAndTerminal
-    link: http://www.tutorialspoint.com/codingground.htm
-  - description: OnlineWhiteboard
-    link: https://www.tutorialspoint.com/whiteboard.htm
-  - description: OnlineDevTools
-    link: http://www.tutorialspoint.com/online_dev_tools.htm
-  - description: OnlineImageEditor
-    link: http://www.tutorialspoint.com/online_image_editor.htm
-  - description: DrawFlowChartOnline
-    link: https://www.draw.io/
-  - description: DiaDiagramEditor
-    link: http://dia-installer.de/index.html.en
-  - description: YamlValidator
-    link: http://www.yamllint.com/
-  - description: ConvertYamlToJson
-    link: http://yamltojson.com/
-  - description: URLEncodeAndDecodeTool
-    link: http://www.url-encode-decode.com
-  - description: Base64EncodeAndDecode
-    link: http://www.url-encode-decode.com/base64-encode-decode/
-  - description: BinaryConverter
-    link: http://www.danstools.com/binary-converter/
-  - description: ColorPicker
-    link: http://www.hexcolortool.com/
-  - description: CSSFormatter
-    link: http://www.cleancss.com/css-beautify/
-  - description: CSSMinify
-    link: http://www.cleancss.com/css-minify/
-  - description: DiffMergeCompare
-    link: http://www.cleancss.com/diff-compare-merge/
-  - description: HTMLFormatter
-    link: http://www.cleancss.com/html-beautify/
-  - description: HTMLEscape
-    link: http://www.danstools.com/html-escape-unescape/
-  - description: JavaScriptFormatter
-    link: http://www.danstools.com/javascript-beautify/
-  - description: JavaScriptMinify
-    link: http://www.danstools.com/javascript-minify/
-  - description: JavaScriptObfuscate
-    link: http://www.danstools.com/javascript-obfuscate/index.php/
-  - description: JsonTool
-    link: http://json.awesomes.cn/
-  - description: JsonFormatter
-    link: http://www.cleancss.com/json-beautify/
-  - description: JsonMinify
-    link: http://www.cleancss.com/json-minify/
-  - description: JsonValidator
-    link: http://www.cleancss.com/json-validator/
-  - description: MD5HashGenerator
-    link: http://www.danstools.com/md5-hash-generator/
-  - description: SHA1HashGenerator
-    link: http://www.danstools.com/md5-hash-generator/sha1-generator.php
-  - description: XMLFormatter
-    link: http://www.cleancss.com/xml-beautify/
-  - description: OnlineMarkdownEditor
-    link: http://dillinger.io/
-  - description: EpochTimestampConverter
-    link: http://www.epochconverter.com/
-  - description: Regex101
-    link: https://regex101.com/
-  - description: Regexr
-    link: http://regexr.com/
-  - description: RubyRegularExpressionEditor
-    link: http://rubular.com/
-  - description: IPAddressCalculator
-    link: http://jodies.de/ipcalc
-  - description: CssToolkit
-    link: http://tachyons.io/
-  - description: ConvertHtmlToMarkdown
-    link: http://markdownplease.com/
-  - description: ConvertCurlToScript
-    link: https://curl.trillworks.com/
-  - description: PixelToEm
-    link: http://pxtoem.com/
-  - description: ImageShare
-    link: https://sm.ms/
+- category: Tools
+  data:
+    - description: ideone
+      link: http://ideone.com/
+    - description: codeanywhere
+      link: https://codeanywhere.com/editor/
+    - description: OnlineIDEAndTerminal
+      link: http://www.tutorialspoint.com/codingground.htm
+    - description: OnlineWhiteboard
+      link: https://www.tutorialspoint.com/whiteboard.htm
+    - description: OnlineDevTools
+      link: http://www.tutorialspoint.com/online_dev_tools.htm
+    - description: OnlineImageEditor
+      link: http://www.tutorialspoint.com/online_image_editor.htm
+    - description: DrawFlowChartOnline
+      link: https://www.draw.io/
+    - description: DiaDiagramEditor
+      link: http://dia-installer.de/index.html.en
+    - description: YamlValidator
+      link: http://www.yamllint.com/
+    - description: ConvertYamlToJson
+      link: http://yamltojson.com/
+    - description: URLEncodeAndDecodeTool
+      link: http://www.url-encode-decode.com
+    - description: Base64EncodeAndDecode
+      link: http://www.url-encode-decode.com/base64-encode-decode/
+    - description: BinaryConverter
+      link: http://www.danstools.com/binary-converter/
+    - description: ColorPicker
+      link: http://www.hexcolortool.com/
+    - description: CSSFormatter
+      link: http://www.cleancss.com/css-beautify/
+    - description: CSSMinify
+      link: http://www.cleancss.com/css-minify/
+    - description: DiffMergeCompare
+      link: http://www.cleancss.com/diff-compare-merge/
+    - description: HTMLFormatter
+      link: http://www.cleancss.com/html-beautify/
+    - description: HTMLEscape
+      link: http://www.danstools.com/html-escape-unescape/
+    - description: JavaScriptFormatter
+      link: http://www.danstools.com/javascript-beautify/
+    - description: JavaScriptMinify
+      link: http://www.danstools.com/javascript-minify/
+    - description: JavaScriptObfuscate
+      link: http://www.danstools.com/javascript-obfuscate/index.php/
+    - description: JsonTool
+      link: http://json.awesomes.cn/
+    - description: JsonFormatter
+      link: http://www.cleancss.com/json-beautify/
+    - description: JsonMinify
+      link: http://www.cleancss.com/json-minify/
+    - description: JsonValidator
+      link: http://www.cleancss.com/json-validator/
+    - description: MD5HashGenerator
+      link: http://www.danstools.com/md5-hash-generator/
+    - description: SHA1HashGenerator
+      link: http://www.danstools.com/md5-hash-generator/sha1-generator.php
+    - description: XMLFormatter
+      link: http://www.cleancss.com/xml-beautify/
+    - description: OnlineMarkdownEditor
+      link: http://dillinger.io/
+    - description: EpochTimestampConverter
+      link: http://www.epochconverter.com/
+    - description: Regex101
+      link: https://regex101.com/
+    - description: Regexr
+      link: http://regexr.com/
+    - description: RubyRegularExpressionEditor
+      link: http://rubular.com/
+    - description: IPAddressCalculator
+      link: http://jodies.de/ipcalc
+    - description: CssToolkit
+      link: http://tachyons.io/
+    - description: ConvertHtmlToMarkdown
+      link: http://markdownplease.com/
+    - description: ConvertCurlToScript
+      link: https://curl.trillworks.com/
+    - description: PixelToEm
+      link: http://pxtoem.com/
+    - description: ImageShare
+      link: https://sm.ms/
 
-- Others:
-  - description: FirefoxReleases
-    link: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
-  - description: JenkinsPluginsOfflineDownload
-    link: https://updates.jenkins-ci.org/download/plugins/
-  - description: OldApps
-    link: http://www.oldapps.com/
-  - description: ChromiumStableBuilds
-    link: https://chromium.woolyss.com/
-  - description: AwesomeListsOfEverything
-    link: https://github.com/sindresorhus/awesome
-  - description: MarkdownCheatsheet
-    link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- category: Others
+  data:
+    - description: FirefoxReleases
+      link: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
+    - description: JenkinsPluginsOfflineDownload
+      link: https://updates.jenkins-ci.org/download/plugins/
+    - description: OldApps
+      link: http://www.oldapps.com/
+    - description: ChromiumStableBuilds
+      link: https://chromium.woolyss.com/
+    - description: AwesomeListsOfEverything
+      link: https://github.com/sindresorhus/awesome
+    - description: MarkdownCheatsheet
+      link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
