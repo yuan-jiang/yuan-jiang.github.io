@@ -63,6 +63,8 @@
       link: http://api.jquery.com/
     - description: NodeJS
       link: https://nodejs.org/dist/latest-v6.x/docs/api/
+    - description: JSFormatMinifyObfuscate
+      link: http://www.danstools.com/javascript-beautify/
     - description: JSFiddle
       link: https://jsfiddle.net/
     - description: CodePen
@@ -86,6 +88,10 @@
       link: https://www.w3schools.com/tags/ref_urlencode.asp
     - description: HTMLCodes
       link: http://www.ascii.cl/htmlcodes.htm
+    - description: CSSFormatMinify
+      link: http://www.cleancss.com/css-beautify/
+    - description: CSSToolkit
+      link: http://tachyons.io/
 
 - category: SQL/NoSQL
   bookmarks:
@@ -132,9 +138,9 @@
 
 - category: Tools
   bookmarks:
-    - description: ideone
+    - description: IDEOne
       link: http://ideone.com/
-    - description: codeanywhere
+    - description: CodeAnywhere
       link: https://codeanywhere.com/editor/
     - description: IDEAndTerminal
       link: http://www.tutorialspoint.com/codingground.htm
@@ -160,30 +166,16 @@
       link: http://www.danstools.com/binary-converter/
     - description: ColorPicker
       link: http://www.hexcolortool.com/
-    - description: CSSFormatter
-      link: http://www.cleancss.com/css-beautify/
-    - description: CSSMinify
-      link: http://www.cleancss.com/css-minify/
     - description: DiffMergeCompare
       link: http://www.cleancss.com/diff-compare-merge/
     - description: HTMLFormatter
       link: http://www.cleancss.com/html-beautify/
     - description: HTMLEscape
       link: http://www.danstools.com/html-escape-unescape/
-    - description: JavaScriptFormatter
-      link: http://www.danstools.com/javascript-beautify/
-    - description: JavaScriptMinify
-      link: http://www.danstools.com/javascript-minify/
-    - description: JavaScriptObfuscate
-      link: http://www.danstools.com/javascript-obfuscate/index.php/
-    - description: JsonTool
+    - description: JSONTool
       link: http://json.awesomes.cn/
-    - description: JsonFormatter
+    - description: JSONFormatMinifyValidate
       link: http://www.cleancss.com/json-beautify/
-    - description: JsonMinify
-      link: http://www.cleancss.com/json-minify/
-    - description: JsonValidator
-      link: http://www.cleancss.com/json-validator/
     - description: MD5HashGenerator
       link: http://www.danstools.com/md5-hash-generator/
     - description: SHA1HashGenerator
@@ -202,8 +194,6 @@
       link: http://rubular.com/
     - description: IPAddressCalculator
       link: http://jodies.de/ipcalc
-    - description: CssToolkit
-      link: http://tachyons.io/
     - description: HtmlToMarkdown
       link: http://markdownplease.com/
     - description: CurlToScript
