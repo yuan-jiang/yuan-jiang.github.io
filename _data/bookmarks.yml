@@ -92,6 +92,10 @@
       link: http://www.cleancss.com/css-beautify/
     - description: CSSToolkit
       link: http://tachyons.io/
+    - description: HTMLFormat
+      link: http://www.cleancss.com/html-beautify/
+    - description: HTMLEscape
+      link: http://www.danstools.com/html-escape-unescape/
 
 - category: SQL/NoSQL
   bookmarks:
@@ -140,8 +144,6 @@
   bookmarks:
     - description: IDEOne
       link: http://ideone.com/
-    - description: CodeAnywhere
-      link: https://codeanywhere.com/editor/
     - description: IDEAndTerminal
       link: http://www.tutorialspoint.com/codingground.htm
     - description: Whiteboard
@@ -156,8 +158,6 @@
       link: http://dia-installer.de/index.html.en
     - description: YamlValidator
       link: http://www.yamllint.com/
-    - description: YamlToJson
-      link: http://yamltojson.com/
     - description: URLEncodeAndDecode
       link: http://www.url-encode-decode.com
     - description: Base64
@@ -168,10 +168,6 @@
       link: http://www.hexcolortool.com/
     - description: DiffMergeCompare
       link: http://www.cleancss.com/diff-compare-merge/
-    - description: HTMLFormatter
-      link: http://www.cleancss.com/html-beautify/
-    - description: HTMLEscape
-      link: http://www.danstools.com/html-escape-unescape/
     - description: JSONTool
       link: http://json.awesomes.cn/
     - description: JSONFormatMinifyValidate
@@ -182,16 +178,12 @@
       link: http://www.danstools.com/md5-hash-generator/sha1-generator.php
     - description: XMLFormatter
       link: http://www.cleancss.com/xml-beautify/
-    - description: MarkdownEditor
-      link: http://dillinger.io/
     - description: EpochTimestampConverter
       link: http://www.epochconverter.com/
     - description: Regex101
       link: https://regex101.com/
     - description: Regexr
       link: http://regexr.com/
-    - description: RubyRegularExpressionEditor
-      link: http://rubular.com/
     - description: IPAddressCalculator
       link: http://jodies.de/ipcalc
     - description: HtmlToMarkdown
