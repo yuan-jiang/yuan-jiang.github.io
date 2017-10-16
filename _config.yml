@@ -40,9 +40,6 @@ email: "me@${location.hostname}"
 # Disqus site unique id
 disqus: yuanjiangspace
 
-# Enable comments
-comments: true
-
 # Google analytics unique tracking id
 google_analytics: UA-69801579-1
 
