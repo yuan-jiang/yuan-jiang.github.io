@@ -24,9 +24,11 @@
     - description: Celery
       link: http://www.celeryproject.org/
     - description: AwesomePython
-      link: https://github.com/vinta/awesome-python
+      link: https://awesome-python.com/
     - description: Nullege
       link: http://nullege.com/
+    - description: Algorithms
+      link: http://algorithms.readthedocs.io/en/latest/
 
 - category: Java
   bookmarks:

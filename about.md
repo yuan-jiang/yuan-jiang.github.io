@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 ## Brief
-- Personal site for keeping notes, references, and bookmarks
-- One of the typical IT migrate workers in China since 2008
+- Notes, references, and bookmarks
+- IT migrate worker in China since 2008
 
 ## Skills
 - Python, Java, JavaScript
