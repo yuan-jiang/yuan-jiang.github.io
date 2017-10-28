@@ -39,8 +39,8 @@ trucksByType = trucks.stream().collect(Collectors.groupingBy(Truck::getTruckType
 {% endhighlight %}
 
 ## Group truck by truckType - com.google.common.collect.Multimaps
-{% highlight %}
-ImmutableListMultimap<String, ImmutableList<Truck>> trucksByType = Multimaps.index(trucks, { Truck t -> return t.getTruckTypep() });
+{% highlight java %}
+ImmutableListMultimap<String, ImmutableList<Truck>> trucksByType = Multimaps.index(trucks, { Truck t -> return t.getTruckType() });
 {% endhighlight %}
 
 See here for [reference](https://stackoverflow.com/questions/21678430/group-a-list-of-objects-by-an-attribute-java)
