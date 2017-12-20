@@ -9,7 +9,7 @@ sitemap: false
 <!--Add a search bar on the sitemap page-->
 <div id='search-box'>
   <form action='https://sh.yuanjiang.space/s' id='search-form' method='get' target='_blank_'>
-      <input id='search-text' name='q' placeholder='Enter text to search...' type='text'/>
+      <input id='search-text' required name='q' placeholder='Enter text to search...' type='text'/>
       <button id='search-button' type='submit'>
           <span>Search</span>
       </button>
