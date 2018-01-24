@@ -8,12 +8,12 @@ tags: mysql db
 How to delete all rows of a table and also reset the index.
 
 ## With TRUNCATE TABLE command
-{% highlighgt SQL %}
+{% highlight SQL %}
 TRUNCATE TABLE `table-name`;
 {% endhighlight %}
 
 ## With DELETE FROM command
-{% highlighgt SQL %}
+{% highlight SQL %}
 -- FIRST DELETE ALL ROWS
 DELETE FROM `table-name`;
 -- THEN RESET INDEX TO START FROM 1 AGAIN
