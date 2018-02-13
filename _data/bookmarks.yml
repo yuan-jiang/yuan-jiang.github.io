@@ -19,16 +19,18 @@
       link: http://flask.pocoo.org/
     - description: Gunicorn
       link: http://gunicorn.org/
-    - description: uWSGI
-      link: https://uwsgi-docs.readthedocs.io/en/latest/
     - description: Celery
       link: http://www.celeryproject.org/
     - description: AwesomePython
       link: https://awesome-python.com/
-    - description: Nullege
-      link: http://nullege.com/
+    - description: PythonGuide
+      link: http://python-guide.readthedocs.io/en/latest/
+    - description: FlaskGuide
+      link: https://blog.miguelgrinberg.com/
     - description: Algorithms
-      link: http://algorithms.readthedocs.io/en/latest/
+      link: https://github.com/keon/algorithms
+    - description: PythonCommunity
+      link: https://www.reddit.com/r/Python
 
 - category: Java
   bookmarks:
@@ -116,6 +118,10 @@
       link: https://git-scm.com/documentation
     - description: Docker
       link: https://www.docker.com/
+    - description: Nginx
+      link: https://nginx.org/en/docs/
+    - description: Supervisor
+      link: http://supervisord.org/
     - description: RabbitMQ
       link: https://www.rabbitmq.com/
     - description: Jenkins
