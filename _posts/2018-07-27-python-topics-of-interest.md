@@ -31,7 +31,7 @@ In [5]: dis.dis(f2)
              12 RETURN_VALUE
 {% endhighlight %}
 ## PEP 572
-- [PEP 572 -- Assignment Expressions)(https://www.python.org/dev/peps/pep-0572/)
+- [PEP 572 - Assignment Expressions](https://www.python.org/dev/peps/pep-0572/)
 - [PEP 572 and decision-making in Python](https://lwn.net/Articles/757713/)
 - [Transfer of power](https://mail.python.org/pipermail/python-committers/2018-July/005664.html)
 
