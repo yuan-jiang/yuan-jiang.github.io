@@ -13,10 +13,12 @@
   bookmarks:
     - description: Python
       link: https://docs.python.org/3/
-    - description: Requests
-      link: http://docs.python-requests.org/en/latest/
+    - description: Django
+      link: https://docs.djangoproject.com/en/2.1/
     - description: Flask
       link: http://flask.pocoo.org/
+    - description: Requests
+      link: http://docs.python-requests.org/en/latest/
     - description: Gunicorn
       link: http://gunicorn.org/
     - description: Celery
@@ -76,18 +78,14 @@
 
 - category: HTTP/Web
   bookmarks:
-    - description: HTML
-      link: https://developer.mozilla.org/en-US/docs/Web/HTML
-    - description: CSS
-      link: https://developer.mozilla.org/en-US/docs/Web/CSS
+    - description: MDN
+      link: https://developer.mozilla.org/en-US/
     - description: Bootstrap
       link: https://getbootstrap.com/docs/3.3/getting-started/
     - description: UIBootstrap
       link: http://angular-ui.github.io/bootstrap/
     - description: AceAdmin
       link: http://ace.jeka.by/index.html
-    - description: HTTP
-      link: https://developer.mozilla.org/en-US/docs/Web/HTTP
     - description: HTMLUrlEncode
       link: https://www.w3schools.com/tags/ref_urlencode.asp
     - description: HTMLCodes
@@ -105,6 +103,8 @@
   bookmarks:
     - description: MySQL
       link: https://dev.mysql.com/doc/
+    - description: Postgresql
+      link: https://www.postgresql.org/docs/
     - description: MongoDB
       link: https://www.mongodb.com/
     - description: Elasticsearch
