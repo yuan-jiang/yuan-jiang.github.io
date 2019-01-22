@@ -7,6 +7,13 @@ tags: node js
 
 [nodenv](https://github.com/nodenv/nodenv) is a great tool to manage multiple NodeJS versions and here are some of its commonly used commands summarized for quick reference.
 
+## Install nodenv itself and setup
+{% highlight bash %}
+$ brew install nodenv
+$ nodenv init # follow the printed instruction and add below entry to ~/.bash_profile
+$ eval "$(nodenv init -)"
+{% endhighlight %}
+
 ## Install/Uninstall node versions
 {% highlight bash %}
 $ nodenv install -l # list all available versions

@@ -7,6 +7,13 @@ tags: ruby
 
 [rbenv](https://github.com/rbenv/rbenv) is a great tool to manage multiple Ruby versions and here are some of its commonly used commands summarized for quick reference.
 
+## Install rbenv itself and setup
+{% highlight bash %}
+$ brew install rbenv
+$ rbenv init # follow the printed instruction and add below entry to ~/.bash_profile
+$ eval "$(rbenv init -)"
+{% endhighlight %}
+
 ## Install/Uninstall ruby versions
 {% highlight bash %}
 $ rbenv install -l # list all available versions
