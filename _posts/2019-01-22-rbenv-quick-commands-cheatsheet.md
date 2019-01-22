@@ -23,7 +23,7 @@ $ rbenv versions # list all installed versions (can also check ~/.rbenv/versions
 $ rbenv uninstall <version> # uninstall a specific version
 {% endhighlight %}
 
-## Set/Unset node versions
+## Set/Unset ruby versions
 {% highlight bash %}
 $ rbenv local <version> # will add a .ruby-version file into current directory with version name to override the global version
 $ rbenv local --unset # unset and remove the .ruby-version file
