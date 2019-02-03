@@ -35,7 +35,7 @@ linkedin:
 rss: true
 
 # Contact email
-email: "me@${location.hostname}"
+email: W3l1YW5qaWFuZ0BvdXRsb29rLmNvbV0=
 
 # Disqus site unique id
 disqus: yuanjiangspace
@@ -51,7 +51,7 @@ paginate: 10
 
 # Timezone info for posting blogs
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/Tokyo
 
 # Do not use the date in post url
 # permalink: /:title.html

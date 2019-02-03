@@ -4,34 +4,25 @@ title: About
 permalink: /about/
 ---
 
-## Brief
-- Notes, references, and bookmarks
-- IT migrate worker in China since 2008
+# WHY
+- notes/references/bookmarks/cheatsheet
 
-## Skills
-- Python, Java, JavaScript
-- Linux, Docker
-- Jenkins, Git
-- MySQL, Redis
-- etc.
+# WHT
+- python/java/javascript/ruby
+- django/spring/node/rails
+- frontend/backend/system/test
 
-## Employers
-- Previous: Cisco
-- Current: Coupang
+# WHO
+- football/detective/walking
+- ba/cs/ecnu/cn
+- zh/en/ja
+- andy/yuan/jiang
 
-## Hobby
-- Football
-- Anime
+# WHR
+- sc/cn
+- sh/cn
+- tokyo/jp
 
-## Education
-- College: CS.ECNU
-- Degree: BA
-
-## Languages
-- Native: ZH-CN
-- FFL: EN
-- SFL: JA
-
-## Location
-- Residence: Shanghai, CN
-- Email: W3l1YW5qaWFuZ0BvdXRsb29rLmNvbV0=
+# WHN
+- ~2004/~2008/~2018
+- 2018~
