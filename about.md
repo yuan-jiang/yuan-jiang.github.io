@@ -4,30 +4,17 @@ title: About
 permalink: /about/
 ---
 
-# WHY
-- notes/references/bookmarks/cheatsheet
+A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
+- CODE: RUBY, PYTHON, JAVASCRIPT, JAVA
+- SPEAK: CHINESE, ENGLISH, JAPANESE
 
-# WHT
-- python/java/javascript/ruby
-- django/spring/node/rails
-- frontend/backend/system/test
-
-# WHO
-- football/detective/walking
-- ba/cs/ecnu/cn
-- zh/en/ja
-- andy/yuan/jiang
-
-# WHR
-- sc/cn
-- sh/cn
-- tokyo/jp
-
-# WHN
-- ~2004/~2008/~2018
-- 2018~
-
-# quick links
-BBC: <div><audio id="bbclive" controls style="width:200px;" preload="none"><source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">
+# BBC
+<audio id="bbclive" controls style="width:200px;" preload="none">
+  <source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">
   <source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup">
-  </audio></div>
+</audio>
+
+# BE-HAPPY789
+<audio controls style="width:200px;" preload="none">
+  <source src="http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02" type="audio/mpeg">
+</audio>
