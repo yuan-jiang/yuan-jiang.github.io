@@ -8,7 +8,7 @@ permalink: /about/
 A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
 - CODE: RUBY, PYTHON, JAVASCRIPT, JAVA
 - SPEAK: CHINESE, ENGLISH, JAPANESE
-- CONTACT: `eXVhbmppYW5nQG91dGxvb2suY29t`
+- CONTACT: `W3l1YW5qaWFuZ0BvdXRsb29rLmNvbV0=`
 
 # LISTEN
 <audio id="bbclive" controls style="width:200px;" preload="none">
