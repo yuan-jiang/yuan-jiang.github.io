@@ -26,3 +26,8 @@ permalink: /about/
 # WHN
 - ~2004/~2008/~2018
 - 2018~
+
+# quick links
+BBC: <div><audio id="bbclive" controls style="width:200px;" preload="none"><source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">
+  <source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup">
+  </audio></div>
