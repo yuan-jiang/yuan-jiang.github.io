@@ -19,3 +19,6 @@ A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
 <audio controls style="width:200px;" preload="none">
   <source src="http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02" type="audio/mpeg">
 </audio>
+
+# 1-WORD
+<b>KEEP IT SIMPLE STUPID</b>
