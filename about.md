@@ -11,9 +11,11 @@ A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
 - CONTACT: `eXVhbmppYW5nQG91dGxvb2suY29t`
 
 # LISTEN
-<span>BBC:<audio id="bbclive" controls style="width:200px;" preload="none">
+<audio id="bbclive" controls style="width:200px;" preload="none">
   <source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">
   <source src="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup">
-</audio></span> or <span>BE-HAPPY789:<audio controls style="width:200px;" preload="none">
+</audio>
+- or
+<audio controls style="width:200px;" preload="none">
   <source src="http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02" type="audio/mpeg">
-</audio></span>
+</audio>
