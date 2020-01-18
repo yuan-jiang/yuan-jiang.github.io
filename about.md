@@ -22,7 +22,7 @@ A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
 </audio>
 
 # WATCH
-[abema-tv](https://abema.tv/)  [yahoo-video-news](https://news.yahoo.co.jp/)  [nhk-world-en](https://www3.nhk.or.jp/nhkworld/en/live/)  [sky-news-live](https://www.youtube.com/watch?v=9Auq9mYxFEE)
+[yahoo-video-news](https://headlines.yahoo.co.jp/videonews/)  [sky-news-live](https://www.youtube.com/watch?v=9Auq9mYxFEE)
 
 # 1-WORD
 <b>KEEP IT SIMPLE STUPID</b>
