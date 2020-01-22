@@ -10,7 +10,7 @@ A SOFTWARE ENGINEER AT HIS 30's FROM CHINA WORKING & LIVING IN TOKYO.
 - SPEAK: CHINESE, ENGLISH, JAPANESE
 
 # WORK
-[#devdocs](https://devdocs.io/)  [#mdn](https://developer.mozilla.org/en-US/)  
+[#devdocs](https://devdocs.io/)
 
 # LISTEN
 <audio id="bbclive" controls style="width:200px;" preload="none">
