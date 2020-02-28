@@ -6,7 +6,7 @@ layout: default
 
   <header class="post-header">
     <h3 class="post-title" itemprop="name headline">{{ page.title }}</h3>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if site.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>{% endif %}</p>
+    <!-- <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if site.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>{% endif %}</p> -->
   </header>
 
   {% assign post = page %}
@@ -30,10 +30,10 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-    <span style="float: right;"><a href="#top">BACK TO TOP</a></span>
+    <span style="float: right;"><a href="#top">TOP▲</a></span>
     <h5><i>{{ tags_content }}</i></h5>
   </div>
 
-  {% include disqus.html %}
+  <!-- {% include disqus.html %} -->
 
 </article>
