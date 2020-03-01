@@ -59,7 +59,7 @@ is equivalent to:
 
   + Install gem to selected ruby version
 {% highlight bash %}
-~$ rbenv exec gem install rails
+$ rbenv exec gem install rails
 {% endhighlight %}
 
 
