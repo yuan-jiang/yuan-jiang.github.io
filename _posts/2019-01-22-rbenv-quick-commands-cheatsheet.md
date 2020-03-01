@@ -43,8 +43,8 @@ $ rbenv shell --unset # unset the RBENV_VERSION env
 ## Run executables with selected ruby version (by `.ruby-version` or global)
 
   + Help doc
-```bash
-~$ rbenv help exec
+{% highlight bash %}
+$ rbenv help exec
 Usage: rbenv exec <command> [arg1 arg2...]
 
 Runs an executable by first preparing PATH so that the selected Ruby
@@ -55,11 +55,12 @@ For example, if the currently selected Ruby version is 1.9.3-p327:
 
 is equivalent to:
   PATH="$RBENV_ROOT/versions/1.9.3-p327/bin:$PATH" bundle install
-```
+{% endhighlight %}
+
   + Install gem to selected ruby version
-```bash
+{% highlight bash %}
 ~$ rbenv exec gem install rails
-```
+{% endhighlight %}
 
 
 See [official docs](https://github.com/rbenv/rbenv#command-reference) for more.
