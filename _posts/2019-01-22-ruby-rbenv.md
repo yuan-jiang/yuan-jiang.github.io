@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Rbenv quick commands cheatsheet
+title: Ruby rbenv
 date: 2019-01-22 09:30:52 +0900
 tags: ruby
 ---
 
-[rbenv](https://github.com/rbenv/rbenv) is a great tool to manage multiple Ruby versions and here are some of its commonly used commands summarized for quick reference.
+[rbenv](https://github.com/rbenv/rbenv) is for managing multiple Ruby versions and here are some of its commonly used commands summarized for quick reference.
 
 ## Install rbenv itself and setup
 {% highlight bash %}
