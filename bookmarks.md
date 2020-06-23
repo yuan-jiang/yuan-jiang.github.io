@@ -5,11 +5,14 @@ permalink: /bookmarks/
 ---
 
 <div>
-  <ul>
-    {% for bookmark in site.bookmarks %}
-    <li>
-      <a href="{{ bookmark.link }}" target="_blank">{{ bookmark.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% for group in site.data.bookmarks %}
+    <h3>{{ group.category }}</h3>
+    <ul>
+      {% for bookmark in group.bookmarks %}
+      <li>
+        <a href="{{ bookmark.link }}" target="_blank">{{ bookmark.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </div>

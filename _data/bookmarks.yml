@@ -1,81 +1,84 @@
-tech:
-  - title: DevDocs API Documentation
-    link: https://devdocs.io/
-  - title: TinyPNG – Compress PNG images while preserving transparency
-    link: https://tinypng.com/
-  - title: The best Favicon Generator (completely free) | Favicon.io
-    link: https://favicon.io/
-  - title: crontab.guru - the cron schedule expression editor
-    link: https://crontab.guru/
-  - title: Remove Background from Image – remove.bg
-    link: https://www.remove.bg/
-  - title: Javascript Viewer, Beautifier and Formatter, Editor
-    link: http://www.danstools.com/javascript-beautify/
-  - title: JSFiddle - Code Playground
-    link: https://jsfiddle.net/
-  - title: "CodePen: Build, Test, and Discover Front-end Code."
-    link: https://codepen.io/
-  - title: MDN Web Docs
-    link: https://developer.mozilla.org/en-US/
-  - title: HTML URL Encoding Reference
-    link: https://www.w3schools.com/tags/ref_urlencode.asp
-  - title: HTML Codes Table
-    link: https://ascii.cl/htmlcodes.htm
-  - title: CSS Formatter
-    link: http://www.cleancss.com/css-beautify/
-  - title: TACHYONS - Css Toolkit
-    link: http://tachyons.io/
-  - title: HTML Beautifier & Formatter
-    link: http://www.cleancss.com/html-beautify/
-  - title: HTML Entities Escape
-    link: http://www.danstools.com/html-escape-unescape/
-  - title: Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 70+ other compilers and interpreters - Ideone.com
-    link: http://ideone.com/
-  - title: Free Online IDE and Terminal
-    link: http://www.tutorialspoint.com/codingground.htm
-  - title: Free Online Whiteboard
-    link: https://www.tutorialspoint.com/whiteboard.htm
-  - title: Online Development and Testing Tools
-    link: http://www.tutorialspoint.com/online_dev_tools.htm
-  - title: diagrams.net
-    link: https://www.draw.io/
-  - title: YAML Lint
-    link: http://www.yamllint.com/
-  - title: URL Encode/Decode
-    link: http://www.url-encode-decode.com
-  - title: Base64 Encode/Decode
-    link: http://www.url-encode-decode.com/base64-encode-decode/
-  - title: Binary, ASCII, HEX, Decimal Converter
-    link: http://www.danstools.com/binary-converter/
-  - title: HTML Color Codes
-    link: http://www.hexcolortool.com/
-  - title: Online Diff, Compare, and Merge checking tool
-    link: http://www.cleancss.com/diff-compare-merge/
-  - title: JSON Formatter & Beautifier
-    link: http://www.cleancss.com/json-beautify/
-  - title: MD5 Hash Generator
-    link: http://www.danstools.com/md5-hash-generator/
-  - title: XML Formatter & Beautifier
-    link: http://www.cleancss.com/xml-beautify/
-  - title: Epoch Converter - Unix Timestamp Converter
-    link: http://www.epochconverter.com/
-  - title: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript"
-    link: https://regex101.com/
-  - title: "RegExr: Learn, Build, & Test RegEx"
-    link: http://regexr.com/
-  - title: IP Calculator / IP Subnetting
-    link: http://jodies.de/ipcalc
-  - title: Convert cURL command syntax to Python requests, Ansible URI, browser fetch, MATLAB, Node.js, R, PHP, Strest, Go, Dart, JSON, Elixir, and Rust code
-    link: https://curl.trillworks.com/
-  - title: "PXtoEM.com: PX to EM conversion made simple."
-    link: http://pxtoem.com/
-  - title: http://www.allitebooks.org/
-    link: http://www.allitebooks.org/
-  - title: Font Awesome
-    link: https://tech.jastin.net/how-to-display-font-awesome-only-css/
-random:
-  - title: BBC streaming
-    link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
-    # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
-  - title: Behappy789
-    link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
+- category: tech
+  bookmarks:
+    - title: DevDocs API Documentation
+      link: https://devdocs.io/
+    - title: TinyPNG – Compress PNG images while preserving transparency
+      link: https://tinypng.com/
+    - title: The best Favicon Generator (completely free) | Favicon.io
+      link: https://favicon.io/
+    - title: crontab.guru - the cron schedule expression editor
+      link: https://crontab.guru/
+    - title: Remove Background from Image – remove.bg
+      link: https://www.remove.bg/
+    - title: Javascript Viewer, Beautifier and Formatter, Editor
+      link: http://www.danstools.com/javascript-beautify/
+    - title: JSFiddle - Code Playground
+      link: https://jsfiddle.net/
+    - title: "CodePen: Build, Test, and Discover Front-end Code."
+      link: https://codepen.io/
+    - title: MDN Web Docs
+      link: https://developer.mozilla.org/en-US/
+    - title: HTML URL Encoding Reference
+      link: https://www.w3schools.com/tags/ref_urlencode.asp
+    - title: HTML Codes Table
+      link: https://ascii.cl/htmlcodes.htm
+    - title: CSS Formatter
+      link: http://www.cleancss.com/css-beautify/
+    - title: TACHYONS - Css Toolkit
+      link: http://tachyons.io/
+    - title: HTML Beautifier & Formatter
+      link: http://www.cleancss.com/html-beautify/
+    - title: HTML Entities Escape
+      link: http://www.danstools.com/html-escape-unescape/
+    - title: Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 70+ other compilers and interpreters - Ideone.com
+      link: http://ideone.com/
+    - title: Free Online IDE and Terminal
+      link: http://www.tutorialspoint.com/codingground.htm
+    - title: Free Online Whiteboard
+      link: https://www.tutorialspoint.com/whiteboard.htm
+    - title: Online Development and Testing Tools
+      link: http://www.tutorialspoint.com/online_dev_tools.htm
+    - title: diagrams.net
+      link: https://www.draw.io/
+    - title: YAML Lint
+      link: http://www.yamllint.com/
+    - title: URL Encode/Decode
+      link: http://www.url-encode-decode.com
+    - title: Base64 Encode/Decode
+      link: http://www.url-encode-decode.com/base64-encode-decode/
+    - title: Binary, ASCII, HEX, Decimal Converter
+      link: http://www.danstools.com/binary-converter/
+    - title: HTML Color Codes
+      link: http://www.hexcolortool.com/
+    - title: Online Diff, Compare, and Merge checking tool
+      link: http://www.cleancss.com/diff-compare-merge/
+    - title: JSON Formatter & Beautifier
+      link: http://www.cleancss.com/json-beautify/
+    - title: MD5 Hash Generator
+      link: http://www.danstools.com/md5-hash-generator/
+    - title: XML Formatter & Beautifier
+      link: http://www.cleancss.com/xml-beautify/
+    - title: Epoch Converter - Unix Timestamp Converter
+      link: http://www.epochconverter.com/
+    - title: "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript"
+      link: https://regex101.com/
+    - title: "RegExr: Learn, Build, & Test RegEx"
+      link: http://regexr.com/
+    - title: IP Calculator / IP Subnetting
+      link: http://jodies.de/ipcalc
+    - title: Convert cURL command syntax to Python requests, Ansible URI, browser fetch, MATLAB, Node.js, R, PHP, Strest, Go, Dart, JSON, Elixir, and Rust code
+      link: https://curl.trillworks.com/
+    - title: "PXtoEM.com: PX to EM conversion made simple."
+      link: http://pxtoem.com/
+    - title: http://www.allitebooks.org/
+      link: http://www.allitebooks.org/
+    - title: Font Awesome
+      link: https://tech.jastin.net/how-to-display-font-awesome-only-css/
+
+- category: random
+  bookmarks:
+    - title: BBC streaming
+      link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
+      # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
+    - title: Behappy789
+      link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
