@@ -1,4 +1,4 @@
-- category: tech
+- category: Tech
   bookmarks:
     - title: DevDocs API Documentation
       link: https://devdocs.io/
@@ -75,7 +75,7 @@
     - title: Font Awesome
       link: https://tech.jastin.net/how-to-display-font-awesome-only-css/
 
-- category: random
+- category: Random
   bookmarks:
     - title: BBC streaming
       link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
