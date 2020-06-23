@@ -5,12 +5,11 @@ permalink: /bookmarks/
 ---
 
 <div>
-{% for group in site.data.bookmarks %}
-    <span style="font-style: italic; font-weight: bold;">{{ group.category }}</span>
-    <hr style="border-top: dotted 1px;" />
-    {% for bookmark in group.bookmarks %}
-    <a href="{{ bookmark.link }}" target="_blank">{{ bookmark.description }}</a>
+  <ul>
+    {% for bookmark in site.bookmarks %}
+    <li>
+      <a href="{{ bookmark.link }}" target="_blank">{{ bookmark.title }}</a>
+    </li>
     {% endfor %}
-    <br>
-{% endfor %}
+  </ul>
 </div>
