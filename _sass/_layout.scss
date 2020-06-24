@@ -41,8 +41,9 @@
         text-decoration: none;
 
         // Gaps between nav items, but not on the last one
+        // Change to 5px to use emoji only for nav items
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 5px;
         }
     }
 
