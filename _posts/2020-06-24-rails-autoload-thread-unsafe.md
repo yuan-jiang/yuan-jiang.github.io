@@ -9,7 +9,7 @@ Rails framework autoloads constants so that in environment like `development` or
 
 
 ## Issue
-  > Background: Recently after I upgraded our rails API server to ruby 2.6.x series, an autoloading related error has been observed from time to time when `some` of the pages are accessed.
+  > Background: recently after I upgraded our rails API server to ruby 2.6.x series, an autoloading related error has been observed from time to time when `some` of the pages are accessed in development environment.
 
 {% highlight plain %}
 Unable to autoload constant {SOME_CONSTANT}, expected {/path/to/some_constant.rb} to define it
@@ -29,37 +29,40 @@ Unable to autoload constant {SOME_CONSTANT}, expected {/path/to/some_constant.rb
       * `config.eager_load = false`
       * `config.autoload_paths << ...`
       and we are using the default `webrick` server. (By the way, the rails version is `5.0.7.2` for which webrick is multi-threaded, see [reference](https://gist.github.com/yob/04c2417b60532316685123c36ddfce40))
+
     + If it is threading problem related to autuloading, then it must happen to any api endpoint, so I wrote below simple script:
-{% highlight ruby %}
-require 'net/http'
+      {% highlight ruby %}
+      require 'net/http'
 
-# Adjust the number when necessary
-THREADS_COUNT = 10
+      # Adjust the number when necessary
+      THREADS_COUNT = 10
 
-# Use the same url endpoint to make sure
-# multi-requests are sent to and hit the
-# same controller#action, or rather the
-# same constant that rails is going to
-# autoload -> which is thread unsafe!!!
-API_ENDPOINT = 'http://localhost:3000/api/environment'
+      # Use the same url endpoint to make sure
+      # multi-requests are sent to and hit the
+      # same controller#action, or rather the
+      # same constant that rails is going to
+      # autoload -> which is thread unsafe!!!
+      API_ENDPOINT = 'http://localhost:3000/api/environment'
 
-threads = []
+      threads = []
 
-THREADS_COUNT.times do
-  threads << Thread.new do
-    res = Net::HTTP.get(URI.parse(API_ENDPOINT))
-    puts "thread=#{Thread.current.object_id}: #{res}"
-  end
-end
+      THREADS_COUNT.times do
+        threads << Thread.new do
+          res = Net::HTTP.get(URI.parse(API_ENDPOINT))
+          puts "thread=#{Thread.current.object_id}: #{res}"
+        end
+      end
 
-threads.each { |t| t.join }
+      threads.each { |t| t.join }
 
-puts 'DONE'
-{% endhighlight %}
+      puts 'DONE'
+      {% endhighlight %}
+
     + In order to further prove it, I did:
       * Start app with `webrick`, the issue happened with the simple API endpoint;
       * Start app with `puma` with threads count set to greater than 1, the issue still existed;
       * Start app with `unicorn` with default config, the issue was gone.
+
     + Conclusion:
       * The issue was not because of some typo or namespace problem, but caused by that `autoloading in rails is thread unsafe` which is a fact.
 
