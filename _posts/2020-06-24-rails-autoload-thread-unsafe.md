@@ -17,7 +17,7 @@ The error message patten:
   - Most of the resouces I could get from Google or Stackoverflow seemed to be pointing the root cause in:
     + Typo in file directories or names
     + Nesting namespace not matching the directory structure
-    + Wront records added to `autoload_paths` in configuration 
+    + Messed `autoload_paths` records in configuration 
     + etc.  
   However, after manually checking each of the constant files reported in the above errors, I could confirm that there was no such problem in our code.
 
@@ -27,10 +27,10 @@ The error message patten:
       * `config.eager_load = false`
       * `config.autoload_paths << ...`  
       and we are using the default `webrick` server for development. (By the way, the rails version is `5.0.7.2` for which webrick is multi-threaded, see [reference](https://gist.github.com/yob/04c2417b60532316685123c36ddfce40))
-    + If it was threading problem related to autuloading, it must happen to any api endpoint, so I wrote a simple script and:
-      * Started app with `webrick`, the issue happened with the simple API endpoint;
-      * Started app with `puma` with threads count set to greater than 1, the issue still existed;
-      * Started app with `unicorn` with default config, the issue was gone.
+    + If it was threading problem related to autoloading, it must happen to any api endpoint, so I wrote a simple script and to query a simple endpoint and confirmed what I thought:
+      * Started app with `webrick`: issue -> YES
+      * Started app with `puma`: issue -> YES
+      * Started app with `unicorn`: issue -> NO
 {% highlight ruby %}
 require 'net/http'
 
@@ -64,13 +64,13 @@ Switch to `unicorn` for development environment as well (same as production envi
 ## Summary
 - The error message was a little bit misleading in the first place because it seemed to be a cause of typo or namespace or directory problems, but indeed it was caused due to multiple threads trying to autoload the exact same constant, therefore causing race conditions
 - Starting rails 6, a new loader called Zeitwerk has been introduced, which seemed to have addressed the thread unsafe issue
-- Ruby has autoload method that is discouraged for use due to threading problem
-- In rails configuration and environment, the following items are important and usually tends to be the source of such issues, so you must be careful when tuning the configuration:
+- In ruby the Kernel module has an `autoload` method, which however is discouraged for use due to threading problem
+- In rails configuration and environment, the following items are important and usually tend to be the source of such issues, so you must be careful when tuning the configuration:
   + `config.cache_classes`
   + `config.eager_load`
   + `config.autoload_paths`
   + `config.eager_load_paths`
-- For troubleshooting the missing constants issues that might really be caused by typo or namespace or directory, you could:
+- For troubleshooting the constants missing issues that might really be caused by typo or namespace or directory, you could:
   + Check the `ActiveSupport::Dependencies.autoload_paths` in rails console
   + Check the `ActiveSupport::Dependencies.autoloaded_constants` in rails console
 - Read the rails guide section about [Autoloading and Reloading Constants](https://guides.rubyonrails.org/autoloading_and_reloading_constants_classic_mode.html) again and again
