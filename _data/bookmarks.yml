@@ -2,6 +2,8 @@
   bookmarks:
     - title: DevDocs API Documentation
       link: https://devdocs.io/
+    - title: MDN Web Docs
+      link: https://developer.mozilla.org/en-US/
     - title: TinyPNG – Compress PNG images while preserving transparency
       link: https://tinypng.com/
     - title: The best Favicon Generator (completely free) | Favicon.io
@@ -16,8 +18,6 @@
       link: https://jsfiddle.net/
     - title: "CodePen: Build, Test, and Discover Front-end Code."
       link: https://codepen.io/
-    - title: MDN Web Docs
-      link: https://developer.mozilla.org/en-US/
     - title: HTML URL Encoding Reference
       link: https://www.w3schools.com/tags/ref_urlencode.asp
     - title: HTML Codes Table
@@ -70,15 +70,15 @@
       link: https://curl.trillworks.com/
     - title: "PXtoEM.com: PX to EM conversion made simple."
       link: http://pxtoem.com/
-    - title: http://www.allitebooks.org/
+    - title: All IT eBooks
       link: http://www.allitebooks.org/
     - title: Font Awesome
       link: https://tech.jastin.net/how-to-display-font-awesome-only-css/
 
 - category: Random
   bookmarks:
-    - title: BBC streaming
+    - title: BBC World Service Live
       link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
       # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
-    - title: Behappy789
+    - title: ウメダFM Be Happy!789
       link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
