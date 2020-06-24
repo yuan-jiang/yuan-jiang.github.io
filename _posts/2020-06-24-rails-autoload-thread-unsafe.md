@@ -29,8 +29,10 @@ Unable to autoload constant {SOME_CONSTANT}, expected {/path/to/some_constant.rb
       * `config.eager_load = false`
       * `config.autoload_paths << ...`
       and we are using the default `webrick` server. (By the way, the rails version is `5.0.7.2` for which webrick is multi-threaded, see [reference](https://gist.github.com/yob/04c2417b60532316685123c36ddfce40))
-
-    + If it is threading problem related to autuloading, then it must happen to any api endpoint, so I wrote below simple script:
+    + If it is threading problem related to autuloading, then it must happen to any api endpoint, so I wrote a simple script and:
+      * Start app with `webrick`, the issue happened with the simple API endpoint;
+      * Start app with `puma` with threads count set to greater than 1, the issue still existed;
+      * Start app with `unicorn` with default config, the issue was gone.
       {% highlight ruby %}
       require 'net/http'
 
@@ -57,14 +59,7 @@ Unable to autoload constant {SOME_CONSTANT}, expected {/path/to/some_constant.rb
 
       puts 'DONE'
       {% endhighlight %}
-
-    + In order to further prove it, I did:
-      * Start app with `webrick`, the issue happened with the simple API endpoint;
-      * Start app with `puma` with threads count set to greater than 1, the issue still existed;
-      * Start app with `unicorn` with default config, the issue was gone.
-
-    + Conclusion:
-      * The issue was not because of some typo or namespace problem, but caused by that `autoloading in rails is thread unsafe` which is a fact.
+      > Conclusion: the issue was not because of some typo or namespace problem, but caused by that `autoloading in rails is thread unsafe` which is a fact.
 
 ## Solution
 Switch to `unicorn` for development environment as well (same as production environment), which was made easy by a gem called `unicorn-rails`
