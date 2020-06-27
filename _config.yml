@@ -59,9 +59,10 @@ timezone: Asia/Tokyo
 permalink: /:title
 
 # Plugin gems to enable below
-gems:
+plugins:
   # - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
