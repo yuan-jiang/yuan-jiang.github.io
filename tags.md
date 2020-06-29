@@ -21,11 +21,11 @@ sitemap: false
 <div style="word-break:break-all;">
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
-     <span class="site-tag">
-        • <a href="/tag/{{ tag | first | slugify }}" target="_blank">
-                {{ tag[0] | replace:'-', ' ' }}<sup>{{ tag | last | size }}</sup>
-        </a>
-    </span>
+      <span class="site-tag">
+        • <a href="/tag/{{ tag | first | slugify }}" target="_blank" style="font-size: {{tag.last.size}}pt">
+            {{ tag[0] | replace:'-', ' ' }}<sup>{{ tag | last | size }}</sup>
+          </a>
+      </span>
     {% endfor %}
 </div>
 
