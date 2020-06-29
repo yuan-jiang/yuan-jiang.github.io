@@ -6,7 +6,7 @@ permalink: /bookmarks/
 
 <div>
   {% for group in site.data.bookmarks %}
-    <h3>{{ group.category }}</h3>
+    <h3>📂 {{ group.category }}</h3>
     <ul>
       {% for bookmark in group.bookmarks %}
       <li>

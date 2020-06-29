@@ -4,6 +4,18 @@
       link: https://devdocs.io/
     - title: MDN Web Docs
       link: https://developer.mozilla.org/en-US/
+    - title: Ruby on Rails Guides
+      link: https://guides.rubyonrails.org/index.html
+    - title: Ruby Core Reference
+      link: http://www.ruby-doc.org/core
+    - title: Ruby Standard Library Reference
+      link: http://www.ruby-doc.org/stdlib
+    - title: RubyGems.org | your community gem host
+      link: https://rubygems.org/
+    - title: reddit for rubyists
+      link: https://www.reddit.com/r/ruby/
+- category: Util
+  bookmarks:
     - title: TinyPNG – Compress PNG images while preserving transparency
       link: https://tinypng.com/
     - title: The best Favicon Generator (completely free) | Favicon.io
