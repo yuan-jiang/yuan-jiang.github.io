@@ -31,6 +31,7 @@ The error message patten:
       * Started app with `webrick`: issue -> YES
       * Started app with `puma`: issue -> YES
       * Started app with `unicorn`: issue -> NO
+      * Started app with `puma` but set `RAILS_MAX_THREADS` to `1`: issue -> NO
 {% highlight ruby %}
 require 'net/http'
 

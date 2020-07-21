@@ -14,17 +14,17 @@ permalink: /about/
   >
   > In the year 2018, I moved to Tokyo.  
   > Since when I started using **Ruby** as my primary programming language, together with *nodejs*.  
-  > Now I call myself a **Ruby on Rails** engineer.
+  > Now I am mainly a **Ruby on Rails** web developer.
   >
   > Of course, I still write *JavaScript* code whatsoever.
   >
   > I like the `KISS` principle, and I always prefer to solve *problems* in a simpler way.
 
 ### Personally
-  > I speak English at work, which is my 1st foreign language learned in schools, because I am working with international colleagues;  
-  > I need communicate with local residents in Japanese, which is my 2nd foreign language learned all by myself;  
-  > At home I speak with my wife and my son in Mandarin, which is my native language;  
-  > I speak the Sichuanese dialect in communications with my parents, and it is my native native language.
+  > I speak English at work, which is my 1st foreign language, because I work with international colleagues;  
+  > I need communicate with local residents in Japanese, which is my 2nd foreign language;  
+  > At home I chat with my family in Mandarin, which is my 2nd native language;  
+  > When talking with my parents I'd always use the Sichuanese dialect, and it is my 1st native language.
   >
   > I used to watch football (eh...soccer) games, American TV dramas, and Japanese anime a lot, but not any more...  
   >
