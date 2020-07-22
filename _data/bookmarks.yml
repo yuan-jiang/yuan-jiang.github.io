@@ -6,6 +6,8 @@
       link: https://developer.mozilla.org/en-US/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
+    - title: Ruby on Rails API
+      link: https://api.rubyonrails.org/
     - title: Ruby Core Reference
       link: http://www.ruby-doc.org/core
     - title: Ruby Standard Library Reference
