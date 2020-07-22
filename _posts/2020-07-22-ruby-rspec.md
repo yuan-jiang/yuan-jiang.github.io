@@ -12,7 +12,7 @@ RSpec is a popular test framework in ruby.
 # the class or module to test
 describe Integer do
   # the method to test 
-  describe '#:+' do
+  describe '#+' do
     # the condition to test
     context 'when adding two integers' do
       # the test case itself
@@ -25,6 +25,7 @@ end
 {% endhighlight %}
 
 ## To run rspec tests
+- With the `rspec` command tool
 {% highlight bash %}
 # Save the above a file named "integer_spec.rb" for example
 # Make sure rspec is already installed with the ruby version
@@ -36,6 +37,21 @@ $ rspec ./integer_spec.rb
 
 Finished in 0.00341 seconds (files took 0.12764 seconds to load)
 1 example, 0 failures
+{% endhighlight %}
+
+- With `ruby` command
+{% highlight ruby %}
+# 1 - require rspec/autorun in the file that contains tests
+require 'rspec/autorun'
+
+describe 1 do
+  it 'is < 2' do
+    expect(1).to be < 2
+  end
+end
+
+# 2 - execute the file with ruby
+# $ ruby /path/to/test.rb
 {% endhighlight %}
 
 ## Examples of matchers
