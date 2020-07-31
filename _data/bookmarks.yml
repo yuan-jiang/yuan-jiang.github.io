@@ -1,13 +1,15 @@
 - category: Tech
   bookmarks:
-    - title: DevDocs API Documentation
-      link: https://devdocs.io/
+    - title: GitHub
+      link: https://github.com/
     - title: MDN Web Docs
       link: https://developer.mozilla.org/en-US/
     - title: Ruby API
       link: https://rubyapi.org/
     - title: Rails API
       link: https://api.rubyonrails.org/
+    - title: DevDocs API Documentation
+      link: https://devdocs.io/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
     - title: Ruby QuickRef
@@ -97,22 +99,31 @@
       link: https://getemoji.com/
     - title: Free EPUB Converter, EPUB to PDF Converter, Convert EPUB to PDF
       link: https://www.epubconverter.com/
+    - title: Other Version - RubyMine
+      link: https://www.jetbrains.com/ruby/download/other.html
 
 - category: Rand
   bookmarks:
     - title: BBC World Service Live
       link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
       # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
+    - title: NHK ラジオニュース
+      link: http://www.nhk.or.jp/radionews/
+    - title: ライブ - Yahoo!ニュース
+      link: https://news.yahoo.co.jp/live
     - title: ウメダFM Be Happy!789
       link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
     - title: V2EX
       link: https://www.v2ex.com/
     - title: Ruby China
       link: https://ruby-china.org/
-
-- category: News
-  bookmarks:
-    - title: 纽约时报中文网 国际纵览
+    - title: LeetCode - The World's Leading Online Programming Learning Platform
+      link: https://leetcode.com/
+    - title: 民放公式テレビポータル「TVer（ティーバー）」 - 無料で動画見放題
+      link: https://tver.jp/
+    - title: ABEMA | テレビ＆ビデオエンターテインメント
+      link: https://abema.tv/
+    - title: 纽约时报中文网
       link: https://cn.nytimes.com/
     - title: 德国之声中文网
       link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
@@ -122,3 +133,5 @@
       link: https://www.bbc.com/
     - title: 最新ニュース - BBCニュース
       link: https://www.bbc.com/japanese
+    - title: 乗換案内、時刻表、運行情報 - Yahoo!路線情報
+      link: https://transit.yahoo.co.jp/
