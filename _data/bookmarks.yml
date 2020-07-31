@@ -4,22 +4,22 @@
       link: https://devdocs.io/
     - title: MDN Web Docs
       link: https://developer.mozilla.org/en-US/
+    - title: Ruby API
+      link: https://rubyapi.org/
+    - title: Rails API
+      link: https://api.rubyonrails.org/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
-    - title: Ruby on Rails API
-      link: https://api.rubyonrails.org/
+    - title: Ruby QuickRef
+      link: https://www.zenspider.com/ruby/quickref.html
     - title: Ruby Core Reference
       link: http://www.ruby-doc.org/core
     - title: Ruby Standard Library Reference
       link: http://www.ruby-doc.org/stdlib
     - title: RubyGems.org | your community gem host
       link: https://rubygems.org/
-    - title: Ruby API
-      link: https://rubyapi.org/
     - title: reddit for rubyists
       link: https://www.reddit.com/r/ruby/
-    - title: Ruby QuickRef
-      link: https://www.zenspider.com/ruby/quickref.html
 
 - category: Util
   bookmarks:
@@ -112,11 +112,13 @@
 
 - category: News
   bookmarks:
-    - title: NYT
+    - title: 纽约时报中文网 国际纵览
       link: https://cn.nytimes.com/
-    - title: DW
+    - title: 德国之声中文网
       link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
-    - title: RFI
+    - title: 法广中文
       link: https://www.rfi.fr/cn/
-    - title: BBC
+    - title: BBC News 中文
       link: https://www.bbc.com/
+    - title: 最新ニュース - BBCニュース
+      link: https://www.bbc.com/japanese
