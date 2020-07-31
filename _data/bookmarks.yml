@@ -14,8 +14,13 @@
       link: http://www.ruby-doc.org/stdlib
     - title: RubyGems.org | your community gem host
       link: https://rubygems.org/
+    - title: Ruby API
+      link: https://rubyapi.org/
     - title: reddit for rubyists
       link: https://www.reddit.com/r/ruby/
+    - title: Ruby QuickRef
+      link: https://www.zenspider.com/ruby/quickref.html
+
 - category: Util
   bookmarks:
     - title: TinyPNG – Compress PNG images while preserving transparency
@@ -93,10 +98,24 @@
     - title: Free EPUB Converter, EPUB to PDF Converter, Convert EPUB to PDF
       link: https://www.epubconverter.com/
 
-- category: Random
+- category: Rand
   bookmarks:
     - title: BBC World Service Live
       link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
       # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
     - title: ウメダFM Be Happy!789
       link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
+    - title: V2EX
+      link: https://www.v2ex.com/
+    - title: Ruby China
+      link: https://ruby-china.org/
+
+- category: News
+    - title: NYT
+      link: https://cn.nytimes.com/
+    - title: DW
+      link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
+    - title: RFI
+      link: https://www.rfi.fr/cn/
+    - title: BBC
+      link: https://www.bbc.com/
