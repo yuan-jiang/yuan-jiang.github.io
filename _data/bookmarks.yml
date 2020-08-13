@@ -22,15 +22,25 @@
       link: https://rubygems.org/
     - title: reddit for rubyists
       link: https://www.reddit.com/r/ruby/
+    - title: Java Spring
+      link: https://spring.io/
+    - title: Java Docs
+      link: https://docs.oracle.com/en/java/javase/index.html
+    - title: Python Docs
+      link: https://docs.python.org/3/
 
 - category: Util
   bookmarks:
+    - title: The Missing Package Manager for macOS (or Linux) — Homebrew
+      link: https://brew.sh/
+    - title: explainshell.com - match command-line arguments to their help text
+      link: https://www.explainshell.com/#
+    - title: crontab.guru - the cron schedule expression editor
+      link: https://crontab.guru/
     - title: TinyPNG – Compress PNG images while preserving transparency
       link: https://tinypng.com/
     - title: The best Favicon Generator (completely free) | Favicon.io
       link: https://favicon.io/
-    - title: crontab.guru - the cron schedule expression editor
-      link: https://crontab.guru/
     - title: Remove Background from Image – remove.bg
       link: https://www.remove.bg/
     - title: Javascript Viewer, Beautifier and Formatter, Editor
