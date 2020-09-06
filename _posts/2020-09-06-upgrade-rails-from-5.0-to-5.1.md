@@ -8,9 +8,9 @@ Upgrading application rails version from `5.0` to `5.1` is easier than [from 4.2
 
 ## Config defaults
 Since rails 5.1, it is needed to specify default configuration of which version should be loaded by default:
-```ruby
+{% highlight ruby %}
 config.load_defaults 5.1
-```
+{% endhighlight %}
 This means the app will load default configuration of rails 5.1 and it's earlier versions (i.e. `<= 5.0`) that are listed in below files:
 - `config/initializers/new_framework_defaults.rb` (generated when upgrading from 4.2 to 5.0)
 - `config/initializers/new_framework_defaults_5_1.rb` (generated when upgrading from 5.0 to 5.1)
@@ -24,15 +24,15 @@ Sprockets will be upgraded to version 4.x in rails 5.1 and it requires a `manife
 
 ## Parameters.with_indifferent_access
 The `with_indifferent_access` method of `params` is removed in rails5.1, so if there is code that still relies on this method such as user registration related features based on `devise`, the params must be first permitted and then converted into a hash:
-```bash
+{% highlight ruby %}
 User.invite! params[:user].permit(:fullname, :email).to_h, current_user
-```
+{% endhighlight %}
 
 ## Tons of deprecation warnings from `changed{_xxx}` related methods
-```
+{% highlight plain %}
 DEPRECATION WARNING: The behavior of `changed_attributes` inside of after callbacks will be changing in the next version of Rails. The new return value will reflect the behavior of calling the method after `save` returned (e.g. the opposite of what it returns now). To maintain the current behavior, use `saved_changes.transform_values(&:first)` instead. (called from block (6 levels) in <top (required)> at
 ...
-```
+{% endhighlight %}
 Here is the rails [PR](https://github.com/rails/rails/pull/25337) and a good [post](https://www.fastruby.io/blog/rails/upgrades/active-record-5-1-api-changes). 
 
 Tips: Don't fully trust the deprecation warnings message about `it impacts only inside of after callbacks`, make and apply the changes to all `before_`, `after_` callbacks including `validate`.
