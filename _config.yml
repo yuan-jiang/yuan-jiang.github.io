@@ -25,8 +25,8 @@ enforce_ssl: yuanjiang.space
 # Twitter user id - leave it empty for privacy
 twitter:
 
-# Github user id - leave it empty for privacy
-github:
+# Github user id
+github: yuan-jiang
 
 # LinkedIn user id - leave it empty for privacy
 linkedin:
