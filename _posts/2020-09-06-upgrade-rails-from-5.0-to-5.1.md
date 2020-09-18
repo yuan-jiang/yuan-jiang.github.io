@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Upgrade rails from 5.0 to 5.1
+date: 2020-09-06 12:00:00 +0900
 tags: rails
 ---
 
