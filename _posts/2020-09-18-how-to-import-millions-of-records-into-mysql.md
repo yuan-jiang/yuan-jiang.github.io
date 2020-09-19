@@ -19,7 +19,7 @@ CREATE TABLE `visitor_ids` (
 )
 {% endhighlight %}
 And an active record model is defined as `VisitorId`.
-Now we have say more 1 million such visitor ids needed to be inserted into this table.
+Now we have say more than 1 million such visitor ids needed to be inserted into this table.
 
 # Solution
 ### Use CSV as the data source
@@ -105,7 +105,7 @@ end
 {% endhighlight %}
 
 ### Summary
-How long does it take to import 1 milliton records?
+How long does it take to import 1 million records?
 It depends.  
 As a reference though:  
-It takes around 2 or 3 minutes for an AWS instance with 16G memory and 4 CPUs to import about 1 million records into a mysql instance also hosted by AWS.
+It took around 2 minutes for an AWS instance with 16G memory and 4 CPUs to import about 1 million records into a mysql instance also hosted by AWS.

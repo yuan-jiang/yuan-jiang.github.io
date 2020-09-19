@@ -41,7 +41,7 @@ email: W3l1YW5qaWFuZ0BvdXRsb29rLmNvbV0=
 disqus: yuanjiangspace
 
 # Google analytics unique tracking id
-# google_analytics: UA-69801579-1
+google_analytics: UA-69801579-1
 
 # Build settings
 markdown: kramdown
