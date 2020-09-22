@@ -1,27 +1,25 @@
 - category: Tech
   bookmarks:
-    - title: GitHub
-      link: https://github.com/
-    - title: MDN Web Docs
-      link: https://developer.mozilla.org/en-US/
-    - title: Ruby API
-      link: https://rubyapi.org/
-    - title: Rails API
+    - title: Ruby 2.7.0 リファレンスマニュアル > ライブラリ一覧
+      link: https://docs.ruby-lang.org/ja/2.7.0/library/index.html
+    - title: Ruby on Rails API
       link: https://api.rubyonrails.org/
-    - title: DevDocs API Documentation
-      link: https://devdocs.io/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
-    - title: Ruby QuickRef
-      link: https://www.zenspider.com/ruby/quickref.html
-    - title: Ruby Core Reference
-      link: http://www.ruby-doc.org/core
-    - title: Ruby Standard Library Reference
-      link: http://www.ruby-doc.org/stdlib
+    - title: MDN Web Docs
+      link: https://developer.mozilla.org/en-US/
+    - title: DevDocs API Documentation
+      link: https://devdocs.io/
     - title: RubyGems.org | your community gem host
       link: https://rubygems.org/
     - title: reddit for rubyists
       link: https://www.reddit.com/r/ruby/
+    - title: Awesome Ruby Newsletter
+      link: https://ruby.libhunt.com/newsletter/archive
+    - title: The Ruby Style Guide
+      link: https://rubystyle.guide/
+    - title: RubyDoc.info
+      link: https://rubydoc.info/stdlib
     - title: Java Spring
       link: https://spring.io/
     - title: Java Docs
@@ -111,6 +109,8 @@
       link: https://www.epubconverter.com/
     - title: Other Version - RubyMine
       link: https://www.jetbrains.com/ruby/download/other.html
+    - title: Ruby QuickRef
+      link: https://www.zenspider.com/ruby/quickref.html
 
 - category: Rand
   bookmarks:
