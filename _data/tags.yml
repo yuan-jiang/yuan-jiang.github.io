@@ -140,9 +140,7 @@
   name: angularjs
 - slug: concurrent
   name: concurrent
-
-
-
-
-
-
+- slug: go
+  name: go
+- slug: golang
+  name: golang

@@ -6,6 +6,10 @@
       link: https://api.rubyonrails.org/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
+    - title: Packages - The Go Programming Language
+      link: https://golang.org/pkg/
+    - title: Effective Go
+      link: https://golang.org/doc/effective_go.html
     - title: MDN Web Docs
       link: https://developer.mozilla.org/en-US/
     - title: DevDocs API Documentation
