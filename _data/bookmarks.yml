@@ -6,30 +6,54 @@
       link: https://api.rubyonrails.org/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
+    - title: Ruby China
+      link: https://ruby-china.org/
     - title: Packages - The Go Programming Language
       link: https://golang.org/pkg/
     - title: Effective Go
       link: https://golang.org/doc/effective_go.html
+    - title: Golang中文社区
+      link: https://studygolang.com/
     - title: MDN Web Docs
       link: https://developer.mozilla.org/en-US/
     - title: DevDocs API Documentation
       link: https://devdocs.io/
     - title: RubyGems.org | your community gem host
       link: https://rubygems.org/
-    - title: reddit for rubyists
-      link: https://www.reddit.com/r/ruby/
-    - title: Awesome Ruby Newsletter
-      link: https://ruby.libhunt.com/newsletter/archive
-    - title: The Ruby Style Guide
-      link: https://rubystyle.guide/
-    - title: RubyDoc.info
-      link: https://rubydoc.info/stdlib
-    - title: Java Spring
-      link: https://spring.io/
-    - title: Java Docs
+    - title: Java Platform, Standard Edition Documentation
       link: https://docs.oracle.com/en/java/javase/index.html
-    - title: Python Docs
+    - title: Python 3 documentation
       link: https://docs.python.org/3/
+    - title: V2EX
+      link: https://www.v2ex.com/
+    - title: LeetCode - The World's Leading Online Programming Learning Platform
+      link: https://leetcode.com/
+
+- category: Rand
+  bookmarks:
+    - title: BBC World Service Live
+      link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
+      # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
+    - title: NHK ラジオニュース
+      link: http://www.nhk.or.jp/radionews/
+    - title: ライブ - Yahoo!ニュース
+      link: https://news.yahoo.co.jp/live
+    - title: ウメダFM Be Happy!789
+      link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
+    - title: 民放公式テレビポータル「TVer（ティーバー）」 - 無料で動画見放題
+      link: https://tver.jp/
+    - title: ABEMA | テレビ＆ビデオエンターテインメント
+      link: https://abema.tv/
+    - title: 纽约时报中文网
+      link: https://cn.nytimes.com/
+    - title: 德国之声中文网
+      link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
+    - title: 法广中文
+      link: https://www.rfi.fr/cn/
+    - title: BBC News 中文
+      link: https://www.bbc.com/zhongwen/simp
+    - title: Yahoo! JAPAN
+      link: https://www.yahoo.co.jp/
 
 - category: Util
   bookmarks:
@@ -115,37 +139,3 @@
       link: https://www.jetbrains.com/ruby/download/other.html
     - title: Ruby QuickRef
       link: https://www.zenspider.com/ruby/quickref.html
-
-- category: Rand
-  bookmarks:
-    - title: BBC World Service Live
-      link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
-      # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
-    - title: NHK ラジオニュース
-      link: http://www.nhk.or.jp/radionews/
-    - title: ライブ - Yahoo!ニュース
-      link: https://news.yahoo.co.jp/live
-    - title: ウメダFM Be Happy!789
-      link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
-    - title: V2EX
-      link: https://www.v2ex.com/
-    - title: Ruby China
-      link: https://ruby-china.org/
-    - title: LeetCode - The World's Leading Online Programming Learning Platform
-      link: https://leetcode.com/
-    - title: 民放公式テレビポータル「TVer（ティーバー）」 - 無料で動画見放題
-      link: https://tver.jp/
-    - title: ABEMA | テレビ＆ビデオエンターテインメント
-      link: https://abema.tv/
-    - title: 纽约时报中文网
-      link: https://cn.nytimes.com/
-    - title: 德国之声中文网
-      link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
-    - title: 法广中文
-      link: https://www.rfi.fr/cn/
-    - title: BBC News 中文
-      link: https://www.bbc.com/
-    - title: 最新ニュース - BBCニュース
-      link: https://www.bbc.com/japanese
-    - title: 乗換案内、時刻表、運行情報 - Yahoo!路線情報
-      link: https://transit.yahoo.co.jp/
