@@ -6,6 +6,8 @@
       link: https://api.rubyonrails.org/
     - title: Ruby on Rails Guides
       link: https://guides.rubyonrails.org/index.html
+    - title: RubyGems.org | your community gem host
+      link: https://rubygems.org/
     - title: Ruby China
       link: https://ruby-china.org/
     - title: Packages - The Go Programming Language
@@ -18,12 +20,12 @@
       link: https://developer.mozilla.org/en-US/
     - title: DevDocs API Documentation
       link: https://devdocs.io/
-    - title: RubyGems.org | your community gem host
-      link: https://rubygems.org/
     - title: Java Platform, Standard Edition Documentation
       link: https://docs.oracle.com/en/java/javase/index.html
     - title: Python 3 documentation
       link: https://docs.python.org/3/
+    - title: Node.js Documentation
+      link: https://nodejs.org/api/
     - title: V2EX
       link: https://www.v2ex.com/
     - title: LeetCode - The World's Leading Online Programming Learning Platform
