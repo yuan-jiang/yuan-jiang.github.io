@@ -2,7 +2,7 @@
 layout: post
 title: Upgrade rails from 4.2 to 5.0
 date: 2020-05-04 09:00:00 +0900
-tags: rails
+tags: rails ruby
 ---
 
 Upgrading rails to a new major version can be tricky because there might be many breaking changes from the framework itself or from many gems used in project that will become either deprecated or unsupported. However, it can also go smooth if done in a right procedural way. This post shares the procedure based on my recent hands-on experience in upgrading rails from `4.2.11` to `5.0.7.2` for our API server. Please be kindly noted that depending on project configuration or dependencies, the upgrading steps might be slightly different for various projects.

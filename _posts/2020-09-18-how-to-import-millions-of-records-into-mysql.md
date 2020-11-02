@@ -2,7 +2,7 @@
 layout: post
 title: How to import millions of records into mysql
 date: 2020-09-18 19:50:00 +0900
-tags: rails
+tags: rails ruby
 ---
 
 With a gem called [activerecord-import](https://github.com/zdennis/activerecord-import), importing a huge amount of records into mysql table becomes an easier task to do, and this post demonstrates how to achieve it.

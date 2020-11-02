@@ -2,7 +2,7 @@
 layout: post
 title: Upgrade rails from 5.1 to 5.2
 date: 2020-10-22 13:25:00 +0900
-tags: rails
+tags: rails ruby
 ---
 
 Upgrading application rails version from `5.1` to `5.2` is much easier than doing [from 4.2 to 5.0](/upgrade-rails-from-4.2-to-5.0) or [from 5.0 to 5.1](/upgrade-rails-from-5.0-to-5.1), there are very few changes to handle and chances are there is no test failure.

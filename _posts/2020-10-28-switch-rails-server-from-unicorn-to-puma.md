@@ -2,7 +2,7 @@
 layout: post
 title: Switch rails server from unicorn to puma
 date: 2020-10-28 15:45:00 +0900
-tags: rails
+tags: rails ruby
 ---
 
 In rails apps among the commonly-used two popular web servers, [unicorn](https://yhbt.net/unicorn/) serves requests with worker processes, while [puma](https://puma.io/) can do it with both process workers and threads. Therefore, switching to puma from unicorn can not only help improve concurrency but also reduce memory usage. Plus, since rails 5.0, the default web server used is puma.
