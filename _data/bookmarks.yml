@@ -30,6 +30,10 @@
       link: https://www.v2ex.com/
     - title: LeetCode - The World's Leading Online Programming Learning Platform
       link: https://leetcode.com/
+    - title: HackerRank
+      link: https://www.hackerrank.com/dashboard
+    - title: Codewars
+      link: https://www.codewars.com/dashboard
 
 - category: Rand
   bookmarks:
