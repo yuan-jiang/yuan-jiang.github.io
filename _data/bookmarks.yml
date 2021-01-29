@@ -1,65 +1,47 @@
 - category: Tech
   bookmarks:
-    - title: Ruby 2.7.0 リファレンスマニュアル > ライブラリ一覧
+    - title: Java SE 8
+      link: https://docs.oracle.com/javase/8/docs/api/index.html
+    - title: Ruby 2.7.0
       link: https://docs.ruby-lang.org/ja/2.7.0/library/index.html
-    - title: Ruby on Rails API
-      link: https://api.rubyonrails.org/
-    - title: Ruby on Rails Guides
+    - title: Spring
+      link: https://spring.io/
+    - title: Ruby on Rails
       link: https://guides.rubyonrails.org/index.html
-    - title: RubyGems.org | your community gem host
-      link: https://rubygems.org/
-    - title: Ruby China
-      link: https://ruby-china.org/
-    - title: Packages - The Go Programming Language
-      link: https://golang.org/pkg/
-    - title: Effective Go
-      link: https://golang.org/doc/effective_go.html
-    - title: Golang中文社区
-      link: https://studygolang.com/
-    - title: MDN Web Docs
-      link: https://developer.mozilla.org/en-US/
-    - title: DevDocs API Documentation
-      link: https://devdocs.io/
-    - title: Java Platform, Standard Edition Documentation
-      link: https://docs.oracle.com/en/java/javase/index.html
-    - title: Python 3 documentation
+    - title: Python 3
       link: https://docs.python.org/3/
-    - title: Node.js Documentation
+    - title: Node.js
       link: https://nodejs.org/api/
+    # - title: RubyGems.org | your community gem host
+    #   link: https://rubygems.org/
+    - title: MDN
+      link: https://developer.mozilla.org/en-US/
+    # - title: DevDocs API Documentation
+    #   link: https://devdocs.io/
     - title: V2EX
       link: https://www.v2ex.com/
-    - title: LeetCode - The World's Leading Online Programming Learning Platform
-      link: https://leetcode.com/
-    - title: HackerRank
-      link: https://www.hackerrank.com/dashboard
+    # - title: LeetCode - The World's Leading Online Programming Learning Platform
+    #   link: https://leetcode.com/
+    # - title: HackerRank
+    #   link: https://www.hackerrank.com/dashboard
     - title: Codewars
       link: https://www.codewars.com/dashboard
+    - title: GitHub
+      link: https://github.com/yuan-jiang
 
 - category: Rand
   bookmarks:
-    - title: BBC World Service Live
+    - title: BBC
       link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
       # link: http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup
-    - title: NHK ラジオニュース
+    - title: NHK
       link: http://www.nhk.or.jp/radionews/
-    - title: ライブ - Yahoo!ニュース
-      link: https://news.yahoo.co.jp/live
-    - title: ウメダFM Be Happy!789
+    - title: BeHappy!789
       link: http://musicbird.leanstream.co/JCB068-MP3?args=tunein_02
-    - title: 民放公式テレビポータル「TVer（ティーバー）」 - 無料で動画見放題
+    - title: TVer
       link: https://tver.jp/
-    - title: ABEMA | テレビ＆ビデオエンターテインメント
+    - title: ABEMA
       link: https://abema.tv/
-    - title: 纽约时报中文网
-      link: https://cn.nytimes.com/
-    - title: 德国之声中文网
-      link: https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058
-    - title: 法广中文
-      link: https://www.rfi.fr/cn/
-    - title: BBC News 中文
-      link: https://www.bbc.com/zhongwen/simp
-    - title: Yahoo! JAPAN
-      link: https://www.yahoo.co.jp/
 
 - category: Util
   bookmarks:
