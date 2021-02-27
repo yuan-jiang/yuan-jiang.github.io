@@ -20,12 +20,14 @@
     #   link: https://devdocs.io/
     - title: V2EX
       link: https://www.v2ex.com/
-    # - title: LeetCode - The World's Leading Online Programming Learning Platform
-    #   link: https://leetcode.com/
+    - title: LeetCode
+      link: https://leetcode.com/
     # - title: HackerRank
     #   link: https://www.hackerrank.com/dashboard
-    - title: Codewars
-      link: https://www.codewars.com/dashboard
+    # - title: Codewars
+    #   link: https://www.codewars.com/dashboard
+    # - title: Codewars
+    #   link: https://www.codewars.com/dashboard
     - title: GitHub
       link: https://github.com/yuan-jiang
 
@@ -45,6 +47,8 @@
 
 - category: Util
   bookmarks:
+    - title: Unicode Chart
+      link: https://www.ssec.wisc.edu/~tomw/java/unicode.html
     - title: The Missing Package Manager for macOS (or Linux) — Homebrew
       link: https://brew.sh/
     - title: explainshell.com - match command-line arguments to their help text
